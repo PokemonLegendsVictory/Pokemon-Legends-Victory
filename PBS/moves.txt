@@ -9871,3 +9871,16 @@ FunctionCode = IgnoreTargetStatStagesNormalEffectiveAgainstFairy
 Flags = CanProtect,CanMirrorMove
 Description = Luz devastadora que pega de forma neutra a los Pokémon de tipo hada. Ignora cambios de Def. Esp. y Evasión.
 #-------------------------------
+[FIREPRESS]
+Name = Firepress
+Type = FIRE
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = El usuario expulsa el fuego con gran presión. Puede quemar.
+#-------------------------------

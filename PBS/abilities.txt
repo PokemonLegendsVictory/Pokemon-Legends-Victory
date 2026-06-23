@@ -1255,3 +1255,9 @@ Description = Su caparazón encierra energía de todos los tipos. Gracias a ello
 [TERAFORMZERO]
 Name = Teracaparazón
 Description = Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto.
+#-------------------------------
+[PRESSUREGAUGE]
+Name = Manómetro
+Description = El ataque de Skeledirge aumenta cada turno hasta un máximo de tres. No es afectado por Gas Reactivo.
+Flags = Unchanging
+#-------------------------------
