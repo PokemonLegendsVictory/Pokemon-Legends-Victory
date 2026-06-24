@@ -8,6 +8,7 @@ Name = Pueblo Inicio
 LocationSign = Pt town
 ShowArea = true
 MapPosition = 0,13,12
+SnapEdges = true
 BattleBack = field
 #-------------------------------
 [003]   # Leyendas Victoria
@@ -152,7 +153,7 @@ MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
 #-------------------------------
-[032]   # Pueblo Mayólica
+[032]   # Condado Mayólica
 Name = TU JUEGO
 SnapEdges = true
 #-------------------------------
