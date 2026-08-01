@@ -16,85 +16,85 @@ Name = Casa del jugador
 HealingSpot = 2,8,8
 MapPosition = 0,13,12
 #-------------------------------
-[004]
+[004]   # MAPAS BASE
 Name = Laboratorio Pokémon
 MapPosition = 0,13,12
 #-------------------------------
-[005]
+[005]   # Pueblo Inicio
 Name = Ruta 1
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,11
 BattleBack = field
 #-------------------------------
-[006]
+[006]   # Casa del jugador
 Name = Casa de César
 MapPosition = 0,13,11
 #-------------------------------
-[007]
+[007]   # Casa de Dalia
 Name = Ciudad Lugano
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,10
 MapSize = 2,11
 #-------------------------------
-[008]
+[008]   # Laboratorio Pokémon
 Name = Casa de Dalia
 MapPosition = 0,13,12
 #-------------------------------
-[009]
+[009]   # Ruta 1
 Name = Centro Pokémon
 HealingSpot = 8,17,11
 MapPosition = 0,14,10
 #-------------------------------
-[010]
+[010]   # Casa de César
 Name = Gimnasio Lugano
 MapPosition = 0,13,10
 BattleBack = indoor3
 Environment = Rock
 Flags = DisableBoxLink
 #-------------------------------
-[011]
+[011]   # Ciudad Lugano
 Name = Instituto Pokémon
 MapPosition = 0,14,10
 #-------------------------------
-[012]
+[012]   # Centro Pokémon
 Name = Condominio de Lugano
 MapPosition = 0,14,10
 #-------------------------------
-[013]
+[013]   # Gimnasio Lugano
 Name = Casino
 MapPosition = 0,14,10
 #-------------------------------
-[014]
+[014]   # Instituto Pokémon
 Name = Lugano CC P1
 MapPosition = 0,13,10
 #-------------------------------
-[015]
+[015]   # Condominio de Lugano
 Name = Lugano CC P2
 MapPosition = 0,13,10
 #-------------------------------
-[016]
+[016]   # Casino
 Name = Lugano CC P3
 MapPosition = 0,13,10
 #-------------------------------
-[017]
+[017]   # Lugano CC P1
 Name = Lugano CC P4
 MapPosition = 0,13,10
 #-------------------------------
-[018]
+[018]   # Lugano CC P2
 Name = Lugano CC P5
 MapPosition = 0,13,10
 #-------------------------------
-[019]
+[019]   # Lugano CC P3
 Name = Lugano CC Azotea
 MapPosition = 0,13,10
 #-------------------------------
-[020]
+[020]   # Lugano CC P4
 Name = Lugano CC Ascensor
 MapPosition = 0,13,10
 #-------------------------------
-[021]
+[021]   # Lugano CC P5
 Name = Ruta 2
 Outdoor = true
 ShowArea = true
@@ -103,30 +103,30 @@ MapPosition = 0,14,8
 BattleBack = field
 MapSize = 1,11
 #-------------------------------
-[023]
+[023]   # Lugano CC Ascensor
 Name = Pueblo Macabeo
 Outdoor = true
 ShowArea = true
 MapPosition = 0,15,8
 #-------------------------------
-[024]
+[024]   # Ruta 2
 Name = Centro Pokémon Macabeo
 HealingSpot = 23,11,15
 MapPosition = 0,15,8
 #-------------------------------
-[025]
+[025]   # Pueblo Macabeo
 Name = Tienda Pokémon
 MapPosition = 0,15,8
 #-------------------------------
-[026]
+[026]   # Centro Pokémon Macabeo
 Name = Club de Fans Pokémon
 MapPosition = 0,15,8
 #-------------------------------
-[027]
+[027]   # Tienda Pokémon
 Name = Guardería Pokémon
 MapPosition = 0,15,8
 #-------------------------------
-[028]
+[028]   # Club de Fans Pokémon
 Name = Parque Natural
 Outdoor = true
 ShowArea = true
@@ -134,18 +134,18 @@ MapPosition = 0,16,8
 BattleBack = field
 Flags = MossRock,BugContest
 #-------------------------------
-[029]
+[029]   # Guardería Pokémon
 Name = Entrada Parque Natural
 Bicycle = true
 MapPosition = 0,16,8
 Flags = BugContestReception
 #-------------------------------
-[030]
+[030]   # Parque Natural
 Name = Pabellón Parque Natural
 MapPosition = 0,16,8
 Flags = BugContestReception
 #-------------------------------
-[031]
+[031]   # Entrada Parque Natural
 Name = Ruta 3
 Outdoor = true
 ShowArea = true
@@ -157,11 +157,11 @@ MapSize = 2,1101
 Name = TU JUEGO
 SnapEdges = true
 #-------------------------------
-[033]
+[033]   # Pabellón Parque Natural
 Name = Mazmorra Bosque
 Dungeon = true
 #-------------------------------
-[034]
+[034]   # Ruta 3
 Name = Cueva de Hielo
 Bicycle = true
 MapPosition = 0,15,6
@@ -169,29 +169,29 @@ BattleBack = cave1
 Environment = Cave
 Flags = IceRock
 #-------------------------------
-[035]
+[035]   # Cueva de Hielo
 Name = Meseta Añil exterior
 Outdoor = true
 ShowArea = true
 MapPosition = 0,13,6
 #-------------------------------
-[036]
+[036]   # Mazmorra Bosque
 Name = Liga Pokémon entrada
 HealingSpot = 35,17,7
 MapPosition = 0,13,6
 #-------------------------------
-[037]
+[037]   # Meseta Añil exterior
 Name = Liga Pokémon sala 1
 MapPosition = 0,13,6
 BattleBack = elite1
 Flags = DisableBoxLink
 #-------------------------------
-[038]
+[038]   # Liga Pokémon entrada
 Name = Hall de la Fama
 MapPosition = 0,13,6
 Flags = DisableBoxLink
 #-------------------------------
-[039]
+[039]   # Liga Pokémon sala 1
 Name = Ruta 4
 Outdoor = true
 ShowArea = true
@@ -199,14 +199,14 @@ MapPosition = 0,11,6
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[040]
+[040]   # Hall de la Fama
 Name = Ruta 4 Carril Bici
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,6
 #-------------------------------
-[041]
+[041]   # Ruta 4
 Name = Ruta 5
 Outdoor = true
 ShowArea = true
@@ -214,7 +214,7 @@ BicycleAlways = true
 MapPosition = 0,11,7
 MapSize = 1,111
 #-------------------------------
-[044]
+[044]   # Ruta 5
 Name = Ruta 6
 Outdoor = true
 ShowArea = true
@@ -222,19 +222,19 @@ MapPosition = 0,11,10
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
-[045]
+[045]   # Ruta 6
 Name = Ruta 6 Carril Bici
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,10
 #-------------------------------
-[046]
+[046]   # Ruta 6 Carril Bici
 Name = Ruta 4 Carril Bici entrada
 Bicycle = true
 MapPosition = 0,12,6
 #-------------------------------
-[047]
+[047]   # Ruta 6 Carril Bici entrada
 Name = Ruta 7
 Outdoor = true
 ShowArea = true
@@ -244,7 +244,7 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
-[049]
+[049]   # Cueva de Roca P1
 Name = Cueva de Roca P1
 Bicycle = true
 MapPosition = 0,16,10
@@ -252,7 +252,7 @@ BattleBack = cave1
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[050]
+[050]   # Cueva de Roca S1
 Name = Cueva de Roca S1
 Bicycle = true
 MapPosition = 0,16,10
@@ -261,7 +261,7 @@ BattleBack = cave3
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[051]
+[051]   # Mazmorra
 Name = Mazmorra
 Bicycle = true
 MapPosition = 0,16,10
@@ -270,16 +270,17 @@ BattleBack = cave2
 Environment = Cave
 Flags = Magnetic,DistortionWorld,ScaleWildEncounterLevels
 #-------------------------------
-[052]
+[052]   # Frente de Batalla
 Name = Frente de Batalla
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,10
 #-------------------------------
-[053]
+[053]   # TIENDAS
 Name = Centro Pokémon Frente de Batalla
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
+SnapEdges = true
 #-------------------------------
 [054]
 Name = Tienda Frente de Batalla
