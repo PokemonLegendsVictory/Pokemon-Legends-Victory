@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
 #-------------------------------
 [0]
 StartMoney = 3000
@@ -15,7 +15,7 @@ BicycleBGM = Bicycle
 [1]
 TrainerType = POKEMONTRAINER_Red
 WalkCharset = trainer_POKEMONTRAINER_Red
-RunCharset = boy_run
+RunCharset = trainer_POKEMONTRAINER_Red
 CycleCharset = boy_bike
 SurfCharset = boy_surf
 DiveCharset = boy_surf
@@ -25,7 +25,7 @@ SurfFishCharset = boy_fish_offset
 [2]
 TrainerType = POKEMONTRAINER_Leaf
 WalkCharset = trainer_POKEMONTRAINER_Leaf
-RunCharset = girl_run
+RunCharset = trainer_POKEMONTRAINER_Leaf
 CycleCharset = girl_bike
 SurfCharset = girl_surf
 DiveCharset = girl_surf

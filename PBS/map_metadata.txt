@@ -4,9 +4,8 @@
 Name = Intro
 #-------------------------------
 [002]   # Interiores
-Name = Pueblo Inicio
+Name = Condado Mayólica
 LocationSign = Pt town
-ShowArea = true
 MapPosition = 0,13,12
 SnapEdges = true
 BattleBack = field
@@ -154,8 +153,11 @@ BattleBack = field
 MapSize = 2,1101
 #-------------------------------
 [032]   # Condado Mayólica
-Name = TU JUEGO
+Name = Condado Mayólica
+LocationSign = Pt town
+ShowArea = true
 SnapEdges = true
+BattleBack = field
 #-------------------------------
 [033]   # Pabellón Parque Natural
 Name = Mazmorra Bosque
@@ -276,13 +278,13 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,17,10
 #-------------------------------
-[053]   # TIENDAS
+[053]
 Name = Centro Pokémon Frente de Batalla
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
 SnapEdges = true
 #-------------------------------
-[054]
+[054]   # Porcelana
 Name = Tienda Frente de Batalla
 MapPosition = 0,17,10
 #-------------------------------
