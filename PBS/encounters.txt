@@ -309,3 +309,15 @@ Land,21
     10,PIKACHU,11,14
     10,SANDSHREW_1,11,14
     10,VULPIX_1,11,14
+#-------------------------------
+[032] # Condado Mayólica
+Land,21
+    20,PATRAT,3,5
+    10,LILLIPUP,3,5
+    10,SKORUPI,3,5
+    10,SANDSHREW,3,5
+    10,EKANS,3,5
+    10,POOCHYENA,3,5
+    10,HELIOPTILE,3,5
+    1,RIOLU,3,5
+

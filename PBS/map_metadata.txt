@@ -3,7 +3,7 @@
 [001]   # Intro
 Name = Intro
 #-------------------------------
-[002]   # Interiores
+[002]   # Interiores Mayolica
 Name = Condado Mayólica
 LocationSign = Pt town
 MapPosition = 0,13,12
@@ -152,12 +152,12 @@ MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
 #-------------------------------
-[032]   # Condado Mayólica
+[032]   # Condado Mayolica
 Name = Condado Mayólica
 LocationSign = Pt town
 ShowArea = true
 SnapEdges = true
-BattleBack = field
+BattleBack = desierto
 #-------------------------------
 [033]   # Pabellón Parque Natural
 Name = Mazmorra Bosque
