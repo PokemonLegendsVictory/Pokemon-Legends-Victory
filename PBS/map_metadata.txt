@@ -4,7 +4,7 @@
 Name = Intro
 #-------------------------------
 [002]   # Interiores Mayolica
-Name = Condado Mayólica
+Name = \c[0]Condado Mayólica
 LocationSign = Pt town
 MapPosition = 0,13,12
 SnapEdges = true
@@ -151,7 +151,7 @@ ShowArea = true
 MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
-#-------------------------------
+#------------------------------- 
 [032]   # Condado Mayolica
 Name = Condado Mayólica
 LocationSign = Pt town
