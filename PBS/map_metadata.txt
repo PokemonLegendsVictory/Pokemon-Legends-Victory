@@ -151,7 +151,7 @@ ShowArea = true
 MapPosition = 0,14,6
 BattleBack = field
 MapSize = 2,1101
-#------------------------------- 
+#-------------------------------
 [032]   # Condado Mayolica
 Name = Condado Mayólica
 LocationSign = Pt town
