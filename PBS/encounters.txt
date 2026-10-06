@@ -320,4 +320,13 @@ Land,21
     10,POOCHYENA,3,5
     10,HELIOPTILE,3,5
     1,RIOLU,3,5
+#-------------------------------
+[054] # Porcelana
+Land,21
+    30,PATRAT,3,5
+    30,LILLIPUP,3,5
+    20,TRUBBISH,3,5
+    20,PURRLOIN,3,5
+    10,TIMBURR,3,5
+    10,PIDOVE,3,5
 
