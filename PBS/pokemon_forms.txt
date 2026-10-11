@@ -3,6 +3,7 @@
 [VENUSAUR,1]
 FormName = Mega Venusaur
 MegaStone = VENUSAURITE
+UnmegaForm = -2
 BaseStats = 80,100,123,80,122,120
 BaseExp = 313
 Abilities = THICKFAT
@@ -15,6 +16,7 @@ Generation = 6
 [CHARIZARD,1]
 FormName = Mega Charizard X
 MegaStone = CHARIZARDITEX
+UnmegaForm = -2
 Types = FIRE,DRAGON
 BaseStats = 78,130,111,100,130,85
 BaseExp = 317
@@ -28,6 +30,7 @@ Generation = 6
 [CHARIZARD,2]
 FormName = Mega Charizard Y
 MegaStone = CHARIZARDITEY
+UnmegaForm = -2
 BaseStats = 78,104,78,100,159,115
 BaseExp = 317
 Abilities = DROUGHT
@@ -39,6 +42,7 @@ Generation = 6
 [BLASTOISE,1]
 FormName = Mega Blastoise
 MegaStone = BLASTOISINITE
+UnmegaForm = -2
 BaseStats = 79,103,120,78,135,115
 BaseExp = 315
 Abilities = MEGALAUNCHER
@@ -50,6 +54,7 @@ Generation = 6
 [BEEDRILL,1]
 FormName = Mega Beedrill
 MegaStone = BEEDRILLITE
+UnmegaForm = -2
 BaseStats = 65,150,40,145,15,80
 BaseExp = 284
 Abilities = ADAPTABILITY
@@ -62,6 +67,7 @@ Generation = 6
 [PIDGEOT,1]
 FormName = Mega Pidgeot
 MegaStone = PIDGEOTITE
+UnmegaForm = -2
 BaseStats = 83,80,80,121,135,80
 BaseExp = 290
 Abilities = NOGUARD
@@ -73,6 +79,7 @@ Generation = 6
 #-------------------------------
 [RATTATA,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = DARK,NORMAL
 Abilities = GLUTTONY,HUSTLE
 HiddenAbilities = THICKFAT
@@ -85,9 +92,11 @@ Generation = 7
 Flags = InheritFormWithEverStone
 WildItemUncommon = PECHABERRY
 Evolutions = RATICATE,LevelNight,20
+Evolution = RATICATE,LevelNight,20
 #-------------------------------
 [RATICATE,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = DARK,NORMAL
 BaseStats = 75,71,70,77,40,80
 Abilities = GLUTTONY,HUSTLE
@@ -102,82 +111,97 @@ WildItemUncommon = PECHABERRY
 #-------------------------------
 [PIKACHU,2]
 FormName = Forma Coqueta
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,3]
 FormName = Forma Aristócrata
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,4]
 FormName = Forma Enmascarada
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,5]
 FormName = Forma Erudita
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,6]
 FormName = Forma Superstar
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,7]
 FormName = Forma Roquera
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 Abilities = LIGHTNINGROD
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,8]
 FormName = Forma Gorra Original
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,9]
 FormName = Forma Gorra Hoenn
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,10]
 FormName = Forma Gorra Sinnoh
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,11]
 FormName = Forma Gorra Teselia
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,12]
 FormName = Forma Gorra Kalos
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,13]
 FormName = Forma Gorra Alola
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,14]
 FormName = Forma Gorra Compañero
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [PIKACHU,15]
 FormName = Forma Gorra Trotamundos
-GenderRatio = AlwaysMale
+UnmegaForm = -2
 Evolutions = RAICHU,None,
+Evolution = RAICHU,None
 #-------------------------------
 [RAICHU,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ELECTRIC,PSYCHIC
 BaseStats = 60,85,50,110,95,85
 Abilities = SURGESURFER
@@ -193,6 +217,7 @@ Generation = 7
 [RAICHU,2]
 FormName = Mega Raichu x
 MegaStone = RAICHUNITEX
+UnmegaForm = -2
 BaseStats = 60,135,95,110,90,95
 BaseExp = 300
 Abilities = RECKLESS
@@ -204,6 +229,7 @@ Pokedex = Vuela manteniendo una pose en forma de X y suelta descargas eléctrica
 [RAICHU,3]
 FormName = Mega Raichu Y
 MegaStone = RAICHUNITEY
+UnmegaForm = -2
 BaseStats = 60,100,55,130,160,80
 BaseExp = 300
 Abilities = ADAPTABILITY
@@ -214,6 +240,7 @@ Pokedex = Emite descargas eléctricas por los pelos de su cabeza dispuestos en z
 #-------------------------------
 [SANDSHREW,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ICE,STEEL
 BaseStats = 50,75,90,40,10,35
 Abilities = SNOWCLOAK
@@ -228,9 +255,11 @@ Pokedex = Vive en montañas nevadas. Su caparazón de acero es muy resistente, p
 Generation = 7
 Flags = InheritFormWithEverStone
 Evolutions = SANDSLASH,Item,ICESTONE
+Evolution = SANDSLASH,Item,ICESTONE
 #-------------------------------
 [SANDSLASH,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ICE,STEEL
 BaseStats = 75,100,120,65,25,65
 Abilities = SNOWCLOAK
@@ -246,8 +275,9 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [CLEFABLE,1]
 FormName = Mega Clefable
-Types = FAIRY,FLYING
 MegaStone = CLEFABLITE
+UnmegaForm = -2
+Types = FAIRY,FLYING
 BaseStats = 95,80,93,70,135,110
 Abilities = AERILATE
 HiddenAbilities = AERILATE
@@ -258,6 +288,7 @@ Generation = 9
 #-------------------------------
 [VULPIX,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ICE
 Abilities = SNOWCLOAK
 HiddenAbilities = SNOWWARNING
@@ -270,9 +301,11 @@ Generation = 7
 Flags = InheritFormWithEverStone
 WildItemUncommon = SNOWBALL
 Evolutions = NINETALES,Item,ICESTONE
+Evolution = NINETALES,Item,ICESTONE
 #-------------------------------
 [NINETALES,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ICE,FAIRY
 BaseStats = 73,67,75,109,81,100
 EVs = SPEED,2
@@ -288,6 +321,7 @@ WildItemUncommon = SNOWBALL
 #-------------------------------
 [DIGLETT,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = GROUND,STEEL
 BaseStats = 10,55,30,90,35,45
 Abilities = SANDVEIL,TANGLINGHAIR
@@ -301,6 +335,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [DUGTRIO,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = GROUND,STEEL
 BaseStats = 35,100,60,110,50,70
 EVs = ATTACK,2
@@ -314,6 +349,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [MEOWTH,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = DARK
 BaseStats = 40,35,35,90,50,40
 HiddenAbilities = RATTLED
@@ -325,9 +361,11 @@ Pokedex = Es un Pokémon muy orgulloso e inteligente. Se vale de su astucia en c
 Generation = 7
 Flags = InheritFormWithEverStone
 Evolutions = PERSIAN,Happiness,
+Evolution = PERSIAN,Happiness
 #-------------------------------
 [MEOWTH,2]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = STEEL
 BaseStats = 50,65,55,40,40,40
 Abilities = PICKUP,TOUGHCLAWS
@@ -341,9 +379,11 @@ Pokedex = Cuanto más oscura es la moneda de su frente, mayor respeto inspira en
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = PERRSERKER,Level,28
+Evolution = PERRSERKER,Level,28
 #-------------------------------
 [PERSIAN,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = DARK
 BaseStats = 65,60,60,115,75,65
 Abilities = FURCOAT,TECHNICIAN
@@ -359,6 +399,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [GROWLITHE,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = FIRE,ROCK
 BaseStats = 60,75,45,55,65,50
 HiddenAbilities = ROCKHEAD
@@ -374,6 +415,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [ARCANINE,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = FIRE,ROCK
 BaseStats = 95,115,80,90,95,80
 HiddenAbilities = ROCKHEAD
@@ -388,6 +430,7 @@ Flags = InheritFormWithEverStone
 [ALAKAZAM,1]
 FormName = Mega Alakazam
 MegaStone = ALAKAZITE
+UnmegaForm = -2
 BaseStats = 55,50,65,150,175,105
 BaseExp = 300
 Abilities = TRACE
@@ -399,6 +442,7 @@ Generation = 6
 [VICTREEBEL,1]
 FormName = Mega Victreebel
 MegaStone = VICTREEBELITE
+UnmegaForm = -2
 BaseStats = 80,125,85,70,135,95
 BaseExp = 300
 Abilities = CORROSION
@@ -410,6 +454,7 @@ Generation = 9
 #-------------------------------
 [GEODUDE,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ROCK,ELECTRIC
 Abilities = MAGNETPULL,STURDY
 HiddenAbilities = GALVANIZE
@@ -425,6 +470,7 @@ WildItemUncommon = CELLBATTERY
 #-------------------------------
 [GRAVELER,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ROCK,ELECTRIC
 Abilities = MAGNETPULL,STURDY
 HiddenAbilities = GALVANIZE
@@ -439,6 +485,7 @@ WildItemUncommon = CELLBATTERY
 #-------------------------------
 [GOLEM,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = ROCK,ELECTRIC
 Abilities = MAGNETPULL,STURDY
 HiddenAbilities = GALVANIZE
@@ -454,6 +501,7 @@ WildItemCommon = CELLBATTERY
 #-------------------------------
 [PONYTA,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = PSYCHIC
 Abilities = RUNAWAY,PASTELVEIL
 HiddenAbilities = ANTICIPATION
@@ -470,6 +518,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [RAPIDASH,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = PSYCHIC,FAIRY
 Abilities = RUNAWAY,PASTELVEIL
 HiddenAbilities = ANTICIPATION
@@ -484,6 +533,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [SLOWPOKE,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = PSYCHIC
 Abilities = GLUTTONY,OWNTEMPO
 Moves = 1,TACKLE,1,CURSE,3,GROWL,6,ACID,9,YAWN,12,CONFUSION,15,DISABLE,18,WATERPULSE,21,HEADBUTT,24,ZENHEADBUTT,27,AMNESIA,30,SURF,33,SLACKOFF,36,PSYCHIC,39,PSYCHUP,42,RAINDANCE,45,HEALPULSE
@@ -493,9 +543,12 @@ Pokedex = Siempre está distraído, pero, de vez en cuando, muestra un extraño 
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = SLOWBRO,Item,GALARICACUFF,SLOWKING,Item,GALARICAWREATH
+Evolution = SLOWBRO,Item,GALARICACUFF
+Evolution = SLOWKING,Item,GALARICAWREATH
 #-------------------------------
 [SLOWBRO,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = POISON,PSYCHIC
 BaseStats = 95,100,95,30,100,70
 Abilities = QUICKDRAW,OWNTEMPO
@@ -509,6 +562,7 @@ Flags = InheritFormWithEverStone
 [SLOWBRO,2]
 FormName = Mega Slowbro
 MegaStone = SLOWBRONITE
+UnmegaForm = -2
 BaseStats = 95,75,180,30,130,80
 BaseExp = 207
 Abilities = SHELLARMOR
@@ -521,6 +575,7 @@ Generation = 6
 #-------------------------------
 [FARFETCHD,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = FIGHTING
 BaseStats = 52,95,55,55,58,62
 Abilities = STEADFAST
@@ -534,9 +589,11 @@ Generation = 8
 Flags = InheritFormWithEverStone
 WildItemCommon = LEEK
 Evolutions = SIRFETCHD,AfterBattleCounter,3
+Evolution = SIRFETCHD,AfterBattleCounter,3
 #-------------------------------
 [GRIMER,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = POISON,DARK
 Abilities = POISONTOUCH,GLUTTONY
 HiddenAbilities = POWEROFALCHEMY
@@ -552,6 +609,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [MUK,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = POISON,DARK
 Abilities = POISONTOUCH,GLUTTONY
 HiddenAbilities = POWEROFALCHEMY
@@ -567,16 +625,18 @@ Flags = InheritFormWithEverStone
 [GENGAR,1]
 FormName = Mega Gengar
 MegaStone = GENGARITE
+UnmegaForm = -2
 BaseStats = 60,65,80,130,170,95
 BaseExp = 300
 Abilities = SHADOWTAG
 HiddenAbilities = SHADOWTAG
 Height = 1.4
-Pokedex =  Puede pasar de una dimensión a otra y aparecer donde quiera. Una vez causó gran revuelo al mostrar tan solo una pata a través de una pared.
+Pokedex = Puede pasar de una dimensión a otra y aparecer donde quiera. Una vez causó gran revuelo al mostrar tan solo una pata a través de una pared.
 Generation = 6
 #-------------------------------
 [VOLTORB,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = ELECTRIC,GRASS
 Moves = 1,TACKLE,1,CHARGE,4,THUNDERSHOCK,6,STUNSPORE,9,BULLETSEED,11,ROLLOUT,13,SCREECH,16,CHARGEBEAM,20,SWIFT,22,ELECTROBALL,26,SELFDESTRUCT,29,ENERGYBALL,34,DISCHARGE,34,SEEDBOMB,41,EXPLOSION,46,GYROBALL,50,GRASSYTERRAIN
 TutorMoves = AGILITY,BULLETSEED,CHARGE,CHARGEBEAM,DOUBLEEDGE,ELECTRICTERRAIN,ELECTROBALL,ELECTROWEB,ENDURE,ENERGYBALL,FACADE,FOULPLAY,GIGADRAIN,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,GYROBALL,LEAFSTORM,PROTECT,RAINDANCE,REFLECT,REST,SEEDBOMB,SLEEPTALK,SOLARBEAM,SUBSTITUTE,SWIFT,TAKEDOWN,TAUNT,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,VOLTSWITCH,WILDCHARGE
@@ -588,9 +648,11 @@ Pokedex = Curioso ejemplar que guarda cierta similitud con una Poké Ball. Cuant
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = ELECTRODE,Item,LEAFSTONE
+Evolution = ELECTRODE,Item,LEAFSTONE
 #-------------------------------
 [ELECTRODE,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = ELECTRIC,GRASS
 Moves = 0,CHLOROBLAST,1,TACKLE,1,CHARGE,4,THUNDERSHOCK,6,STUNSPORE,9,BULLETSEED,11,ROLLOUT,13,SCREECH,16,CHARGEBEAM,20,SWIFT,22,ELECTROBALL,26,SELFDESTRUCT,29,ENERGYBALL,34,DISCHARGE,34,SEEDBOMB,41,EXPLOSION,46,GYROBALL,50,GRASSYTERRAIN
 TutorMoves = AGILITY,BULLETSEED,CHARGE,CHARGEBEAM,CURSE,DOUBLEEDGE,ELECTRICTERRAIN,ELECTROBALL,ELECTROWEB,ENDURE,ENERGYBALL,FACADE,FOULPLAY,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,GYROBALL,HYPERBEAM,LEAFSTORM,PROTECT,RAINDANCE,REFLECT,REST,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SUBSTITUTE,SUPERCELLSLAM,SWIFT,TAKEDOWN,TAUNT,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,VOLTSWITCH,WILDCHARGE
@@ -602,10 +664,12 @@ Generation = 8
 Flags = InheritFormWithEverStone
 #-------------------------------
 [EXEGGCUTE,1]
+UnmegaForm = -2
 Generation = 7
 #-------------------------------
 [EXEGGUTOR,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = GRASS,DRAGON
 BaseStats = 95,105,85,45,125,75
 Abilities = FRISK
@@ -617,11 +681,14 @@ Pokedex = Los intensos rayos solares que bañan su hábitat le han conferido un 
 Generation = 7
 #-------------------------------
 [CUBONE,1]
+UnmegaForm = -2
 Generation = 7
 Evolutions = MAROWAK,LevelNight,28
+Evolution = MAROWAK,LevelNight,28
 #-------------------------------
 [MAROWAK,1]
 FormName = Forma Alola
+UnmegaForm = -2
 Types = FIRE,GHOST
 Abilities = CURSEDBODY,LIGHTNINGROD
 HiddenAbilities = ROCKHEAD
@@ -634,6 +701,7 @@ Generation = 7
 #-------------------------------
 [WEEZING,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = POISON,FAIRY
 HiddenAbilities = MISTYSURGE
 Moves = 0,DOUBLEHIT,1,STRANGESTEAM,1,DEFOG,1,HEATWAVE,1,SMOG,1,SMOKESCREEN,1,HAZE,1,POISONGAS,1,TACKLE,1,FAIRYWIND,1,AROMATICMIST,12,CLEARSMOG,16,ASSURANCE,20,SLUDGE,24,AROMATHERAPY,28,SELFDESTRUCT,32,SLUDGEBOMB,38,TOXIC,44,BELCH,50,EXPLOSION,56,MEMENTO,62,DESTINYBOND,68,MISTYTERRAIN
@@ -648,27 +716,29 @@ WildItemUncommon = MISTYSEED
 [KANGASKHAN,1]
 FormName = Mega Kangaskhan
 MegaStone = KANGASKHANITE
+UnmegaForm = -2
 BaseStats = 105,125,100,100,60,100
 BaseExp = 207
 Abilities = PARENTALBOND
 HiddenAbilities = PARENTALBOND
 Weight = 100.0
-Pokedex =  La energía de la megaevolución hace crecer de golpe a la cría, que coordina a la perfección sus movimientos con los de su madre.
+Pokedex = La energía de la megaevolución hace crecer de golpe a la cría, que coordina a la perfección sus movimientos con los de su madre.
 Generation = 6
 #-------------------------------
 [STARMIE,1]
 FormName = Mega Starmie
 MegaStone = STARMINITE
+UnmegaForm = -2
 BaseStats = 60,100,105,120,130,105
 Abilities = HUGEPOWER
 HiddenAbilities = HUGEPOWER
 Height = 2.3
-Weight = 80.0
 Pokedex = Sus movimientos se volvieron más humanos. Se desconoce si es para comunicarse con las personas o si busca reemplazar a la humanidad.
 Generation = 9
 #-------------------------------
 [MRMIME,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = ICE,PSYCHIC
 BaseStats = 50,65,65,100,90,90
 EVs = SPEED,2
@@ -684,10 +754,12 @@ Pokedex = El claqué es su especialidad. Genera una capa de hielo bajo sus pies,
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = MRRIME,Level,42
+Evolution = MRRIME,Level,42
 #-------------------------------
 [PINSIR,1]
 FormName = Mega Pinsir
 MegaStone = PINSIRITE
+UnmegaForm = -2
 Types = BUG,FLYING
 BaseStats = 65,155,120,105,65,90
 BaseExp = 210
@@ -701,6 +773,7 @@ Generation = 6
 #-------------------------------
 [TAUROS,1]
 FormName = Forma Paldea (Combatiente)
+UnmegaForm = -2
 Types = FIGHTING
 BaseStats = 75,110,105,100,30,70
 EVs = ATTACK,2
@@ -715,6 +788,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [TAUROS,2]
 FormName = Forma Paldea (Ardiente)
+UnmegaForm = -2
 Types = FIGHTING,FIRE
 BaseStats = 75,110,105,100,30,70
 EVs = ATTACK,2
@@ -729,6 +803,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [TAUROS,3]
 FormName = Forma Paldea (Acuática)
+UnmegaForm = -2
 Types = FIGHTING,WATER
 BaseStats = 75,110,105,100,30,70
 EVs = ATTACK,2
@@ -744,18 +819,20 @@ Flags = InheritFormWithEverStone
 [GYARADOS,1]
 FormName = Mega Gyarados
 MegaStone = GYARADOSITE
+UnmegaForm = -2
 Types = WATER,DARK
 BaseStats = 95,155,109,81,70,130
 BaseExp = 224
 Abilities = MOLDBREAKER
 HiddenAbilities = MOLDBREAKER
 Weight = 305.0
-Pokedex =  Expulsa agua a presión por las agallas de sus costados para así poder volar sobre la superficie del agua a una velocidad supersónica.
+Pokedex = Expulsa agua a presión por las agallas de sus costados para así poder volar sobre la superficie del agua a una velocidad supersónica.
 Generation = 6
 #-------------------------------
 [AERODACTYL,1]
 FormName = Mega Aerodactyl
 MegaStone = AERODACTYLITE
+UnmegaForm = -2
 BaseStats = 80,135,85,150,70,95
 BaseExp = 215
 Abilities = TOUGHCLAWS
@@ -767,6 +844,7 @@ Generation = 6
 #-------------------------------
 [ARTICUNO,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = PSYCHIC,FLYING
 BaseStats = 90,85,85,95,125,100
 EVs = SPECIAL_ATTACK,3
@@ -782,6 +860,7 @@ Generation = 8
 #-------------------------------
 [ZAPDOS,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = FIGHTING,FLYING
 BaseStats = 90,125,90,100,85,90
 EVs = ATTACK,3
@@ -796,6 +875,7 @@ Generation = 8
 #-------------------------------
 [MOLTRES,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = DARK,FLYING
 BaseStats = 90,85,90,90,100,125
 EVs = SPECIAL_DEFENSE,3
@@ -812,11 +892,9 @@ Generation = 8
 [DRAGONITE,1]
 FormName = Mega Dragonite
 MegaStone = DRAGONINITE
+UnmegaForm = -2
 BaseStats = 91,124,115,100,145,125
-BaseExp = 300
 Abilities = MULTISCALE
-HiddenAbilities = MULTISCALE
-Height = 2.2
 Weight = 290.0
 Pokedex = La energía de la megaevolución eleva su piedad hasta cotas inusitadas. Hace gala de una gran compasión al dar el golpe de gracia a sus rivales.
 Generation = 9
@@ -824,6 +902,7 @@ Generation = 9
 [MEWTWO,1]
 FormName = Mega Mewtwo X
 MegaStone = MEWTWONITEX
+UnmegaForm = -2
 Types = PSYCHIC,FIGHTING
 BaseStats = 106,190,100,130,154,100
 BaseExp = 390
@@ -837,6 +916,7 @@ Generation = 6
 [MEWTWO,2]
 FormName = Mega Mewtwo Y
 MegaStone = MEWTWONITEY
+UnmegaForm = -2
 BaseStats = 106,150,70,140,194,120
 BaseExp = 390
 Abilities = INSOMNIA
@@ -849,6 +929,7 @@ Generation = 6
 [MEGANIUM,1]
 FormName = Mega Meganium
 MegaStone = MEGANIUMITE
+UnmegaForm = -2
 Types = GRASS,FAIRY
 BaseStats = 80,92,115,80,143,115
 Abilities = FILTER
@@ -859,13 +940,16 @@ Pokedex = El poder del Rayo Solar que proyecta por sus cuatro flores es descomun
 Generation = 9
 #-------------------------------
 [CYNDAQUIL,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [QUILAVA,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [TYPHLOSION,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = FIRE,GHOST
 BaseStats = 73,84,78,95,119,85
 HiddenAbilities = FRISK
@@ -880,11 +964,10 @@ Generation = 8
 [FERALIGATR,1]
 FormName = Mega Feraligatr
 MegaStone = FERALIGITE
+UnmegaForm = -2
 Types = WATER,DRAGON
 BaseStats = 85,160,125,78,89,93
 Abilities = SHEERFORCE
-HiddenAbilities = SHEERFORCE
-Height = 2.3
 Weight = 108.8
 Category = Bifauces
 Pokedex = Al unir ambos brazos y la aleta que le cuelga al lomo cual capucha, crea una colosal mandíbula que multiplica por diez su potencia de mordida.
@@ -892,12 +975,15 @@ Generation = 9
 #-------------------------------
 [PICHU,2]
 FormName = Forma Picoreja
+UnmegaForm = -2
 Generation = 4
 Evolutions = PIKACHU,None,
+Evolution = PIKACHU,None
 #-------------------------------
 [AMPHAROS,1]
 FormName = Mega Ampharos
 MegaStone = AMPHAROSITE
+UnmegaForm = -2
 Types = ELECTRIC,DRAGON
 BaseStats = 90,95,105,45,165,110
 BaseExp = 305
@@ -908,6 +994,7 @@ Generation = 6
 #-------------------------------
 [WOOPER,1]
 FormName = Forma Paldea
+UnmegaForm = -2
 Types = POISON,GROUND
 Abilities = POISONPOINT,WATERABSORB
 Moves = 1,MUDSHOT,1,TAILWHIP,4,TACKLE,8,POISONTAIL,12,TOXICSPIKES,16,SLAM,21,YAWN,24,POISONJAB,28,SLUDGEWAVE,32,AMNESIA,36,TOXIC,40,EARTHQUAKE
@@ -920,9 +1007,11 @@ Pokedex = Ante el riesgo que le supone desplazarse solo, forma filas de tres o c
 Generation = 9
 Flags = InheritFormWithEverStone
 Evolutions = CLODSIRE,Level,20
+Evolution = CLODSIRE,Level,20
 #-------------------------------
 [SLOWKING,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = POISON,PSYCHIC
 BaseStats = 95,65,80,30,110,110
 Abilities = CURIOUSMEDICINE,OWNTEMPO
@@ -936,90 +1025,118 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [UNOWN,1]
 FormName = Forma Letra B
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,2]
 FormName = Forma Letra C
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,3]
 FormName = Forma Letra D
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,4]
 FormName = Forma Letra E
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,5]
 FormName = Forma Letra F
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,6]
 FormName = Forma Letra G
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,7]
 FormName = Forma Letra H
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,8]
 FormName = Forma Letra I
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,9]
 FormName = Forma Letra J
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,10]
 FormName = Forma Letra K
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,11]
 FormName = Forma Letra L
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,12]
 FormName = Forma Letra M
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,13]
 FormName = Forma Letra N
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,14]
 FormName = Forma Letra O
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,15]
 FormName = Forma Letra P
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,16]
 FormName = Forma Letra Q
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,17]
 FormName = Forma Letra R
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,18]
 FormName = Forma Letra S
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,19]
 FormName = Forma Letra T
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,20]
 FormName = Forma Letra U
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,21]
 FormName = Forma Letra V
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,22]
 FormName = Forma Letra W
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,23]
 FormName = Forma Letra X
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,24]
 FormName = Forma Letra Y
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,25]
 FormName = Forma Letra Z
+UnmegaForm = -2
 #-------------------------------
 [UNOWN,26]
 FormName = Forma Signo ?
+UnmegaForm = -2
 Generation = 3
 #-------------------------------
 [UNOWN,27]
 FormName = Forma Signo !
+UnmegaForm = -2
 Generation = 3
 #-------------------------------
 [STEELIX,1]
 FormName = Mega Steelix
 MegaStone = STEELIXITE
+UnmegaForm = -2
 BaseStats = 75,125,230,30,55,95
 BaseExp = 214
 Abilities = SANDFORCE
@@ -1031,6 +1148,7 @@ Generation = 6
 #-------------------------------
 [QWILFISH,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = DARK,POISON
 Moves = 1,POISONSTING,1,TACKLE,4,HARDEN,8,BITE,12,FELLSTINGER,16,MINIMIZE,20,SPIKES,24,BRINE,28,BARBBARRAGE,32,PINMISSILE,36,TOXICSPIKES,40,SPITUP,40,STOCKPILE,44,TOXIC,48,CRUNCH,52,ACUPRESSURE,56,DESTINYBOND
 TutorMoves = ACIDSPRAY,AGILITY,BLIZZARD,CHILLINGWATER,CRUNCH,CURSE,DARKPULSE,DOUBLEEDGE,ENDURE,FACADE,GIGAIMPACT,GUNKSHOT,GYROBALL,HAZE,HEX,HYDROPUMP,ICEBEAM,ICYWIND,LASHOUT,LIQUIDATION,MUDSHOT,PAINSPLIT,POISONJAB,POISONTAIL,PROTECT,RAINDANCE,REST,REVERSAL,SCALESHOT,SCARYFACE,SHADOWBALL,SLEEPTALK,SLUDGEBOMB,SPIKES,SPITE,SUBSTITUTE,SURF,SWIFT,SWORDSDANCE,TAKEDOWN,TAUNT,THROATCHOP,TOXIC,TOXICSPIKES,VENOSHOCK,WATERFALL,WATERPULSE
@@ -1039,10 +1157,12 @@ Pokedex = Segrega veneno a través de las agujas, razón por la que los pescador
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = OVERQWIL,HasMove,BARBBARRAGE
+Evolution = OVERQWIL,HasMove,BARBBARRAGE
 #-------------------------------
 [SCIZOR,1]
 FormName = Mega Scizor
 MegaStone = SCIZORITE
+UnmegaForm = -2
 BaseStats = 70,150,140,75,65,100
 BaseExp = 210
 Abilities = TECHNICIAN
@@ -1055,17 +1175,19 @@ Generation = 6
 [HERACROSS,1]
 FormName = Mega Heracross
 MegaStone = HERACRONITE
+UnmegaForm = -2
 BaseStats = 80,185,115,75,40,105
 BaseExp = 210
 Abilities = SKILLLINK
 HiddenAbilities = SKILLLINK
 Height = 1.7
 Weight = 62.5
-Pokedex =  Es capaz de encajar entre sus dos cuernos objetos que superen su peso 500 veces y levantarlos sin problema.
+Pokedex = Es capaz de encajar entre sus dos cuernos objetos que superen su peso 500 veces y levantarlos sin problema.
 Generation = 6
 #-------------------------------
 [SNEASEL,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = FIGHTING,POISON
 Moves = 1,SCRATCH,1,LEER,1,ROCKSMASH,6,TAUNT,12,QUICKATTACK,18,METALCLAW,24,POISONJAB,30,BRICKBREAK,36,HONECLAWS,42,SLASH,48,AGILITY,54,SCREECH,60,CLOSECOMBAT
 TutorMoves = ACIDSPRAY,AERIALACE,AGILITY,BRICKBREAK,BULKUP,CALMMIND,CLOSECOMBAT,COACHING,DIG,ENDURE,FACADE,FALSESWIPE,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,GRASSKNOT,GUNKSHOT,LASHOUT,LOWKICK,LOWSWEEP,METALCLAW,NASTYPLOT,POISONJAB,POISONTAIL,PROTECT,RAINDANCE,REST,REVERSAL,SHADOWBALL,SHADOWCLAW,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SPITE,SUBSTITUTE,SUNNYDAY,SWIFT,SWORDSDANCE,TAKEDOWN,TAUNT,THIEF,THROATCHOP,TOXIC,TOXICSPIKES,TRAILBLAZE,VACUUMWAVE,VENOSHOCK,XSCISSOR
@@ -1075,11 +1197,13 @@ Color = Gray
 Habitat = Mountain
 Pokedex = Sus robustas garras son ideales para moverse por los riscos más escarpados. De sus puntas rezuma un veneno que daña los nervios de las presas que captura.
 Generation = 8
-Flags = InheritFormWithEverStone
+Flags = InheritFormWithEverStone,HasGenderedSprites
 Evolutions = SNEASLER,DayHoldItem,RAZORCLAW
+Evolution = SNEASLER,DayHoldItem,RAZORCLAW
 #-------------------------------
 [CORSOLA,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = GHOST
 BaseStats = 60,55,100,30,65,100
 Abilities = WEAKARMOR
@@ -1093,14 +1217,15 @@ Pokedex = Es habitual hallarlos en lo que antaño fueron lechos oceánicos. Mald
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = CURSOLA,Level,38
+Evolution = CURSOLA,Level,38
 #-------------------------------
 [SKARMORY,1]
 FormName = Mega Skarmory
 MegaStone = SKARMORITE
+UnmegaForm = -2
 BaseStats = 65,140,110,110,40,100
 Abilities = TOUGHCLAWS
 HiddenAbilities = TOUGHCLAWS
-Height = 1.7
 Weight = 40.4
 Pokedex = Vuela a velocidad supersónica. Las ondas de choque que provoca alzan en volandas al rival, al que remata con las garras.
 Generation = 9
@@ -1108,6 +1233,7 @@ Generation = 9
 [HOUNDOOM,1]
 FormName = Mega Houndoom
 MegaStone = HOUNDOOMINITE
+UnmegaForm = -2
 BaseStats = 75,90,90,115,140,90
 BaseExp = 210
 Abilities = SOLARPOWER
@@ -1120,6 +1246,7 @@ Generation = 6
 [TYRANITAR,1]
 FormName = Mega Tyranitar
 MegaStone = TYRANITARITE
+UnmegaForm = -2
 BaseStats = 100,164,150,71,95,120
 BaseExp = 350
 HiddenAbilities = SANDSTREAM
@@ -1131,6 +1258,7 @@ Generation = 6
 [SCEPTILE,1]
 FormName = Mega Sceptile
 MegaStone = SCEPTILITE
+UnmegaForm = -2
 Types = GRASS,DRAGON
 BaseStats = 70,110,75,145,145,85
 BaseExp = 315
@@ -1144,6 +1272,7 @@ Generation = 6
 [BLAZIKEN,1]
 FormName = Mega Blaziken
 MegaStone = BLAZIKENITE
+UnmegaForm = -2
 BaseStats = 80,160,80,100,130,80
 BaseExp = 315
 Abilities = SPEEDBOOST
@@ -1153,6 +1282,7 @@ Generation = 6
 [SWAMPERT,1]
 FormName = Mega Swampert
 MegaStone = SWAMPERTITE
+UnmegaForm = -2
 BaseStats = 100,150,110,70,95,110
 BaseExp = 318
 Abilities = SWIFTSWIM
@@ -1164,6 +1294,7 @@ Generation = 6
 #-------------------------------
 [ZIGZAGOON,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = DARK,NORMAL
 Moves = 1,TACKLE,1,LEER,3,SANDATTACK,6,LICK,9,SNARL,12,HEADBUTT,15,BABYDOLLEYES,18,PINMISSILE,21,REST,24,TAKEDOWN,27,SCARYFACE,30,COUNTER,33,TAUNT,36,DOUBLEEDGE
 TutorMoves = ASSURANCE,ATTRACT,BLIZZARD,BODYSLAM,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,ENDURE,FACADE,FAKETEARS,FLING,FRUSTRATION,GRASSKNOT,GUNKSHOT,HELPINGHAND,HIDDENPOWER,HYPERVOICE,ICEBEAM,ICYWIND,IRONTAIL,LASHOUT,MIMIC,MUDSHOT,NATURALGIFT,PAYBACK,PINMISSILE,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SEEDBOMB,SHADOWBALL,SLEEPTALK,SNARL,SNORE,SUBSTITUTE,SUNNYDAY,SURF,SWAGGER,SWIFT,TAUNT,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,TRICK,WHIRLPOOL,WORKUP
@@ -1175,6 +1306,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [LINOONE,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = DARK,NORMAL
 Moves = 0,NIGHTSLASH,1,SWITCHEROO,1,PINMISSILE,1,BABYDOLLEYES,1,TACKLE,1,LEER,1,SANDATTACK,1,LICK,9,SNARL,12,HEADBUTT,15,HONECLAWS,18,FURYSWIPES,23,REST,28,TAKEDOWN,33,SCARYFACE,38,COUNTER,43,TAUNT,48,DOUBLEEDGE
 TutorMoves = ASSURANCE,ATTRACT,BLIZZARD,BODYPRESS,BODYSLAM,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,ENDURE,FACADE,FAKETEARS,FLING,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GUNKSHOT,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,ICEBEAM,ICYWIND,IRONTAIL,LASHOUT,MIMIC,MUDSHOT,NATURALGIFT,PAYBACK,PINMISSILE,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SEEDBOMB,SHADOWBALL,SHADOWCLAW,SLEEPTALK,SNARL,SNORE,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SURF,SWAGGER,SWIFT,TAUNT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TRICK,WHIRLPOOL,WORKUP
@@ -1182,10 +1314,12 @@ Pokedex = Posee un carácter beligerante y temerario. Hace frente impávidamente
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = OBSTAGOON,LevelNight,35
+Evolution = OBSTAGOON,LevelNight,35
 #-------------------------------
 [GARDEVOIR,1]
 FormName = Mega Gardevoir
 MegaStone = GARDEVOIRITE
+UnmegaForm = -2
 BaseStats = 68,85,65,100,165,135
 BaseExp = 309
 Abilities = PIXILATE
@@ -1196,6 +1330,7 @@ Generation = 6
 [SABLEYE,1]
 FormName = Mega Sableye
 MegaStone = SABLENITE
+UnmegaForm = -2
 BaseStats = 50,85,125,20,85,115
 BaseExp = 168
 Abilities = MAGICBOUNCE
@@ -1207,6 +1342,7 @@ Generation = 6
 [MAWILE,1]
 FormName = Mega Mawile
 MegaStone = MAWILITE
+UnmegaForm = -2
 BaseStats = 50,105,125,50,55,95
 BaseExp = 168
 Abilities = HUGEPOWER
@@ -1219,6 +1355,7 @@ Generation = 6
 [AGGRON,1]
 FormName = Mega Aggron
 MegaStone = AGGRONITE
+UnmegaForm = -2
 Types = STEEL
 BaseStats = 70,140,230,50,60,80
 Abilities = FILTER
@@ -1231,6 +1368,7 @@ Generation = 6
 [MEDICHAM,1]
 FormName = Mega Medicham
 MegaStone = MEDICHAMITE
+UnmegaForm = -2
 BaseStats = 60,100,85,100,80,85
 BaseExp = 179
 HiddenAbilities = PUREPOWER
@@ -1240,6 +1378,7 @@ Generation = 6
 [MANECTRIC,1]
 FormName = Mega Manectric
 MegaStone = MANECTITE
+UnmegaForm = -2
 BaseStats = 70,75,80,135,135,80
 BaseExp = 201
 Abilities = INTIMIDATE
@@ -1252,6 +1391,7 @@ Generation = 6
 [SHARPEDO,1]
 FormName = Mega Sharpedo
 MegaStone = SHARPEDONITE
+UnmegaForm = -2
 BaseStats = 70,140,70,105,110,65
 BaseExp = 196
 Abilities = STRONGJAW
@@ -1264,6 +1404,7 @@ Generation = 6
 [CAMERUPT,1]
 FormName = Mega Camerupt
 MegaStone = CAMERUPTITE
+UnmegaForm = -2
 BaseStats = 70,120,100,20,145,105
 BaseExp = 196
 Abilities = SHEERFORCE
@@ -1276,6 +1417,7 @@ Generation = 6
 [ALTARIA,1]
 FormName = Mega Altaria
 MegaStone = ALTARIANITE
+UnmegaForm = -2
 Types = DRAGON,FAIRY
 BaseStats = 75,110,110,80,110,105
 BaseExp = 207
@@ -1287,18 +1429,21 @@ Generation = 6
 #-------------------------------
 [CASTFORM,1]
 FormName = Forma Sol
+UnmegaForm = -2
 Types = FIRE
 Color = Red
 Pokedex = Castform adopta esta forma cuando el sol brilla con fuerza. Conviene tener cuidado al tocarlo, ya que su piel alcanza altas temperaturas.
 #-------------------------------
 [CASTFORM,2]
 FormName = Forma Lluvia
+UnmegaForm = -2
 Types = WATER
 Color = Blue
 Pokedex = Castform adopta esta forma cuando llueve. Su cuerpo es como una esponja y suelta agua con solo presionarlo ligeramente.
 #-------------------------------
 [CASTFORM,3]
 FormName = Forma Nieve
+UnmegaForm = -2
 Types = ICE
 Color = White
 Pokedex = Castform adopta esta forma cuando graniza. Su cuerpo se enfría y su piel se congela parcialmente.
@@ -1306,6 +1451,7 @@ Pokedex = Castform adopta esta forma cuando graniza. Su cuerpo se enfría y su p
 [BANETTE,1]
 FormName = Mega Banette
 MegaStone = BANETTITE
+UnmegaForm = -2
 BaseStats = 64,165,75,75,93,83
 BaseExp = 194
 Abilities = PRANKSTER
@@ -1317,11 +1463,11 @@ Generation = 6
 #-------------------------------
 [CHIMECHO,1]
 FormName = Mega Chimecho
-Types = PSYCHIC,STEEL
 MegaStone = CHIMECHITE
+UnmegaForm = -2
+Types = PSYCHIC,STEEL
 BaseStats = 75,50,110,65,135,120
 BaseExp = 194
-Abilities = LEVITATE
 HiddenAbilities = LEVITATE
 Height = 1.2
 Weight = 8.0
@@ -1331,6 +1477,7 @@ Generation = 9
 [ABSOL,1]
 FormName = Mega Absol
 MegaStone = ABSOLITE
+UnmegaForm = -2
 BaseStats = 65,150,60,115,115,60
 BaseExp = 198
 Abilities = MAGICBOUNCE
@@ -1338,16 +1485,16 @@ HiddenAbilities = MAGICBOUNCE
 Weight = 49.0
 Pokedex = El pelaje erizado de su dorso se asemeja a un par de alas que, al agitarse, emiten una potente aura que intimida al rival.
 Generation = 6
-#------------------------------- 
+#-------------------------------
 [ABSOL,2]
 FormName = Mega Absol Z
 MegaStone = ABSOLITEZ
+UnmegaForm = -2
 Types = DARK,GHOST
 BaseStats = 65,154,60,151,75,60
 BaseExp = 198
 Abilities = SHARPNESS
 HiddenAbilities = SHARPNESS
-Height = 1.2
 Weight = 49.0
 Pokedex = Utilizando su pelaje, que ha moldeado en formas afiladas como garras, elimina a sus enemigos de un solo golpe. Lo hace como acto de compasión para evitarles el sufrimiento.
 Generation = 9
@@ -1355,6 +1502,7 @@ Generation = 9
 [GLALIE,1]
 FormName = Mega Glalie
 MegaStone = GLALITITE
+UnmegaForm = -2
 BaseStats = 80,120,80,100,120,80
 BaseExp = 203
 Abilities = REFRIGERATE
@@ -1367,6 +1515,7 @@ Generation = 6
 [SALAMENCE,1]
 FormName = Mega Salamence
 MegaStone = SALAMENCITE
+UnmegaForm = -2
 BaseStats = 95,145,130,120,120,90
 BaseExp = 350
 Abilities = AERILATE
@@ -1379,6 +1528,7 @@ Generation = 6
 [METAGROSS,1]
 FormName = Mega Metagross
 MegaStone = METAGROSSITE
+UnmegaForm = -2
 BaseStats = 95,145,130,120,120,90
 BaseExp = 350
 Abilities = TOUGHCLAWS
@@ -1391,6 +1541,7 @@ Generation = 6
 [LATIAS,1]
 FormName = Mega Latias
 MegaStone = LATIASITE
+UnmegaForm = -2
 BaseStats = 80,100,120,110,140,150
 BaseExp = 350
 Height = 1.8
@@ -1402,6 +1553,7 @@ Generation = 6
 [LATIOS,1]
 FormName = Mega Latios
 MegaStone = LATIOSITE
+UnmegaForm = -2
 BaseStats = 80,130,100,110,160,120
 BaseExp = 350
 Height = 2.3
@@ -1412,6 +1564,7 @@ Generation = 6
 #-------------------------------
 [KYOGRE,1]
 FormName = Forma Primigenia
+UnmegaForm = -2
 BaseStats = 100,150,90,90,180,160
 BaseExp = 385
 Abilities = PRIMORDIALSEA
@@ -1422,6 +1575,7 @@ Generation = 6
 #-------------------------------
 [GROUDON,1]
 FormName = Forma Primigenia
+UnmegaForm = -2
 Types = GROUND,FIRE
 BaseStats = 100,180,160,90,150,90
 BaseExp = 385
@@ -1434,6 +1588,7 @@ Generation = 6
 [RAYQUAZA,1]
 FormName = Mega Rayquaza
 MegaMove = DRAGONASCENT
+UnmegaForm = -2
 MegaMessage = 1
 BaseStats = 105,180,100,115,180,100
 BaseExp = 390
@@ -1446,6 +1601,7 @@ Generation = 6
 #-------------------------------
 [DEOXYS,1]
 FormName = Forma Ataque
+UnmegaForm = -2
 BaseStats = 50,180,20,150,180,20
 EVs = ATTACK,2,SPECIAL_ATTACK,1
 Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,TELEPORT,19,TAUNT,25,TOXICSPIKES,31,PSYCHIC,37,SUPERPOWER,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,COSMICPOWER,61,ZAPCANNON,67,PSYCHOBOOST,73,HYPERBEAM
@@ -1453,6 +1609,7 @@ TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING
 #-------------------------------
 [DEOXYS,2]
 FormName = Forma Defensa
+UnmegaForm = -2
 BaseStats = 50,70,160,90,70,160
 EVs = DEFENSE,2,SPECIAL_DEFENSE,1
 Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,TELEPORT,19,KNOCKOFF,25,SPIKES,31,PSYCHIC,37,SWITCHEROO,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,IRONDEFENSE,55,AMNESIA,61,RECOVER,67,PSYCHOBOOST,73,COUNTER,73,MIRRORCOAT
@@ -1460,6 +1617,7 @@ TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING
 #-------------------------------
 [DEOXYS,3]
 FormName = Forma Velocidad
+UnmegaForm = -2
 BaseStats = 50,95,90,180,95,90
 EVs = SPEED,3
 Moves = 1,LEER,1,WRAP,7,NIGHTSHADE,13,DOUBLETEAM,19,KNOCKOFF,25,TOXICSPIKES,31,PSYCHIC,37,SWIFT,43,PSYCHOSHIFT,49,ZENHEADBUTT,55,AGILITY,61,RECOVER,67,PSYCHOBOOST,73,EXTREMESPEED
@@ -1467,12 +1625,12 @@ TutorMoves = AERIALACE,ALLYSWITCH,AVALANCHE,BIND,BODYSLAM,BRICKBREAK,BRUTALSWING
 #-------------------------------
 [STARAPTOR,1]
 FormName = Mega Staraptor
-Types = FIGHTING,FLYING
 MegaStone = STARAPTITE
+UnmegaForm = -2
+Types = FIGHTING,FLYING
 BaseStats = 85,140,100,110,60,90
 BaseExp = 300
 Abilities = RECKLESS
-HiddenAbilities = RECKLESS
 Height = 1.9
 Weight = 50.0
 Pokedex = Su habilidad para volar es excepcional, siendo capaz de desplazarse sin el mínimo esfuerzo portando en sus potentes garras un Steelix de casi media tonelada.
@@ -1480,14 +1638,17 @@ Generation = 9
 #-------------------------------
 [BURMY,1]
 FormName = Forma Tronco Arena
+UnmegaForm = -2
 Color = Brown
 #-------------------------------
 [BURMY,2]
 FormName = Forma Tronco Basura
+UnmegaForm = -2
 Color = Red
 #-------------------------------
 [WORMADAM,1]
 FormName = Forma Tronco Arena
+UnmegaForm = -2
 Types = BUG,GROUND
 BaseStats = 60,79,105,36,59,85
 EVs = DEFENSE,2
@@ -1497,6 +1658,7 @@ Color = Brown
 #-------------------------------
 [WORMADAM,2]
 FormName = Forma Tronco Basura
+UnmegaForm = -2
 Types = BUG,STEEL
 BaseStats = 60,69,95,36,69,95
 EVs = DEFENSE,1,SPECIAL_DEFENSE,1
@@ -1506,22 +1668,26 @@ Color = Red
 #-------------------------------
 [CHERRIM,1]
 FormName = Forma Soleada
+UnmegaForm = -2
 Color = Pink
 Pokedex = Después de absorber mucha luz solar, Cherrim toma esta forma. Está lleno de energía mientras está así, y su vivacidad durará hasta el atardecer.
 #-------------------------------
 [SHELLOS,1]
 FormName = Forma Mar Este
+UnmegaForm = -2
 Color = Blue
 Pokedex = Su apariencia cambia según el entorno. Una teoría sugiere que vivir en mares fríos hace que Shellos adopte esta forma.
 #-------------------------------
 [GASTRODON,1]
 FormName = Forma Mar Este
+UnmegaForm = -2
 Color = Blue
 Pokedex = Su cuerpo está cubierto de una baba pegajosa. Es muy susceptible a la deshidratación, por lo que no puede pasar demasiado tiempo en tierra.
 #-------------------------------
 [LOPUNNY,1]
 FormName = Mega Lopunny
 MegaStone = LOPUNNITE
+UnmegaForm = -2
 Types = NORMAL,FIGHTING
 BaseStats = 65,136,94,135,54,96
 BaseExp = 203
@@ -1535,22 +1701,23 @@ Generation = 6
 [GARCHOMP,1]
 FormName = Mega Garchomp
 MegaStone = GARCHOMPITE
+UnmegaForm = -2
 BaseStats = 108,170,115,92,120,95
 BaseExp = 350
 Abilities = SANDFORCE
 HiddenAbilities = SANDFORCE
 Pokedex = La megaevolución exacerba su agresividad. Hace trizas al enemigo con sus extremidades en forma de guadañas.
 Generation = 6
-#------------------------------- 
+#-------------------------------
 [GARCHOMP,2]
 FormName = Mega Garchomp Z
 MegaStone = GARCHOMPITEZ
+UnmegaForm = -2
 Types = DRAGON
 BaseStats = 108,130,85,151,141,85
 BaseExp = 350
 Abilities = LEVITATE
 HiddenAbilities = LEVITATE
-Height = 1.9
 Weight = 99.0
 Pokedex = Garchomp ha adquirido una nueva forma megaevolucionada. Vuela alrededor de sus enemigos a velocidad supersónica y los despedaza con sus siniestras garras aladas.
 Generation = 9
@@ -1558,6 +1725,7 @@ Generation = 9
 [LUCARIO,1]
 FormName = Mega Lucario
 MegaStone = LUCARIONITE
+UnmegaForm = -2
 BaseStats = 70,145,88,112,140,70
 BaseExp = 219
 Abilities = ADAPTABILITY
@@ -1569,8 +1737,9 @@ Generation = 6
 #-------------------------------
 [LUCARIO,2]
 FormName = Mega Lucario Z
-Types = FIGHTING,PSYCHIC
 MegaStone = LUCARIONITEZ
+UnmegaForm = -2
+Types = FIGHTING,PSYCHIC
 BaseStats = 70,100,70,151,164,70
 BaseExp = 219
 Abilities = MEGALAUNCHER
@@ -1583,6 +1752,7 @@ Generation = 9
 [ABOMASNOW,1]
 FormName = Mega Abomasnow
 MegaStone = ABOMASITE
+UnmegaForm = -2
 BaseStats = 90,132,105,30,132,105
 BaseExp = 208
 HiddenAbilities = SNOWWARNING
@@ -1594,6 +1764,7 @@ Generation = 6
 [GALLADE,1]
 FormName = Mega Gallade
 MegaStone = GALLADITE
+UnmegaForm = -2
 BaseStats = 68,165,95,110,65,115
 BaseExp = 309
 Abilities = INNERFOCUS
@@ -1605,16 +1776,18 @@ Generation = 6
 [FROSLASS,1]
 FormName = Mega Froslass
 MegaStone = FROSLASSITE
+UnmegaForm = -2
 BaseStats = 70,80,70,120,140,100
 Abilities = SNOWWARNING
 HiddenAbilities = SNOWWARNING
 Height = 2.6
 Weight = 29.6
-Pokedex =  Con su extraño aliento gélido, imbuido de energía fantasmal, puede congelar incluso elementos inmateriales como las llamas o el viento.
+Pokedex = Con su extraño aliento gélido, imbuido de energía fantasmal, puede congelar incluso elementos inmateriales como las llamas o el viento.
 Generation = 9
 #-------------------------------
 [ROTOM,1]
 FormName = Forma Calor
+UnmegaForm = -2
 Types = ELECTRIC,FIRE
 BaseStats = 50,65,107,86,105,107
 BaseExp = 182
@@ -1622,6 +1795,7 @@ Pokedex = Ha tomado posesión de un horno eléctrico que funciona con un motor e
 #-------------------------------
 [ROTOM,2]
 FormName = Forma Lavado
+UnmegaForm = -2
 Types = ELECTRIC,WATER
 BaseStats = 50,65,107,86,105,107
 BaseExp = 182
@@ -1629,6 +1803,7 @@ Pokedex = Asume esta forma cuando quiere utilizar el agua para hacer fechorías 
 #-------------------------------
 [ROTOM,3]
 FormName = Forma Frío
+UnmegaForm = -2
 Types = ELECTRIC,ICE
 BaseStats = 50,65,107,86,105,107
 BaseExp = 182
@@ -1636,6 +1811,7 @@ Pokedex = Ha tomado posesión de un frigorífico que funciona con un motor espec
 #-------------------------------
 [ROTOM,4]
 FormName = Forma Ventilador
+UnmegaForm = -2
 Types = ELECTRIC,FLYING
 BaseStats = 50,65,107,86,105,107
 BaseExp = 182
@@ -1643,6 +1819,7 @@ Pokedex = Asume esta forma cuando quiere usar el viento para hacer fechorías ta
 #-------------------------------
 [ROTOM,5]
 FormName = Forma Corte
+UnmegaForm = -2
 Types = ELECTRIC,GRASS
 BaseStats = 50,65,107,86,105,107
 BaseExp = 182
@@ -1650,6 +1827,7 @@ Pokedex = Ha tomado posesión de un cortacésped que funciona con un motor espec
 #-------------------------------
 [DIALGA,1]
 FormName = Forma Origen
+UnmegaForm = -2
 BaseStats = 100,100,120,90,150,120
 Height = 7.0
 Weight = 848.7
@@ -1657,6 +1835,7 @@ Pokedex = La luz desencadena el cambio a esta forma, que recuerda al creador de 
 #-------------------------------
 [PALKIA,1]
 FormName = Forma Origen
+UnmegaForm = -2
 BaseStats = 90,100,100,120,150,120
 Height = 6.3
 Weight = 659.0
@@ -1665,6 +1844,7 @@ Pokedex = Esta forma que surca el cielo me hace pensar en el creador de todo lo 
 [HEATRAN,1]
 FormName = Mega Heatran
 MegaStone = HEATRANITE
+UnmegaForm = -2
 BaseStats = 91,120,106,67,175,141
 BaseExp = 350
 Abilities = DROUGHT
@@ -1675,7 +1855,7 @@ Pokedex = Se dice que, si se desata por completo, puede calentar su cuerpo a tem
 Generation = 9
 #-------------------------------
 [GIRATINA,1]
-FormName = Forma Origen
+UnmegaForm = -2
 BaseStats = 150,120,100,90,120,100
 Abilities = LEVITATE
 HiddenAbilities = LEVITATE
@@ -1687,9 +1867,9 @@ Shape = Serpentine
 [DARKRAI,1]
 FormName = Mega Darkrai
 MegaStone = DARKRANITE
+UnmegaForm = -2
 BaseStats = 70,120,130,85,165,130
 BaseExp = 350
-Abilities = BADDREAMS
 HiddenAbilities = BADDREAMS
 Height = 3.0
 Weight = 240.0
@@ -1698,6 +1878,7 @@ Generation = 9
 #-------------------------------
 [SHAYMIN,1]
 FormName = Forma Cielo
+UnmegaForm = -2
 Types = GRASS,FLYING
 BaseStats = 100,103,75,127,120,75
 EVs = SPEED,3
@@ -1709,96 +1890,117 @@ Weight = 5.2
 #-------------------------------
 [ARCEUS,1]
 FormName = Tipo Lucha
+UnmegaForm = -2
 Types = FIGHTING
 #-------------------------------
 [ARCEUS,2]
 FormName = Tipo Volador
+UnmegaForm = -2
 Types = FLYING
 #-------------------------------
 [ARCEUS,3]
 FormName = Tipo Veneno
+UnmegaForm = -2
 Types = POISON
 #-------------------------------
 [ARCEUS,4]
 FormName = Tipo Tierra
+UnmegaForm = -2
 Types = GROUND
 #-------------------------------
 [ARCEUS,5]
 FormName = Tipo Roca
+UnmegaForm = -2
 Types = ROCK
 #-------------------------------
 [ARCEUS,6]
 FormName = Tipo Bicho
+UnmegaForm = -2
 Types = BUG
 #-------------------------------
 [ARCEUS,7]
 FormName = Tipo Fantasma
+UnmegaForm = -2
 Types = GHOST
 #-------------------------------
 [ARCEUS,8]
 FormName = Tipo Acero
+UnmegaForm = -2
 Types = STEEL
 #-------------------------------
 [ARCEUS,9]
 FormName = Tipo Desconocido
+UnmegaForm = -2
 Types = QMARKS
 #-------------------------------
 [ARCEUS,10]
 FormName = Tipo Fuego
+UnmegaForm = -2
 Types = FIRE
 #-------------------------------
 [ARCEUS,11]
 FormName = Tipo Agua
+UnmegaForm = -2
 Types = WATER
 #-------------------------------
 [ARCEUS,12]
 FormName = Tipo Planta
+UnmegaForm = -2
 Types = GRASS
 #-------------------------------
 [ARCEUS,13]
 FormName = Tipo Eléctrico
+UnmegaForm = -2
 Types = ELECTRIC
 #-------------------------------
 [ARCEUS,14]
 FormName = Tipo Psíquico
+UnmegaForm = -2
 Types = PSYCHIC
 #-------------------------------
 [ARCEUS,15]
 FormName = Tipo Hielo
+UnmegaForm = -2
 Types = ICE
 #-------------------------------
 [ARCEUS,16]
 FormName = Tipo Dragón
+UnmegaForm = -2
 Types = DRAGON
 #-------------------------------
 [ARCEUS,17]
 FormName = Tipo Siniestro
+UnmegaForm = -2
 Types = DARK
 #-------------------------------
 [ARCEUS,18]
 FormName = Tipo Hada
+UnmegaForm = -2
 Types = FAIRY
 Generation = 6
 #-------------------------------
 [EMBOAR,1]
 FormName = Mega Emboar
 MegaStone = EMBOARITE
+UnmegaForm = -2
 BaseStats = 110,148,75,75,110,110
 Abilities = RECKLESS
-HiddenAbilities = RECKLESS
 Height = 1.8
 Weight = 180.3
 Pokedex = Cuando sus compañeros se encuentran en problemas, blande una llama serpenteante en forma de lanza y acude a su rescate.
 Generation = 9
 #-------------------------------
 [OSHAWOTT,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [DEWOTT,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [SAMUROTT,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = WATER,DARK
 BaseStats = 90,108,80,85,100,65
 EVs = ATTACK,3
@@ -1812,9 +2014,9 @@ Generation = 8
 [EXCADRILL,1]
 FormName = Mega Excadrill
 MegaStone = EXCADRITE
+UnmegaForm = -2
 BaseStats = 110,165,100,103,65,65
 Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
 Height = 3.2
 Weight = 230.3
 Pokedex = Al juntar las garras y la cabeza, adopta una forma aerodinámica que le permite girar a gran velocidad y destruirlo todo a su paso.
@@ -1823,6 +2025,7 @@ Generation = 9
 [AUDINO,1]
 FormName = Mega Audino
 MegaStone = AUDINITE
+UnmegaForm = -2
 Types = NORMAL,FAIRY
 BaseStats = 103,60,126,50,80,126
 BaseExp = 425
@@ -1837,6 +2040,7 @@ Generation = 6
 [SCOLIPEDE,1]
 FormName = Mega Scolipede
 MegaStone = SCOLIPITE
+UnmegaForm = -2
 BaseStats = 69,140,149,62,75,99
 Abilities = BATTLEARMOR
 HiddenAbilities = BATTLEARMOR
@@ -1846,10 +2050,12 @@ Pokedex = Su potente veneno, que desprende una luz tenue, le ha afectado a la me
 Generation = 9
 #-------------------------------
 [PETILIL,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [LILLIGANT,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = GRASS,FIGHTING
 BaseStats = 70,105,75,105,50,75
 EVs = ATTACK,1,SPEED,1
@@ -1864,32 +2070,37 @@ Generation = 8
 #-------------------------------
 [BASCULIN,2]
 FormName = Forma Raya Roja
+UnmegaForm = -2
 Abilities = RECKLESS,ADAPTABILITY
-Moves=1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
+Moves = 1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
 TutorMoves = AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BOUNCE,BRINE,CAPTIVATE,CONFIDE,CRUNCH,CUT,DIVE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FLIPTURN,FRUSTRATION,HAIL,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICEFANG,ICYWIND,LIQUIDATION,MIMIC,MUDDYWATER,MUDSHOT,NATURALGIFT,PROTECT,PSYCHICFANGS,RAINDANCE,REST,RETURN,REVENGE,REVERSAL,ROUND,SCALD,SCALESHOT,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,SUBSTITUTE,SUPERPOWER,SURF,SWAGGER,SWIFT,TAUNT,TOXIC,UPROAR,WATERFALL,WHIRLPOOL,ZENHEADBUTT,BLIZZARD,CHILLINGWATER,DOUBLEEDGE,SNOWSCAPE,TAKEDOWN,WATERPULSE
 EggMoves = BUBBLEBEAM,ENDEAVOR
 Category = Violento
 Pokedex = Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse.
 Generation = 5
-WildItemUncommon = DEEPSEATOOTH
 Flags = InheritFormFromMother
+WildItemUncommon = DEEPSEATOOTH
 Evolutions = BASCULEGION,None,
+Evolution = BASCULEGION,None
 #-------------------------------
 [BASCULIN,3]
 FormName = Forma Raya Azul
+UnmegaForm = -2
 Abilities = ROCKHEAD,ADAPTABILITY
-Moves=1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
+Moves = 1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
 TutorMoves = AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BOUNCE,BRINE,CAPTIVATE,CONFIDE,CRUNCH,CUT,DIVE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FLIPTURN,FRUSTRATION,HAIL,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICEFANG,ICYWIND,LIQUIDATION,MIMIC,MUDDYWATER,MUDSHOT,NATURALGIFT,PROTECT,PSYCHICFANGS,RAINDANCE,REST,RETURN,REVENGE,REVERSAL,ROUND,SCALD,SCALESHOT,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,SUBSTITUTE,SUPERPOWER,SURF,SWAGGER,SWIFT,TAUNT,TOXIC,UPROAR,WATERFALL,WHIRLPOOL,ZENHEADBUTT
 EggMoves = BUBBLEBEAM,ENDEAVOR
 Category = Violento
 Pokedex = Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse.
 Generation = 5
-WildItemUncommon = DEEPSEASCALE
 Flags = InheritFormFromMother
+WildItemUncommon = DEEPSEASCALE
 Evolutions = BASCULEGION,None,
+Evolution = BASCULEGION,None
 #-------------------------------
 [DARUMAKA,2]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = ICE
 Moves = 1,POWDERSNOW,1,TACKLE,4,TAUNT,8,BITE,12,AVALANCHE,16,WORKUP,20,ICEFANG,24,HEADBUTT,28,ICEPUNCH,32,UPROAR,36,BELLYDRUM,40,BLIZZARD,44,THRASH,48,SUPERPOWER
 TutorMoves = ATTRACT,AVALANCHE,BLIZZARD,BRICKBREAK,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,ENCORE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIREPUNCH,FIRESPIN,FLAMETHROWER,FLAREBLITZ,FLING,FOCUSENERGY,FRUSTRATION,GRASSKNOT,GYROBALL,HEATWAVE,HIDDENPOWER,ICEBEAM,ICEFANG,ICEPUNCH,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,OVERHEAT,PROTECT,REST,RETURN,ROCKSLIDE,ROCKTOMB,ROUND,SECRETPOWER,SLEEPTALK,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,TAUNT,THIEF,TOXIC,UPROAR,UTURN,WILLOWISP,WORKUP,ZENHEADBUTT
@@ -1901,9 +2112,11 @@ Pokedex = La adaptación a entornos nevados ha atrofiado y congelado su saca de 
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = DARMANITAN,Item,ICESTONE
+Evolution = DARMANITAN,Item,ICESTONE
 #-------------------------------
 [DARMANITAN,1]
 FormName = Forma Daruma
+UnmegaForm = -2
 Types = FIRE,PSYCHIC
 BaseStats = 105,30,105,55,140,105
 BaseExp = 189
@@ -1913,6 +2126,7 @@ Pokedex = Cuando resulta herido, se queda inmóvil como una piedra y medita para
 #-------------------------------
 [DARMANITAN,2]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = ICE
 Abilities = GORILLATACTICS
 Moves = 0,ICICLECRASH,1,POWDERSNOW,1,TACKLE,1,TAUNT,1,BITE,12,AVALANCHE,16,WORKUP,20,ICEFANG,24,HEADBUTT,28,ICEPUNCH,32,UPROAR,38,BELLYDRUM,44,BLIZZARD,50,THRASH,56,SUPERPOWER
@@ -1927,6 +2141,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [DARMANITAN,3]
 FormName = Forma Daruma de Galar
+UnmegaForm = -2
 Types = ICE,FIRE
 BaseStats = 105,160,55,135,30,55
 BaseExp = 189
@@ -1944,29 +2159,32 @@ Generation = 8
 [SCRAFTY,1]
 FormName = Mega Scrafty
 MegaStone = SCRAFTINITE
+UnmegaForm = -2
 BaseStats = 65,130,135,68,55,135
 Abilities = MOXIE
 HiddenAbilities = MOXIE
-Height = 1.1
 Weight = 31.0
 Pokedex = La megaevolución le dio a su piel un aspecto blancuzco y un tacto duro y elástico. Además, tiene el mismo espíritu de lucha de siempre.
 Generation = 9
 #-------------------------------
 [YAMASK,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = GROUND,GHOST
 BaseStats = 38,55,85,30,30,65
 Abilities = WANDERINGSPIRIT
 Moves = 1,ASTONISH,1,PROTECT,4,HAZE,8,NIGHTSHADE,12,DISABLE,16,BRUTALSWING,20,CRAFTYSHIELD,24,HEX,28,MEANLOOK,32,SLAM,36,CURSE,40,SHADOWBALL,44,EARTHQUAKE,48,POWERSPLIT,48,GUARDSPLIT,52,DESTINYBOND
 TutorMoves = ALLYSWITCH,ATTRACT,BRUTALSWING,CALMMIND,CAPTIVATE,CONFIDE,DARKPULSE,DOUBLEEDGE,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDURE,ENERGYBALL,FACADE,FAKETEARS,FRUSTRATION,HEX,HIDDENPOWER,IMPRISON,IRONDEFENSE,MIMIC,NASTYPLOT,NATURALGIFT,PAYBACK,POLTERGEIST,PROTECT,PSYCHIC,RAINDANCE,REST,RETURN,ROCKSLIDE,ROCKTOMB,ROUND,SAFEGUARD,SANDSTORM,SECRETPOWER,SHADOWBALL,SKILLSWAP,SLEEPTALK,SNORE,SUBSTITUTE,SWAGGER,THIEF,TOXIC,TOXICSPIKES,TRICK,TRICKROOM,WILLOWISP,WONDERROOM,ZENHEADBUTT
-EggMoves = MEMENTO
 Pokedex = Yamask ha sido poseído por una tabla de arcilla sobre la que pesa una maldición. Se dice que absorbe y se nutre de rencor e inquina.
 Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = RUNERIGUS,AfterBattleCounterMakeReady,49,RUNERIGUS,EventReady,2
+Evolution = RUNERIGUS,AfterBattleCounterMakeReady,49
+Evolution = RUNERIGUS,EventReady,2
 #-------------------------------
 [ZORUA,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = NORMAL,GHOST
 BaseStats = 35,60,40,70,85,40
 Moves = 1,LEER,1,SCRATCH,4,TORMENT,8,HONECLAWS,12,SHADOWSNEAK,16,CURSE,20,TAUNT,24,KNOCKOFF,28,SPITE,32,AGILITY,36,SHADOWBALL,40,BITTERMALICE,44,NASTYPLOT,48,FOULPLAY
@@ -1980,6 +2198,7 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [ZOROARK,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = NORMAL,GHOST
 BaseStats = 55,100,60,110,125,60
 Moves = 0,SHADOWCLAW,1,UTURN,1,HONECLAWS,1,SCRATCH,1,LEER,1,TORMENT,12,SHADOWSNEAK,16,CURSE,20,TAUNT,24,KNOCKOFF,28,SPITE,34,AGILITY,40,SHADOWBALL,46,BITTERMALICE,52,NASTYPLOT,58,FOULPLAY
@@ -1992,28 +2211,35 @@ Flags = InheritFormWithEverStone
 #-------------------------------
 [DEERLING,1]
 FormName = Forma Verano
+UnmegaForm = -2
 Color = Green
 #-------------------------------
 [DEERLING,2]
 FormName = Forma Otoño
+UnmegaForm = -2
 Color = Red
 #-------------------------------
 [DEERLING,3]
 FormName = Forma Invierno
+UnmegaForm = -2
 Color = Brown
 #-------------------------------
 [SAWSBUCK,1]
 FormName = Forma Verano
+UnmegaForm = -2
 #-------------------------------
 [SAWSBUCK,2]
 FormName = Forma Otoño
+UnmegaForm = -2
 #-------------------------------
 [SAWSBUCK,3]
 FormName = Forma Invierno
+UnmegaForm = -2
 #-------------------------------
 [EELEKTROSS,1]
 FormName = Mega Eelektross
 MegaStone = EELEKTROSSITE
+UnmegaForm = -2
 BaseStats = 85,145,80,80,135,90
 Abilities = SPEEDBOOST
 HiddenAbilities = SPEEDBOOST
@@ -2025,6 +2251,7 @@ Generation = 9
 [CHANDELURE,1]
 FormName = Mega Chandelure
 MegaStone = CHANDELURITE
+UnmegaForm = -2
 BaseStats = 60,75,110,90,175,110
 Abilities = ILLUMINATE
 HiddenAbilities = ILLUMINATE
@@ -2035,6 +2262,7 @@ Generation = 9
 #-------------------------------
 [STUNFISK,1]
 FormName = Forma Galar
+UnmegaForm = -2
 Types = GROUND,STEEL
 BaseStats = 109,81,99,32,66,84
 Abilities = MIMICRY
@@ -2051,20 +2279,22 @@ Flags = InheritFormWithEverStone
 [GOLURK,1]
 FormName = Mega Golurk
 MegaStone = GOLURKITE
+UnmegaForm = -2
 BaseStats = 89,159,105,55,70,105
 BaseExp = 204
 Abilities = IRONFIST
 HiddenAbilities = IRONFIST
 Height = 4.0
-Weight = 330.0
 Pokedex = La energía dentro de Golurk ha sido estimulada por la megaevolución. Este Pokémon podría explotar en cualquier momento.
 Generation = 9
 #-------------------------------
 [RUFFLET,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [BRAVIARY,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = PSYCHIC,FLYING
 BaseStats = 110,83,70,65,112,70
 EVs = SPECIAL_ATTACK,2
@@ -2080,6 +2310,7 @@ Generation = 8
 #-------------------------------
 [TORNADUS,1]
 FormName = Forma Tótem
+UnmegaForm = -2
 BaseStats = 79,100,80,121,110,90
 EVs = SPEED,3
 Abilities = REGENERATOR
@@ -2089,6 +2320,7 @@ Shape = Winged
 #-------------------------------
 [THUNDURUS,1]
 FormName = Forma Tótem
+UnmegaForm = -2
 BaseStats = 79,105,70,101,145,80
 EVs = SPECIAL_ATTACK,3
 Abilities = VOLTABSORB
@@ -2098,6 +2330,7 @@ Shape = BipedalTail
 #-------------------------------
 [LANDORUS,1]
 FormName = Forma Tótem
+UnmegaForm = -2
 BaseStats = 89,145,90,91,105,80
 EVs = ATTACK,3
 Abilities = INTIMIDATE
@@ -2107,6 +2340,7 @@ Shape = Quadruped
 #-------------------------------
 [KYUREM,1]
 FormName = Forma Blanca
+UnmegaForm = -2
 BaseStats = 125,120,90,95,170,100
 BaseExp = 350
 EVs = SPECIAL_ATTACK,3
@@ -2117,6 +2351,7 @@ Pokedex = Como heraldo del mundo verdadero que ha de llegar para humanos y Poké
 #-------------------------------
 [KYUREM,2]
 FormName = Forma Negra
+UnmegaForm = -2
 BaseStats = 125,170,100,95,120,90
 BaseExp = 350
 EVs = ATTACK,3
@@ -2127,6 +2362,7 @@ Pokedex = Se dice que lucha con el objetivo de defender el mundo ideal para huma
 #-------------------------------
 [KYUREM,3]
 PokedexForm = 1
+UnmegaForm = -2
 BaseStats = 125,120,90,95,170,100
 BaseExp = 350
 EVs = SPECIAL_ATTACK,3
@@ -2137,6 +2373,7 @@ Pokedex = Como heraldo del mundo verdadero que ha de llegar para humanos y Poké
 #-------------------------------
 [KYUREM,4]
 PokedexForm = 2
+UnmegaForm = -2
 BaseStats = 125,170,100,95,120,90
 BaseExp = 350
 EVs = ATTACK,3
@@ -2147,57 +2384,63 @@ Pokedex = Se dice que lucha con el objetivo de defender el mundo ideal para huma
 #-------------------------------
 [KELDEO,1]
 FormName = Forma Brío
+UnmegaForm = -2
 Pokedex = Su poder latente se ha concentrado en el cuerno de la frente y lo ha convertido en una espada que todo lo corta.
 #-------------------------------
 [MELOETTA,1]
 FormName = Forma Danza
+UnmegaForm = -2
 Types = NORMAL,FIGHTING
 BaseStats = 100,128,90,128,77,77
 EVs = ATTACK,1,DEFENSE,1,SPEED,1
 #-------------------------------
 [GENESECT,1]
 FormName = Forma FulgoROM
+UnmegaForm = -2
 #-------------------------------
 [GENESECT,2]
 FormName = Forma PiroROM
+UnmegaForm = -2
 #-------------------------------
 [GENESECT,3]
 FormName = Forma CrioROM
+UnmegaForm = -2
 #-------------------------------
 [GENESECT,4]
 FormName = Forma HidroROM
+UnmegaForm = -2
 #-------------------------------
 [CHESNAUGHT,1]
 FormName = Mega Chesnaught
 MegaStone = CHESNAUGHTITE
+UnmegaForm = -2
 BaseStats = 88,137,172,44,74,115
 BaseExp = 300
 Abilities = QUEENLYMAJESTY
 HiddenAbilities = QUEENLYMAJESTY
-Height = 1.6
-Weight = 90.0
 Pokedex = La convicción que lo insta a proteger a los demás a toda costa es tan inquebrantable como su coraza reforzada.
 Generation = 9
 #-------------------------------
 [DELPHOX,1]
 FormName = Mega Delphox
 MegaStone = DELPHOXITE
+UnmegaForm = -2
 BaseStats = 75,69,72,134,159,125
 BaseExp = 300
 Abilities = LEVITATE
 HiddenAbilities = LEVITATE
-Height = 1.5
-Weight = 39.0
 Pokedex = Hechiza a su oponente controlando unas ramas llameantes y lo calcina con una bola de fuego descomunal.
 Generation = 9
 #-------------------------------
 [GRENINJA,1]
+UnmegaForm = -2
 Abilities = BATTLEBOND
 HiddenAbilities = BATTLEBOND
 EggGroups = Undiscovered
 #-------------------------------
 [GRENINJA,2]
 FormName = Greninja Ash
+UnmegaForm = -2
 BaseStats = 72,145,67,132,153,71
 BaseExp = 320
 Abilities = BATTLEBOND
@@ -2207,169 +2450,210 @@ Generation = 7
 [GRENINJA,3]
 FormName = Mega Greninja
 MegaStone = GRENINJITE
+UnmegaForm = -2
 BaseStats = 72,125,77,142,133,81
 BaseExp = 300
 Abilities = SKILLLINK
 HiddenAbilities = SKILLLINK
-Height = 1.5
-Weight = 40.0
 Pokedex = Hace girar un enorme shuriken a tal velocidad que queda suspendido en el aire, y se adhiere a él boca abajo para atacar por sorpresa al enemigo.
 Generation = 9
 #-------------------------------
 [VIVILLON,1]
 FormName = Motivo Isleño
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,2]
 FormName = Motivo Continental
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,3]
 FormName = Motivo Oriental
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,4]
 FormName = Motivo Vergel
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,5]
 FormName = Motivo Estepa
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,6]
 FormName = Motivo Polar
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,7]
 FormName = Motivo Jungla
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,8]
 FormName = Motivo Marino
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,9]
 FormName = Motivo Moderno
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,10]
 FormName = Motivo Monzón
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,11]
 FormName = Motivo Océano
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,12]
 FormName = Motivo Taiga
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,13]
 FormName = Motivo Oasis
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,14]
 FormName = Motivo Desierto
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,15]
 FormName = Motivo Pantano
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,16]
 FormName = Motivo Solar
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,17]
 FormName = Motivo Tundra
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,18]
 FormName = Motivo Fantasía
+UnmegaForm = -2
 #-------------------------------
 [VIVILLON,19]
 FormName = Motivo Poké Ball
+UnmegaForm = -2
 #-------------------------------
 [PYROAR,1]
 FormName = Mega Pyroar
 MegaStone = PYROARITE
+UnmegaForm = -2
 BaseStats = 86,88,92,126,129,86
 Abilities = ADAPTABILITY
 HiddenAbilities = ADAPTABILITY
-Height = 1.5
 Weight = 93.3
 Pokedex = Las llamas que escupe superan los 10,000ºC. Protege a la manada agitando su abrasadora melena de fuego.
 Generation = 9
 #-------------------------------
 [FLABEBE,1]
 FormName = Forma Flor Amarilla
+UnmegaForm = -2
 #-------------------------------
 [FLABEBE,2]
 FormName = Forma Flor Naranja
+UnmegaForm = -2
 #-------------------------------
 [FLABEBE,3]
 FormName = Forma Flor Azul
+UnmegaForm = -2
 #-------------------------------
 [FLABEBE,4]
 FormName = Forma Flor Blanca
+UnmegaForm = -2
 #-------------------------------
 [FLOETTE,1]
 FormName = Forma Flor Amarilla
+UnmegaForm = -2
 #-------------------------------
 [FLOETTE,2]
 FormName = Forma Flor Naranja
+UnmegaForm = -2
 #-------------------------------
 [FLOETTE,3]
 FormName = Forma Flor Azul
+UnmegaForm = -2
 #-------------------------------
 [FLOETTE,4]
 FormName = Forma Flor Blanca
+UnmegaForm = -2
 #-------------------------------
 [FLOETTE,5]
 FormName = Forma Flor Eterna
+UnmegaForm = -2
 BaseStats = 74,65,67,92,125,128
 BaseExp = 243
 Moves = 1,TACKLE,1,VINEWHIP,1,FAIRYWIND,6,FAIRYWIND,10,LUCKYCHANT,15,RAZORLEAF,20,WISH,25,MAGICALLEAF,27,GRASSYTERRAIN,33,PETALBLIZZARD,38,AROMATHERAPY,43,MISTYTERRAIN,46,MOONBLAST,50,LIGHTOFRUIN,51,PETALDANCE,58,SOLARBEAM
 EggGroups = Undiscovered
 Pokedex = Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder.
 Evolutions = FLORGES,None,
+Evolution = FLORGES,None
 #-------------------------------
 [FLOETTE,6]
 FormName = Mega Floette
 MegaStone = FLOETTITE
+UnmegaForm = 5
 BaseStats = 74,65,67,92,125,128
 Abilities = MEGALAUNCHER
 HiddenAbilities = MEGALAUNCHER
-Height = 0.2
 Weight = 100.8
-UnmegaForm = 5
 Pokedex = Su Flor Eterna ha absorbido toda la energía de la megaevolución y ahora es capaz de atacar a los enemigos por sí sola.
 Generation = 9
 #-------------------------------
 [FLORGES,1]
 FormName = Forma Flor Amarilla
+UnmegaForm = -2
 #-------------------------------
 [FLORGES,2]
 FormName = Forma Flor Naranja
+UnmegaForm = -2
 #-------------------------------
 [FLORGES,3]
 FormName = Forma Flor Azul
+UnmegaForm = -2
 #-------------------------------
 [FLORGES,4]
 FormName = Forma Flor Blanca
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,1]
 FormName = Forma Corte Corazón
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,2]
 FormName = Forma Corte Estrella
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,3]
 FormName = Forma Corte Rombo
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,4]
 FormName = Forma Corte Señorita
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,5]
 FormName = Forma Corte Dama
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,6]
 FormName = Forma Corte Caballero
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,7]
 FormName = Forma Corte Aristocrático
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,8]
 FormName = Forma Corte Kabuki
+UnmegaForm = -2
 #-------------------------------
 [FURFROU,9]
 FormName = Forma Forma Corte Faraónico
+UnmegaForm = -2
 #-------------------------------
 [MEOWSTIC,1]
 FormName = Forma Hembra
+UnmegaForm = -2
 HiddenAbilities = COMPETITIVE
 Moves = 1,STOREDPOWER,1,MEFIRST,1,MAGICALLEAF,1,SCRATCH,1,LEER,1,COVET,1,CONFUSION,5,COVET,9,CONFUSION,13,LIGHTSCREEN,17,PSYBEAM,19,FAKEOUT,22,DISARMINGVOICE,25,PSYSHOCK,28,CHARGEBEAM,31,SHADOWBALL,35,EXTRASENSORY,40,PSYCHIC,43,ROLEPLAY,45,SIGNALBEAM,48,SUCKERPUNCH,50,FUTURESIGHT,53,STOREDPOWER
 Color = White
@@ -2378,11 +2662,11 @@ Pokedex = Son ligeramente más agresivas y egoístas que los machos. Castigan si
 [MEOWSTIC,2]
 FormName = Mega Meowstic
 MegaStone = MEOWSTICITE
+UnmegaForm = -2
 BaseStats = 74,48,76,124,143,101
 BaseExp = 198
 Abilities = PSYCHICSURGE
 HiddenAbilities = PSYCHICSURGE
-UnmegaForm = -2
 Height = 0.8
 Weight = 10.1
 Pokedex = Mega Meowstic puede usar su poder psíquico para comprimir o expandir cualquier cosa. Abruma a sus enemigos distorsionando el espacio mismo.
@@ -2390,6 +2674,7 @@ Generation = 9
 #-------------------------------
 [AEGISLASH,1]
 FormName = Forma Filo
+UnmegaForm = -2
 BaseStats = 60,140,50,60,140,50
 EVs = ATTACK,2,SPECIAL_ATTACK,1
 Pokedex = Al adoptar esta forma, centra su estrategia en la ofensiva, aprovechando todo el peso y la fuerza del acero para atacar al rival.
@@ -2397,6 +2682,7 @@ Pokedex = Al adoptar esta forma, centra su estrategia en la ofensiva, aprovechan
 [MALAMAR,1]
 FormName = Mega Malamar
 MegaStone = MALAMARITE
+UnmegaForm = -2
 BaseStats = 86,102,88,88,98,120
 BaseExp = 300
 Abilities = NEUROFORCE
@@ -2408,8 +2694,9 @@ Generation = 9
 #-------------------------------
 [BARBARACLE,1]
 FormName = Mega Barbaracle
-Types = ROCK,FIGHTING
 MegaStone = BARBARACITE
+UnmegaForm = -2
+Types = ROCK,FIGHTING
 BaseStats = 72,140,130,88,64,106
 Abilities = TOUGHCLAWS
 HiddenAbilities = TOUGHCLAWS
@@ -2421,9 +2708,9 @@ Generation = 9
 [DRAGALGE,1]
 FormName = Mega Dragalge
 MegaStone = DRAGALGITE
+UnmegaForm = -2
 BaseStats = 65,85,105,44,132,163
 Abilities = ADAPTABILITY
-HiddenAbilities = ADAPTABILITY
 Height = 2.1
 Weight = 100.3
 Pokedex = La sustancia que escupe trastorna el poder regenerativo de las células, y es altamente tóxica para todos menos para él mismo.
@@ -2432,6 +2719,7 @@ Generation = 9
 [HAWLUCHA,1]
 FormName = Mega Hawlucha
 MegaStone = HAWLUCHANITE
+UnmegaForm = -2
 BaseStats = 78,137,100,118,74,93
 BaseExp = 300
 Abilities = RECKLESS
@@ -2442,10 +2730,12 @@ Pokedex = Presume su fuerza al exhibir todos los músculos de su cuerpo, los cua
 Generation = 9
 #-------------------------------
 [GOOMY,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [SLIGGOO,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = STEEL,DRAGON
 BaseStats = 58,75,83,40,83,113
 Abilities = SAPSIPPER,SHELLARMOR
@@ -2459,6 +2749,7 @@ Generation = 8
 #-------------------------------
 [GOODRA,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = STEEL,DRAGON
 BaseStats = 80,100,100,60,110,150
 Abilities = SAPSIPPER,SHELLARMOR
@@ -2472,6 +2763,7 @@ Generation = 8
 #-------------------------------
 [PUMPKABOO,1]
 FormName = Tamaño Normal
+UnmegaForm = -2
 BaseStats = 49,66,70,51,44,55
 HiddenAbilities = INSOMNIA
 Height = 0.4
@@ -2480,6 +2772,7 @@ Pokedex = Las almas errantes de este mundo se introducen en su cuerpo e inician 
 #-------------------------------
 [PUMPKABOO,2]
 FormName = Tamaño Grande
+UnmegaForm = -2
 BaseStats = 54,66,70,46,44,55
 Height = 0.5
 Weight = 7.5
@@ -2487,6 +2780,7 @@ Pokedex = Se atribuye su gran tamaño al hecho de haber vivido en un lugar donde
 #-------------------------------
 [PUMPKABOO,3]
 FormName = Tamaño Extragrande
+UnmegaForm = -2
 BaseStats = 59,66,70,41,44,55
 HiddenAbilities = INSOMNIA
 Height = 0.8
@@ -2498,6 +2792,7 @@ WildItemRare = MIRACLESEED
 #-------------------------------
 [GOURGEIST,1]
 FormName = Tamaño Normal
+UnmegaForm = -2
 BaseStats = 65,90,122,84,58,75
 HiddenAbilities = INSOMNIA
 Height = 0.9
@@ -2506,6 +2801,7 @@ Pokedex = Se dice que los espeluznantes alaridos que emite bien entrada la noche
 #-------------------------------
 [GOURGEIST,2]
 FormName = Tamaño Grande
+UnmegaForm = -2
 BaseStats = 75,95,122,69,58,75
 Height = 1.1
 Weight = 14.0
@@ -2513,6 +2809,7 @@ Pokedex = Los Gourgeist Tamaño Grande se hacen pasar por adultos para tomar a l
 #-------------------------------
 [GOURGEIST,3]
 FormName = Tamaño Extragrande
+UnmegaForm = -2
 BaseStats = 85,100,122,54,58,75
 HiddenAbilities = INSOMNIA
 Height = 1.7
@@ -2523,10 +2820,12 @@ WildItemUncommon = MIRACLESEED
 WildItemRare = MIRACLESEED
 #-------------------------------
 [BERGMITE,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [AVALUGG,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = ICE,ROCK
 BaseStats = 95,127,184,38,34,36
 Abilities = STRONGJAW,ICEBODY
@@ -2539,9 +2838,11 @@ Generation = 8
 #-------------------------------
 [XERNEAS,1]
 FormName = Modo Activo
+UnmegaForm = -2
 #-------------------------------
 [ZYGARDE,1]
 FormName = Forma 10%
+UnmegaForm = -2
 BaseStats = 54,100,71,115,61,85
 BaseExp = 243
 Height = 1.2
@@ -2553,6 +2854,7 @@ Generation = 7
 #-------------------------------
 [ZYGARDE,2]
 FormName = Forma Completa
+UnmegaForm = -2
 BaseStats = 216,100,121,85,91,95
 BaseExp = 354
 Abilities = POWERCONSTRUCT
@@ -2567,6 +2869,7 @@ Flags = Legendary
 #-------------------------------
 [ZYGARDE,3]
 PokedexForm = 2
+UnmegaForm = -2
 BaseStats = 216,100,121,85,91,95
 BaseExp = 354
 Abilities = POWERCONSTRUCT
@@ -2580,12 +2883,12 @@ Flags = Legendary
 [ZYGARDE,4]
 FormName = Mega Zygarde
 MegaStone = ZYGARDITE
+UnmegaForm = -2
 BaseStats = 74,65,67,92,125,128
 Abilities = POWERCONSTRUCT
 HiddenAbilities = POWERCONSTRUCT
 Height = 7.7
 Weight = 610.0
-UnmegaForm = -2
 Pokedex = En crisis sin precedentes, megaevoluciona en respuesta a las emociones de la gente. Domina cualquier situación con su fuerza sin igual.
 Generation = 9
 Flags = Legendary
@@ -2593,16 +2896,18 @@ Flags = Legendary
 [DIANCIE,1]
 FormName = Mega Diancie
 MegaStone = DIANCITE
+UnmegaForm = -2
 BaseStats = 50,160,110,110,160,110
 BaseExp = 350
 Abilities = MAGICBOUNCE
 HiddenAbilities = MAGICBOUNCE
 Height = 1.1
-Pokedex = Se conoce como la Princesa Real Rosada. El lustroso diamante que tiene en la frente es de nada más y nada menos que 2,000 quilates.
 Weight = 27.8
+Pokedex = Se conoce como la Princesa Real Rosada. El lustroso diamante que tiene en la frente es de nada más y nada menos que 2,000 quilates.
 #-------------------------------
 [HOOPA,1]
 FormName = Forma Desatada
+UnmegaForm = -2
 Types = PSYCHIC,DARK
 BaseStats = 80,160,60,80,170,130
 BaseExp = 340
@@ -2612,13 +2917,16 @@ Weight = 490.0
 Shape = BipedalTail
 #-------------------------------
 [ROWLET,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [DARTRIX,1]
+UnmegaForm = -2
 Generation = 8
 #-------------------------------
 [DECIDUEYE,1]
 FormName = Forma Hisui
+UnmegaForm = -2
 Types = GRASS,FIGHTING
 BaseStats = 88,112,80,60,95,95
 HiddenAbilities = SCRAPPY
@@ -2631,6 +2939,7 @@ Generation = 8
 [CRABOMINABLE,1]
 FormName = Mega Crabominable
 MegaStone = CRABOMINITE
+UnmegaForm = -2
 BaseStats = 97,157,122,33,62,107
 BaseExp = 202
 Abilities = IRONFIST
@@ -2642,30 +2951,36 @@ Generation = 9
 #-------------------------------
 [ORICORIO,1]
 FormName = Estilo Animado
+UnmegaForm = -2
 Types = ELECTRIC,FLYING
 Color = Yellow
 Pokedex = Crea una carga eléctrica al frotar sus plumas. Baila hacia sus enemigos y les lanza impactantes golpes eléctricos.
 #-------------------------------
 [ORICORIO,2]
 FormName = Estilo Plácido
+UnmegaForm = -2
 Types = PSYCHIC,FLYING
 Color = Pink
 Pokedex = Este Oricorio se relaja balanceándose suavemente. Esto aumenta su energía psíquica, que luego dispara a sus enemigos.
 #-------------------------------
 [ORICORIO,3]
 FormName = Estilo Refinado
+UnmegaForm = -2
 Types = GHOST,FLYING
 Color = Purple
 Pokedex = Convoca a los muertos con su danza de ensueño. De su malicia extrae poder para maldecir a sus enemigos.
 #-------------------------------
 [ROCKRUFF,2]
+UnmegaForm = -2
 Abilities = OWNTEMPO
 HiddenAbilities = OWNTEMPO
 Flags = InheritFormFromMother
 Evolutions = LYCANROC,LevelEvening,25
+Evolution = LYCANROC,LevelEvening,25
 #-------------------------------
 [LYCANROC,1]
 FormName = Forma Nocturna
+UnmegaForm = -2
 BaseStats = 85,115,75,82,55,75
 Abilities = KEENEYE,VITALSPIRIT
 HiddenAbilities = NOGUARD
@@ -2678,6 +2993,7 @@ Pokedex = Provoca al enemigo antes de atacarlo. Desgarra carne y rompe huesos go
 #-------------------------------
 [LYCANROC,2]
 FormName = Forma Crepuscular
+UnmegaForm = -2
 BaseStats = 75,117,65,110,55,65
 Abilities = TOUGHCLAWS
 HiddenAbilities = TOUGHCLAWS
@@ -2688,6 +3004,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [WISHIWASHI,1]
 FormName = Forma Banco
+UnmegaForm = -2
 BaseStats = 45,140,130,30,140,135
 BaseExp = 217
 Height = 8.2
@@ -2697,8 +3014,9 @@ Pokedex = Es conocido como la Bestia del Mar. Si el número de Wishiwashi herido
 #-------------------------------
 [GOLISOPOD,1]
 FormName = Mega Golisopod
-Types = BUG,STEEL
 MegaStone = GOLISOPITE
+UnmegaForm = -2
+Types = BUG,STEEL
 BaseStats = 75,150,175,40,70,120
 BaseExp = 221
 Abilities = SHELLARMOR
@@ -2710,78 +3028,97 @@ Generation = 9
 #-------------------------------
 [SILVALLY,1]
 FormName = Tipo Lucha
+UnmegaForm = -2
 Types = FIGHTING
 #-------------------------------
 [SILVALLY,2]
 FormName = Tipo Volador
+UnmegaForm = -2
 Types = FLYING
 #-------------------------------
 [SILVALLY,3]
 FormName = Tipo Veneno
+UnmegaForm = -2
 Types = POISON
 #-------------------------------
 [SILVALLY,4]
 FormName = Tipo Tierra
+UnmegaForm = -2
 Types = GROUND
 #-------------------------------
 [SILVALLY,5]
 FormName = Tipo Roca
+UnmegaForm = -2
 Types = ROCK
 #-------------------------------
 [SILVALLY,6]
 FormName = Tipo Bicho
+UnmegaForm = -2
 Types = BUG
 #-------------------------------
 [SILVALLY,7]
 FormName = Tipo Fantasma
+UnmegaForm = -2
 Types = GHOST
 #-------------------------------
 [SILVALLY,8]
 FormName = Tipo Acero
+UnmegaForm = -2
 Types = STEEL
 #-------------------------------
 [SILVALLY,9]
 FormName = Tipo Desconocido
+UnmegaForm = -2
 Types = QMARKS
 #-------------------------------
 [SILVALLY,10]
 FormName = Tipo Fuego
+UnmegaForm = -2
 Types = FIRE
 #-------------------------------
 [SILVALLY,11]
 FormName = Tipo Agua
+UnmegaForm = -2
 Types = WATER
 #-------------------------------
 [SILVALLY,12]
 FormName = Tipo Planta
+UnmegaForm = -2
 Types = GRASS
 #-------------------------------
 [SILVALLY,13]
 FormName = Tipo Eléctrico
+UnmegaForm = -2
 Types = ELECTRIC
 #-------------------------------
 [SILVALLY,14]
 FormName = Tipo Psíquico
+UnmegaForm = -2
 Types = PSYCHIC
 #-------------------------------
 [SILVALLY,15]
 FormName = Tipo Hielo
+UnmegaForm = -2
 Types = ICE
 #-------------------------------
 [SILVALLY,16]
 FormName = Tipo Dragón
+UnmegaForm = -2
 Types = DRAGON
 #-------------------------------
 [SILVALLY,17]
 FormName = Tipo Siniestro
+UnmegaForm = -2
 Types = DARK
 #-------------------------------
 [SILVALLY,18]
 FormName = Tipo Hada
+UnmegaForm = -2
 Types = FAIRY
 #-------------------------------
 [MINIOR,7]
 FormName = Forma Núcleo Rojo
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2792,6 +3129,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,8]
 FormName = Forma Núcleo Naranja
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2802,6 +3140,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,9]
 FormName = Forma Núcleo Amarillo
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2812,6 +3151,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,10]
 FormName = Forma Núcleo Verde
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2822,6 +3162,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,11]
 FormName = Forma Núcleo Azul
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2832,6 +3173,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,12]
 FormName = Forma Núcleo Añil
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2842,6 +3184,7 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MINIOR,13]
 FormName = Forma Núcleo Violeta
+UnmegaForm = -2
 BaseStats = 60,100,60,120,100,60
 BaseExp = 175
 EVs = ATTACK,1,SPECIAL_ATTACK,1
@@ -2852,21 +3195,23 @@ Flags = InheritFormFromMother
 #-------------------------------
 [MIMIKYU,1]
 FormName = Forma Descubierta
+UnmegaForm = -2
 Pokedex = Le entristece que pueda descubrirse su identidad. Jamás perdona a quienes rompen su disfraz y no descansa hasta vengarse.
 #-------------------------------
 [DRAMPA,1]
 FormName = Mega Drampa
 MegaStone = DRAMPANITE
+UnmegaForm = -2
 BaseStats = 78,85,110,36,160,116
 Abilities = BERSERK
 HiddenAbilities = BERSERK
-Height = 3.0
 Weight = 240.5
 Pokedex = Las células de su cuerpo se regeneraron, por lo que recuperó la juventud. Es capaz de manipular la atmósfera para invocar tormentas.
 Generation = 9
 #-------------------------------
 [NECROZMA,1]
 FormName = Forma Melena Crepuscular
+UnmegaForm = -2
 Types = PSYCHIC,STEEL
 BaseStats = 97,157,127,77,113,109
 BaseExp = 340
@@ -2879,6 +3224,7 @@ Pokedex = Forma que adapta tras alimentarse de la luz de Solgaleo. Se lanza sobr
 #-------------------------------
 [NECROZMA,2]
 FormName = Forma Alas del Alba
+UnmegaForm = -2
 Types = PSYCHIC,GHOST
 BaseStats = 97,113,109,77,157,127
 BaseExp = 340
@@ -2890,6 +3236,7 @@ Pokedex = En esta forma, Lunala no goza de voluntad propia. Necrozma tiene contr
 #-------------------------------
 [NECROZMA,3]
 FormName = Forma Ultra-Necrozma
+UnmegaForm = -2
 Types = PSYCHIC,DRAGON
 BaseStats = 97,167,97,129,167,97
 BaseExp = 377
@@ -2901,6 +3248,7 @@ Pokedex = Esta forma es el resultado de haber absorbido una gran cantidad de ene
 #-------------------------------
 [NECROZMA,4]
 PokedexForm = 3
+UnmegaForm = -2
 Types = PSYCHIC,DRAGON
 BaseStats = 97,167,97,129,167,97
 BaseExp = 377
@@ -2911,6 +3259,7 @@ Color = Yellow
 #-------------------------------
 [MAGEARNA,1]
 FormName = Forma Color Vetusta
+UnmegaForm = -2
 Color = Red
 Pokedex = Este es el hermoso aspecto que presentaba Magearna cuando fue ofrecido como presente a la hija de un rey hace 500 años.
 #-------------------------------
@@ -2919,50 +3268,48 @@ FormName = Mega Magearna
 MegaStone = MAGEARNITE
 BaseStats = 80,125,115,95,170,115
 BaseExp = 350
-Abilities = SOULHEART
 HiddenAbilities = SOULHEART
 Height = 1.3
 Weight = 248.1
-UnmegaForm = 0
 Pokedex = La megaevolución ha permitido activar un modo supresor que elimina sus sentimientos. Derrota a sus enemigos sin perdón alguno.
 Generation = 9
 #-------------------------------
 [MAGEARNA,3]
 FormName = Mega Magearna Forma Color Vetusta
-Color = Red
 MegaStone = MAGEARNITE
+UnmegaForm = 1
 BaseStats = 80,125,115,95,170,115
 BaseExp = 350
-Abilities = SOULHEART
 HiddenAbilities = SOULHEART
 Height = 1.3
 Weight = 248.1
-UnmegaForm = 1
+Color = Red
 Pokedex = Un mecanismo para eliminar las limitaciones de Magearna ha permanecido oculto dentro de ella durante 500 años. Este mecanismo se activa mediante una Megapiedra.
 Generation = 9
 #-------------------------------
 [ZERAORA,1]
 FormName = Mega Zeraora
 MegaStone = ZERAORITE
+UnmegaForm = -2
 BaseStats = 88,157,75,153,147,80
 BaseExp = 350
-Abilities = VOLTABSORB
 HiddenAbilities = VOLTABSORB
-Height = 1.5
-Weight = 44.5
 Pokedex = Almacena en su cuerpo la energía eléctrica proveniente de los rayos más potentes. Al descargar dicha electricidad, lo convierte en uno de los Pokémon de tipo Eléctrico más fuertes.
 Generation = 9
 #-------------------------------
 [CRAMORANT,1]
 FormName = Forma Tragatodo
+UnmegaForm = -2
 Pokedex = Debido a su insaciable apetito, intentó engullir un enorme Arrokuda y se le quedó atravesado en el gaznate.
 #-------------------------------
 [CRAMORANT,2]
 FormName = Forma Engulletodo
+UnmegaForm = -2
 Pokedex = Intentando engullir un Pikachu por accidente, se le quedó atragantado, aunque no parece importarle mucho.
 #-------------------------------
 [TOXTRICITY,1]
 FormName = Forma Grave
+UnmegaForm = -2
 Abilities = PUNKROCK,MINUS
 Moves = 0,SPARK,1,EERIEIMPULSE,1,BELCH,1,TEARFULLOOK,1,NUZZLE,1,GROWL,1,FLAIL,1,ACID,1,THUNDERSHOCK,1,ACIDSPRAY,1,LEER,1,NOBLEROAR,4,CHARGE,8,SHOCKWAVE,12,SCARYFACE,16,TAUNT,20,VENOMDRENCH,24,SCREECH,28,SWAGGER,32,TOXIC,36,DISCHARGE,40,POISONJAB,44,OVERDRIVE,48,BOOMBURST,52,MAGNETICFLUX
 TutorMoves = ATTRACT,CAPTIVATE,CONFIDE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,EERIEIMPULSE,ELECTROBALL,ENCORE,ENDURE,FACADE,FIREPUNCH,FLING,FRUSTRATION,GIGAIMPACT,GUNKSHOT,HEX,HIDDENPOWER,HYPERBEAM,HYPERVOICE,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,PAYBACK,POISONJAB,PROTECT,REST,RETURN,RISINGVOLTAGE,ROUND,SCARYFACE,SCREECH,SECRETPOWER,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNARL,SNORE,STOREDPOWER,SUBSTITUTE,SWAGGER,SWIFT,TAUNT,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERPUNCH,THUNDERWAVE,TOXIC,UPROAR,VENOMDRENCH,VOLTSWITCH,WILDCHARGE
@@ -2970,308 +3317,373 @@ Pokedex = Puede liberar descargas eléctricas de hasta 15.000 V. Se enfrenta a c
 #-------------------------------
 [SINISTEA,1]
 FormName = Forma Genuina
+UnmegaForm = -2
 Pokedex = Espera a que algún incauto intente bebérselo para absorber su energía vital, pero suelen escupirlo enseguida debido a su mal sabor.
 Evolutions = POLTEAGEIST,Item,CHIPPEDPOT
+Evolution = POLTEAGEIST,Item,CHIPPEDPOT
 #-------------------------------
 [POLTEAGEIST,1]
 FormName = Forma Genuina
+UnmegaForm = -2
 Pokedex = Tiene un sabor y un aroma sumamente singulares. Si su Entrenador se hace pleno merecedor de su confianza, le permite catarlo ligeramente.
 #-------------------------------
 [ALCREMIE,1]
 FormName = Forma Crema de Vainilla Confite corazón
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,2]
 FormName = Forma Crema de Vainilla Confite flor
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,3]
 FormName = Forma Crema de Vainilla Confite estrella
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,4]
 FormName = Forma Crema de Vainilla Confite trébol
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,5]
 FormName = Forma Crema de Vainilla Confite fruto
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,6]
 FormName = Forma Crema de Vainilla Confite lazo
+UnmegaForm = -2
 #-------------------------------
 [ALCREMIE,7]
 FormName = Forma Crema Rosa Confite fresa
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,8]
 FormName = Forma Crema Rosa Confite corazón
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,9]
 FormName = Forma Crema Rosa Confite flor
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,10]
 FormName = Forma Crema Rosa Confite estrella
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,11]
 FormName = Forma Crema Rosa Confite trébol
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,12]
 FormName = Forma Crema Rosa Confite fruto
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,13]
 FormName = Forma Crema Rosa Confite lazo
+UnmegaForm = -2
 Pokedex = A causa de unas sutiles vibraciones en las células de su cuerpo en el momento de la evolución, ha adquirido un sabor agridulce.
 #-------------------------------
 [ALCREMIE,14]
 FormName = Forma Crema de Té Confite fresa
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,15]
 FormName = Forma Crema de Té Confite corazón
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,16]
 FormName = Forma Crema de Té Confite flor
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,17]
 FormName = Forma Crema de Té Confite estrella
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,18]
 FormName = Forma Crema de Té Confite trébol
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,19]
 FormName = Forma Crema de Té Confite fruto
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,20]
 FormName = Forma Crema de Té Confite lazo
+UnmegaForm = -2
 Color = Green
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque fragante.
 #-------------------------------
 [ALCREMIE,21]
 FormName = Forma Crema de Menta Confite fresa
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,22]
 FormName = Forma Crema de Menta Confite corazón
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,23]
 FormName = Forma Crema de Menta Confite flor
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,24]
 FormName = Forma Crema de Menta Confite estrella
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,25]
 FormName = Forma Crema de Menta Confite trébol
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,26]
 FormName = Forma Crema de Menta Confite fruto
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,27]
 FormName = Forma Crema de Menta Confite lazo
+UnmegaForm = -2
 Color = Blue
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque refrescante.
 #-------------------------------
 [ALCREMIE,28]
 FormName = Forma Crema de Limón Confite fresa
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,29]
 FormName = Forma Crema de Limón Confite corazón
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,30]
 FormName = Forma Crema de Limón Confite flor
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,31]
 FormName = Forma Crema de Limón Confite estrella
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,32]
 FormName = Forma Crema de Limón Confite trébol
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,33]
 FormName = Forma Crema de Limón Confite fruto
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,34]
 FormName = Forma Crema de Limón Confite lazo
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,35]
 FormName = Forma Crema Salada Confite fresa
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,36]
 FormName = Forma Crema Salada Confite corazón
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,37]
 FormName = Forma Crema Salada Confite flor
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,38]
 FormName = Forma Crema Salada Confite estrella
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,39]
 FormName = Forma Crema Salada Confite trébol
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,40]
 FormName = Forma Crema Salada Confite fruto
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,41]
 FormName = Forma Crema Salada Confite lazo
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque agrio.
 #-------------------------------
 [ALCREMIE,42]
 FormName = Forma Mezcla Rosa Confite fresa
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,43]
 FormName = Forma Mezcla Rosa Confite corazón
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,44]
 FormName = Forma Mezcla Rosa Confite flor
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,45]
 FormName = Forma Mezcla Rosa Confite estrella
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,46]
 FormName = Forma Mezcla Rosa Confite trébol
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,47]
 FormName = Forma Mezcla Rosa Confite fruto
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,48]
 FormName = Forma Mezcla Rosa Confite fruto
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque especial.
 #-------------------------------
 [ALCREMIE,49]
 FormName = Forma Mezcla Caramelo Confite fresa
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,50]
 FormName = Forma Mezcla Caramelo Confite corazón
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,51]
 FormName = Forma Mezcla Caramelo Confite flor
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,52]
 FormName = Forma Mezcla Caramelo Confite estrella
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,53]
 FormName = Forma Mezcla Caramelo Confite trébol
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,54]
 FormName = Forma Mezcla Caramelo Confite fruto
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,55]
 FormName = Forma Mezcla Caramelo Confite lazo
+UnmegaForm = -2
 Color = Brown
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque amargo.
 #-------------------------------
 [ALCREMIE,56]
 FormName = Forma Mezcla Tres Sabores Confite fresa
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,57]
 FormName = Forma Mezcla Tres Sabores Confite corazón
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,58]
 FormName = Forma Mezcla Tres Sabores Confite flor
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,59]
 FormName = Forma Mezcla Tres Sabores Confite estrella
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,60]
 FormName = Forma Mezcla Tres Sabores Confite trébol
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,61]
 FormName = Forma Mezcla Tres Sabores Confite fruto
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [ALCREMIE,62]
 FormName = Forma Mezcla Tres Sabores Confite lazo
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Cuando se ve amenazado, se defiende lanzando a sus agresores una nata con un toque complejo.
 #-------------------------------
 [FALINKS,1]
 FormName = Mega Falinks
 MegaStone = FALINKSITE
-Types = FIGHTING
+UnmegaForm = -2
 BaseStats = 65,135,135,100,70,65
 Abilities = ADAPTABILITY
 HiddenAbilities = ADAPTABILITY
@@ -3282,11 +3694,13 @@ Generation = 9
 #-------------------------------
 [EISCUE,1]
 FormName = Forma Cara Deshielo
+UnmegaForm = -2
 BaseStats = 75,80,70,130,65,50
 Pokedex = El hielo de la cabeza se ha deshecho y ha revelado un rostro apenado que cautiva a numerosas personas.
 #-------------------------------
 [INDEEDEE,1]
 FormName = Forma Hembra
+UnmegaForm = -2
 BaseStats = 70,55,65,85,95,105
 EVs = SPECIAL_DEFENSE,2
 Abilities = OWNTEMPO,SYNCHRONIZE
@@ -3297,11 +3711,13 @@ Pokedex = Ayuda a humanos y Pokémon para que le estén agradecidos. A las hembr
 #-------------------------------
 [MORPEKO,1]
 FormName = Forma Voraz
+UnmegaForm = -2
 Color = Purple
 Pokedex = El hambre lo ha vuelto agresivo y ha convertido la electricidad de sus carrillos en energía de tipo Siniestro.
 #-------------------------------
 [ZACIAN,1]
 FormName = Forma Espada Suprema
+UnmegaForm = -2
 Types = FAIRY,STEEL
 BaseStats = 92,170,115,148,80,115
 BaseExp = 360
@@ -3310,6 +3726,7 @@ Pokedex = En esta forma, capaz de cortar cualquier cosa, es temido y respetado y
 #-------------------------------
 [ZAMAZENTA,1]
 FormName = Forma Escudo Supremo
+UnmegaForm = -2
 Types = FIGHTING,STEEL
 BaseStats = 92,130,145,128,80,145
 BaseExp = 360
@@ -3318,6 +3735,7 @@ Pokedex = Esta forma, temida y venerada por igual, le ha valido el nombre de Reg
 #-------------------------------
 [URSHIFU,1]
 FormName = Estilo Fluido
+UnmegaForm = -2
 Types = FIGHTING,WATER
 Moves = 0,SURGINGSTRIKES,1,AQUAJET,1,ROCKSMASH,1,LEER,1,ENDURE,1,FOCUSENERGY,12,AERIALACE,16,SCARYFACE,20,HEADBUTT,24,BRICKBREAK,28,DETECT,32,BULKUP,36,IRONHEAD,40,DYNAMICPUNCH,44,COUNTER,48,CLOSECOMBAT,52,FOCUSPUNCH
 TutorMoves = ACROBATICS,ATTRACT,AURASPHERE,BODYPRESS,BODYSLAM,BRICKBREAK,BRINE,BULKUP,CAPTIVATE,CLOSECOMBAT,COACHING,CONFIDE,DIG,DIVE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,ENDURE,FACADE,FALSESWIPE,FIREPUNCH,FOCUSBLAST,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HELPINGHAND,HIDDENPOWER,ICEPUNCH,IRONDEFENSE,IRONHEAD,LIQUIDATION,LOWKICK,LOWSWEEP,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,REVENGE,REVERSAL,ROCKSLIDE,ROCKTOMB,ROUND,SCALD,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,STONEEDGE,SUBSTITUTE,SUPERPOWER,SWAGGER,SWIFT,TAUNT,THUNDERPUNCH,TOXIC,UTURN,WATERFALL,WHIRLPOOL,WORKUP,ZENHEADBUTT,AERIALACE,CHILLINGWATER,FLING,FOCUSPUNCH,ICESPINNER,SWORDSDANCE,TAKEDOWN,TRAILBLAZE
@@ -3325,6 +3743,7 @@ Pokedex = Su estilo de combate se inspira en el flujo del agua y consiste en cas
 #-------------------------------
 [CALYREX,1]
 FormName = Forma Jinete Glacial
+UnmegaForm = -2
 Types = PSYCHIC,ICE
 BaseStats = 100,165,150,50,85,130
 BaseExp = 340
@@ -3341,6 +3760,7 @@ Pokedex = No tenía piedad con quienes se interponían en su camino, pero se sab
 #-------------------------------
 [CALYREX,2]
 FormName = Forma Jinete Espectral
+UnmegaForm = -2
 Types = PSYCHIC,GHOST
 BaseStats = 100,85,80,150,165,100
 BaseExp = 340
@@ -3357,6 +3777,7 @@ Pokedex = Cuentan que salvó a las criaturas del bosque del impacto de un meteor
 #-------------------------------
 [URSALUNA,1]
 FormName = Forma Luna Carmesí
+UnmegaForm = -2
 BaseStats = 113,70,120,52,135,65
 EVs = SPECIAL_ATTACK,3
 Abilities = MINDSEYE
@@ -3369,11 +3790,12 @@ Generation = 9
 #-------------------------------
 [BASCULEGION,1]
 FormName = Forma Hembra
-GenderRatio = AlwaysFemale
+UnmegaForm = -2
 BaseStats = 120,92,65,78,100,75
 #-------------------------------
 [ENAMORUS,1]
 FormName = Forma Tótem
+UnmegaForm = -2
 BaseStats = 74,115,110,46,135,100
 Abilities = OVERCOAT
 Shape = Quadruped
@@ -3381,6 +3803,7 @@ Pokedex = Tras perder su apariencia femenina, surge de entre las nubes y, sin pi
 #-------------------------------
 [OINKOLOGNE,1]
 FormName = Forma Hembra
+UnmegaForm = -2
 BaseStats = 115,90,70,65,59,90
 Abilities = AROMAVEIL,GLUTTONY
 Moves = 1,TAILWHIP,1,TACKLE,3,DISARMINGVOICE,6,ECHOEDVOICE,9,MUDSHOT,12,COVET,15,DIG,17,HEADBUTT,23,YAWN,28,TAKEDOWN,30,WORKUP,34,UPROAR,39,DOUBLEEDGE,45,EARTHPOWER,51,BELCH
@@ -3388,42 +3811,51 @@ Pokedex = Desprende una fragancia floral. Puede saltar más de 5 m fácilmente g
 #-------------------------------
 [MAUSHOLD,1]
 FormName = Familia de Tres
+UnmegaForm = -2
 Weight = 2.3
 Pokedex = Una cría apareció de la noche a la mañana. Conviven como si fuesen una familia, aunque se desconocen los lazos que los unen.
 #-------------------------------
 [REVAVROOM,1]
+UnmegaForm = -2
 Types = FIRE
 Abilities = SPEEDBOOST
 #-------------------------------
 [REVAVROOM,2]
+UnmegaForm = -2
 Types = FAIRY
 Abilities = MISTYSURGE
 #-------------------------------
 [REVAVROOM,3]
+UnmegaForm = -2
 Types = FIGHTING
 Abilities = STAMINA
 #-------------------------------
 [REVAVROOM,4]
+UnmegaForm = -2
 Types = POISON
 Abilities = TOXICDEBRIS
 #-------------------------------
 [REVAVROOM,5]
+UnmegaForm = -2
 Types = DARK
 Abilities = INTIMIDATE
 #-------------------------------
 [SQUAWKABILLY,1]
 FormName = Plumaje Azul
+UnmegaForm = -2
 Color = Blue
 Pokedex = Constituyen el segundo grupo más numeroso tras los ejemplares de plumaje verde, a los que consideran rivales.
 #-------------------------------
 [SQUAWKABILLY,2]
 FormName = Plumaje Amarillo
+UnmegaForm = -2
 HiddenAbilities = SHEERFORCE
 Color = Yellow
 Pokedex = La agresividad de los ejemplares de plumaje amarillo responde a su negativa a ser sometidos por otros grupos más numerosos.
 #-------------------------------
 [SQUAWKABILLY,3]
 FormName = Plumaje Blanco
+UnmegaForm = -2
 HiddenAbilities = SHEERFORCE
 Color = White
 Pokedex = Aunque los ejemplares de este color sean la minoría y no les guste combatir, cuando corren peligro demuestran ser valientes y audaces.
@@ -3431,6 +3863,7 @@ Pokedex = Aunque los ejemplares de este color sean la minoría y no les guste co
 [SCOVILLAIN,1]
 FormName = Mega Scovillain
 MegaStone = SCOVILLAINITE
+UnmegaForm = -2
 BaseStats = 65,138,85,75,138,85
 BaseExp = 205
 Abilities = CHLOROPHYLL
@@ -3438,10 +3871,10 @@ HiddenAbilities = CHLOROPHYLL
 Height = 1.2
 Weight = 22.0
 Pokedex = La megaevolución ha intensificado el picante de este Pokémon. Agita su 'corbata' para golpear a sus enemigos.
-Generation = 9
 #-------------------------------
 [PALAFIN,1]
 FormName = Forma Heroica
+UnmegaForm = -2
 BaseStats = 100,160,97,100,106,87
 BaseExp = 228
 Height = 1.8
@@ -3452,6 +3885,7 @@ Pokedex = Es el héroe de los mares. Acude al rescate de la gente y de los Poké
 [GLIMMORA,1]
 FormName = Mega Glimmora
 MegaStone = GLIMMORANITE
+UnmegaForm = -2
 BaseStats = 83,90,105,101,150,96
 BaseExp = 219
 Abilities = LEVITATE
@@ -3459,61 +3893,56 @@ HiddenAbilities = LEVITATE
 Height = 2.8
 Weight = 77.0
 Pokedex = Los pétalos de Glimmora ahora son más grandes y están separados de su cuerpo principal. Asimismo, giran a su alrededor para protegerlo mientras dispersan fragmentos venenosos.
-Generation = 9
 #-------------------------------
 [TATSUGIRI,1]
 FormName = Forma Lánguida
+UnmegaForm = -2
 Color = Red
 Pokedex = Al parecer, tanto los motivos como el color de su cuerpo cambian para adaptarse a los gustos de la presa a la que quiere atraer.
 #-------------------------------
 [TATSUGIRI,2]
 FormName = Forma Recta
+UnmegaForm = -2
 Color = Yellow
 Pokedex = Se alimenta principalmente de Pokémon pájaro. Es consciente de que es débil, por lo que caza junto a un compañero.
 #-------------------------------
-[TATSUGIRI, 3]
+[TATSUGIRI,3]
 FormName = Mega Tatsugiri Forma Curvada
 MegaStone = TATSUGIRINITE
 BaseStats = 68,65,90,92,135,125
 BaseExp = 201
-Abilities = COMMANDER
 HiddenAbilities = COMMANDER
 Height = 0.6
 Weight = 24.0
-UnmegaForm = 0
 Pokedex = La megaevolución ha estimulado su cerebro y lo ha vuelto aún más astuto. En combate, crea y controla réplicas de sí mismo.
-Generation = 9
 #-------------------------------
-[TATSUGIRI, 4]
+[TATSUGIRI,4]
 FormName = Mega Tatsugiri Forma Lánguida
-Color = Red 
 MegaStone = TATSUGIRINITE
-BaseStats = 68,65,90,92,135,125
-BaseExp = 201
-Abilities = COMMANDER
-HiddenAbilities = COMMANDER
-Height = 0.6
-Weight = 24.0
 UnmegaForm = 1
-Pokedex = La megaevolución le permite solidificar la energía de la transformación, liberando esferas que explotan al mínimo contacto.
-Generation = 9
-#-------------------------------
-[TATSUGIRI, 5]
-FormName = Mega Tatsugiri Forma Recta
-Color = Yellow
-MegaStone = TATSUGIRINITE
 BaseStats = 68,65,90,92,135,125
 BaseExp = 201
-Abilities = COMMANDER
 HiddenAbilities = COMMANDER
 Height = 0.6
 Weight = 24.0
+Color = Red
+Pokedex = La megaevolución le permite solidificar la energía de la transformación, liberando esferas que explotan al mínimo contacto.
+#-------------------------------
+[TATSUGIRI,5]
+FormName = Mega Tatsugiri Forma Recta
+MegaStone = TATSUGIRINITE
 UnmegaForm = 2
+BaseStats = 68,65,90,92,135,125
+BaseExp = 201
+HiddenAbilities = COMMANDER
+Height = 0.6
+Weight = 24.0
+Color = Yellow
 Pokedex = La megaevolución le proporciona el uso libre de la energía de la transformación para crear un medio de transporte, con el cual puede desplazarse por el aire libremente.
-Generation = 9
 #-------------------------------
 [DUDUNSPARCE,1]
 FormName = Forma Trinodular
+UnmegaForm = -2
 Height = 4.5
 Weight = 47.4
 Pokedex = En un estudio reciente se descubrió que el número de segmentos de su cuerpo está determinado por su genética.
@@ -3521,18 +3950,16 @@ Pokedex = En un estudio reciente se descubrió que el número de segmentos de su
 [BAXCALIBUR,1]
 FormName = Mega Baxcalibur
 MegaStone = BAXCALIBRITE
+UnmegaForm = -2
 BaseStats = 115,175,117,87,105,101
 BaseExp = 350
-Abilities = THERMALEXCHANGE
 HiddenAbilities = THERMALEXCHANGE
-Height = 2.1
 Weight = 315.0
 Pokedex = La megaevolución ha impulsado el tamaño de la hoja que se encuentra en su placa dorsal. Su empuñadura es tan potente que puede disparar rayos de alta intensidad.
-Generation = 9
 #-------------------------------
 [GIMMIGHOUL,1]
 FormName = Forma Andante
-CatchRate = 45
+UnmegaForm = -2
 Abilities = RUNAWAY
 Height = 0.1
 Weight = 0.1
@@ -3543,15 +3970,19 @@ Pokedex = Vaga con una moneda cargada a la espalda. Para sobrevivir, absorbe la 
 #-------------------------------
 [POLTCHAGEIST,1]
 FormName = Forma Opulenta
+UnmegaForm = -2
 Pokedex = Absorbe la energía vital de aquellos que prueban un bocado de cualquier comida condimentada con el polvo que conforma su cuerpo.
 Evolutions = SINISTCHA,Item,MASTERPIECETEACUP
+Evolution = SINISTCHA,Item,MASTERPIECETEACUP
 #-------------------------------
 [SINISTCHA,1]
 FormName = Forma Exquisita
+UnmegaForm = -2
 Pokedex = Vive en un exquisito cuenco de té elaborado por un alfarero de renombre. Los coleccionistas más acérrimos se desviven por este Pokémon.
 #-------------------------------
 [OGERPON,1]
 FormName = Máscara Fuente
+UnmegaForm = -2
 Types = GRASS,WATER
 Abilities = WATERABSORB
 Color = Blue
@@ -3560,6 +3991,7 @@ Flags = Legendary,TeraType_WATER
 #-------------------------------
 [OGERPON,2]
 FormName = Máscara Horno
+UnmegaForm = -2
 Types = GRASS,FIRE
 Abilities = MOLDBREAKER
 Color = Red
@@ -3568,6 +4000,7 @@ Flags = Legendary,TeraType_FIRE
 #-------------------------------
 [OGERPON,3]
 FormName = Máscara Cimiento
+UnmegaForm = -2
 Types = GRASS,ROCK
 Abilities = STURDY
 Color = Gray
@@ -3576,10 +4009,12 @@ Flags = Legendary,TeraType_ROCK
 #-------------------------------
 [OGERPON,4]
 PokedexForm = 0
+UnmegaForm = -2
 #-------------------------------
 [OGERPON,5]
 FormName = Máscara Fuente
 PokedexForm = 1
+UnmegaForm = -2
 Types = GRASS,WATER
 Abilities = WATERABSORB
 Color = Blue
@@ -3588,6 +4023,7 @@ Flags = Legendary,TeraType_WATER
 [OGERPON,6]
 FormName = Máscara Horno
 PokedexForm = 2
+UnmegaForm = -2
 Types = GRASS,FIRE
 Abilities = MOLDBREAKER
 Color = Red
@@ -3596,6 +4032,7 @@ Flags = Legendary,TeraType_FIRE
 [OGERPON,7]
 FormName = Máscara Cimiento
 PokedexForm = 3
+UnmegaForm = -2
 Types = GRASS,ROCK
 Abilities = STURDY
 Color = Gray
@@ -3603,10 +4040,12 @@ Flags = Legendary,TeraType_ROCK
 #-------------------------------
 [OGERPON,8]
 FormName = Máscara Turquesa teracristalizado
+UnmegaForm = -2
 Abilities = EMBODYASPECT
 #-------------------------------
 [OGERPON,9]
 FormName = Máscara Fuente teracristalizado
+UnmegaForm = -2
 Types = GRASS,WATER
 Abilities = EMBODYASPECT_1
 Color = Blue
@@ -3614,6 +4053,7 @@ Flags = Legendary,TeraType_WATER
 #-------------------------------
 [OGERPON,10]
 FormName = Máscara Horno teracristalizado
+UnmegaForm = -2
 Types = GRASS,FIRE
 Abilities = EMBODYASPECT_2
 Color = Red
@@ -3621,6 +4061,7 @@ Flags = Legendary,TeraType_FIRE
 #-------------------------------
 [OGERPON,11]
 FormName = Máscara Cimiento teracristalizado
+UnmegaForm = -2
 Types = GRASS,ROCK
 Abilities = EMBODYASPECT_3
 Color = Gray
@@ -3628,6 +4069,7 @@ Flags = Legendary,TeraType_ROCK
 #-------------------------------
 [TERAPAGOS,1]
 FormName = Forma Teracristal
+UnmegaForm = -2
 BaseStats = 95,95,110,85,105,110
 EVs = DEFENSE,2,SPECIAL_DEFENSE,2
 Abilities = TERASHELL
@@ -3635,10 +4077,10 @@ Height = 0.3
 Weight = 16.0
 Shape = Head
 Pokedex = Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización.
-Flags = Legendary,TeraType_STELLAR
 #-------------------------------
 [TERAPAGOS,2]
 FormName = Forma Astral
+UnmegaForm = -2
 BaseStats = 160,105,110,85,130,110
 EVs = HP,3
 Abilities = TERAFORMZERO
@@ -3646,5 +4088,3 @@ Height = 1.7
 Weight = 77.0
 Shape = Head
 Pokedex = Adopta esta forma cuando su energía Teracristal se ve amplificada descomunalmente. Se asemeja a la imagen del mundo que la gente tenía antaño.
-Flags = Legendary,TeraType_STELLAR
-#-------------------------------
