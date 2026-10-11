@@ -128,7 +128,7 @@ class PokemonTrainerCard_Scene
     @viewport = Viewport.new(0, 0, Graphics.width, Graphics.height)
     @viewport.z = 99999
     @sprites = {}
-    addBackgroundPlane(@sprites, "bg", "Trainer Card/bg", @viewport, "Plugins")
+    addBackgroundPlane(@sprites, "bg", "Trainer Card/bg", @viewport)
     @sprites["card"] = IconSprite.new(128 * 2, 96 * 2, @viewport)
     @sprites["card"].setBitmap(File.join("Graphics", "Plugins", "Trainer Card", "card_#{$player.stars}"))
     @sprites["card"].zoom_x = 2 ; @sprites["card"].zoom_y = 2
