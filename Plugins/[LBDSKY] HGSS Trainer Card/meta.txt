@@ -1,0 +1,5 @@
+Name       = Mr. Gela's HGSS Trainer Card Scene
+Essentials = 21.1
+Version    = 1.1
+Credits    = Mr. Gela, DeepBlue PacificWaves, komeiji514, Skyflyer
+Website    = https://eeveeexpo.com/resources/388/

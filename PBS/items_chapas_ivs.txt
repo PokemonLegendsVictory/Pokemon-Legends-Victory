@@ -1,0 +1,62 @@
+[CHAPADORADA]
+Name = Chapa Dorada
+NamePlural = Chapas doradas
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta los IVs al máximo de un Pokémon.
+#-------------------------------
+[CHAPAHP]
+Name = Chapa Vigor
+NamePlural = Chapas Vigor
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs los PS de un Pokémon.
+#-------------------------------
+[CHAPAATK]
+Name = Chapa Músculo
+NamePlural = Chapas Músculo
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs el Ataque de un Pokémon.
+#-------------------------------
+[CHAPADEF]
+Name = Chapa Aguante
+NamePlural = Chapas Aguante
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs la Defensa de un Pokémon.
+#-------------------------------
+[CHAPAATKESP]
+Name = Chapa Intelecto
+NamePlural = Chapas Intelecto
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs el At. Esp. de un Pokémon.
+#-------------------------------
+[CHAPADEFESP]
+Name = Chapa Mente
+NamePlural = Chapas Mente
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs la Def. Esp. de un Pokémon.
+#-------------------------------
+[CHAPAVEL]
+Name = Chapa Ímpetu
+NamePlural = Chapas Ímpetu
+Pocket = 2
+Price = 250
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = Chapa que aumenta en 10 IVs la Velocidad de un Pokémon.

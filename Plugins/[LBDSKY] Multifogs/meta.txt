@@ -1,0 +1,4 @@
+Name = Multifogs
+Version    = 1.0.1
+Essentials = 21.1
+Credits    = JessWishes, Jinta
