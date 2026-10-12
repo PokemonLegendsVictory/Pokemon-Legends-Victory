@@ -19718,7 +19718,7 @@ Shape = Quadruped
 Category = Perrito
 Pokedex = Su carácter amigable lo convierte en el Pokémon ideal para Entrenadores novatos. Sin embargo, al crecer suele volverse un poco agresivo.
 Generation = 7
-Evolutions: LYCANBOOM,Level,30,HasMove,LANZACOHETES
+Evolutions: LYCANBOOM,HasMove,LANZACOHETES,Level,30
 Evolutions = LYCANROC,Level,25
 Evolution = LYCANROC,Level,25
 #-------------------------------
