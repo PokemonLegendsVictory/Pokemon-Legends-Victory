@@ -9884,3 +9884,14 @@ Flags = CanProtect,CanMirrorMove
 EffectChance = 10
 Description = El usuario expulsa el fuego con gran presión. Puede quemar.
 #-------------------------------
+[LANZACOHETES]
+Name = Lanzacohetes
+Type = DARK
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimesTargetThenTargetAlly
+Flags = CanProtect,CanMirrorMove
+Description = El usuario ataca dos veces usando los proyectiles de su cuello. Si hay dos enemigos, golpea una vez a cada uno.
