@@ -278,15 +278,17 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,17,10
 #-------------------------------
-[053]
+[053]   # Porcelanda Izq
 Name = Centro Pokémon Frente de Batalla
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
 SnapEdges = true
 #-------------------------------
-[054]   # Porcelana
+[054]   # Porcelana Norte
 Name = Tienda Frente de Batalla
+Outdoor = true
 MapPosition = 0,17,10
+SnapEdges = true
 #-------------------------------
 [055]
 Name = Torre Batalla
