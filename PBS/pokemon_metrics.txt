@@ -6086,3 +6086,8 @@ ShadowSprite = 0,19,7
 BackSprite = -19,66
 FrontSprite = 18,27
 ShadowSprite = 0,9,6
+#-------------------------------
+[LYCANBOOM]
+BackSprite = 0,27
+FrontSprite = -3,22
+ShadowSprite = 0,0,0
