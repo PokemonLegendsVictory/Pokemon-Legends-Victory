@@ -6088,6 +6088,8 @@ FrontSprite = 18,27
 ShadowSprite = 0,9,6
 #-------------------------------
 [LYCANBOOM]
-BackSprite = 0,27
+BackSprite = 5,42
 FrontSprite = -3,22
-ShadowSprite = 0,0,0
+ShadowSize = 2
+ShadowSprite = 0,0,-7
+AnimationSpeed = 3
