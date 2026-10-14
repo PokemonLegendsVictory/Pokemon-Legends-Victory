@@ -15183,7 +15183,7 @@ Generation = 5
 #-------------------------------
 [TRUBBISH]
 Name = Trubbish
-Types = POISON
+Types = POISON,GROUND
 BaseStats = 50,50,62,65,40,62
 GenderRatio = Female50Percent
 GrowthRate = Medium
