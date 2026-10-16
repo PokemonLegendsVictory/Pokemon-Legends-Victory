@@ -16,8 +16,7 @@ module Settings
   # El número base de fotogramas que se tarda en cargar cada nuevo fotograma de la animación de un sprite.
   # Aumenta para que todos los sprites animen más lento. Disminuye para animar más rápido.
   #-----------------------------------------------------------------------------
-  ANIMATION_FRAME_DELAY = 60
-  
+  ANIMATION_FRAME_DELAY = 60  
   #-----------------------------------------------------------------------------
   # Oculta los sprites de sombra del combatiente en el lado del jugador cuando es true.
   # Esto es false por defecto porque la interfaz de batalla predeterminada los ocultará de todos modos.
