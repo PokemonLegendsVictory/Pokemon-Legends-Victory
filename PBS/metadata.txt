@@ -15,7 +15,7 @@ BicycleBGM = Bicycle
 [1]
 TrainerType = POKEMONTRAINER_Red
 WalkCharset = trainer_POKEMONTRAINER_Red
-RunCharset = trainer_POKEMONTRAINER_Red
+RunCharset = boy_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
 DiveCharset = boy_surf
@@ -25,7 +25,7 @@ SurfFishCharset = boy_fish_offset
 [2]
 TrainerType = POKEMONTRAINER_Leaf
 WalkCharset = trainer_POKEMONTRAINER_Leaf
-RunCharset = trainer_POKEMONTRAINER_Leaf
+RunCharset = girl_run
 CycleCharset = girl_bike
 SurfCharset = girl_surf
 DiveCharset = girl_surf
