@@ -4,7 +4,7 @@
 Name = Intro
 #-------------------------------
 [002]   # Interiores Mayolica
-Name = \c[0]Condado Mayólica
+Name = \c[8]Condado Mayólica
 LocationSign = Pt town
 MapPosition = 0,13,12
 SnapEdges = true
