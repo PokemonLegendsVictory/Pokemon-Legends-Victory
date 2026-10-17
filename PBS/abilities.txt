@@ -1261,3 +1261,50 @@ Name = Manómetro
 Description = El ataque de Skeledirge aumenta cada turno hasta un máximo de tres. No es afectado por Gas Reactivo.
 Flags = Unchanging
 #-------------------------------
+[FAULTY]
+Name = Defectuoso
+Description = La artillería defectuosa que usa al atacar potencia sus ataques un 30%, pero reducen los PS un 10%.
+#-------------------------------
+[MACABRETELSON]
+Name = Telson Macabro
+Description = Sorprende al oponente con su telson señuelo, aumentando la potencia de los ataques punzantes en un 50%.
+#-------------------------------
+[SNOWSTORM]
+Name = Tormenta de nieve
+Description = Invoca una nevada que dura 5 turnos y dificulta la visión, disminuyendo un 10% la Precisión de los movimientos usados contra él. Con la Roca Helada durará 8 turnos. 
+#-------------------------------
+[COCKY]
+Name = Pavoneo
+Description = Su chulería lo hace inmune frente a movimientos de estado de otros Pokémon.
+#-------------------------------
+[VANDAL]
+Name = Vándalo
+Description = Sus dedos cubiertos en saliva venenosa hacen que los ataques de contacto tengan un 50% de Paralizar, Envenenar o Dormir al objetivo.
+#-------------------------------
+[LOCOMOTION]
+Name = Locomoción
+Description = Su gran potencia locomotora hace que no pueda ser amedrentado ni intimidado.
+#-------------------------------
+[CLAIRVOYANCE]
+Name = Clarividencia
+Description = Predice el primer golpe, reduciendo el daño sufrido a la mitad si sus PS están al máximo.
+#-------------------------------
+[TIMBER]
+Name = ¡Árbol Va!
+Description = Al golpear al enemigo con el hacha, caen hojas y ramas de su barba herbácea, colocando el Campo de Hierba.
+#-------------------------------
+[TRAPPER]
+Name = Trampero
+Description = Aumenta la precisión de sus movimientos en un 15% y atraviesa las protecciones, infligiendo un 1/4 del daño original.
+#-------------------------------
+[GREED]
+Name = Codicia
+Description = Debido a su incontrolable avaricia, evita que el enemigo huya o sea cambiado con su magnetismo y aumenta las ganancias.
+#-------------------------------
+[DUMPSTER]
+Name = Vertedero
+Description = Recupera PS al recibir daño de tierra y reduce un 50% el daño de contacto, pero duplica el daño de fuego.
+#-------------------------------
+[PITCHER]
+Name = Lanzador
+Description = Al usar Lanzamiento, el objetivo sale del combate reemplazado por otro Pokémon al azar y sube un nivel la Velocidad del agresor.
