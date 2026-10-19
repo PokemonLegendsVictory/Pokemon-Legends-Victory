@@ -1271,7 +1271,7 @@ Description = Sorprende al oponente con su telson señuelo, aumentando la potenc
 #-------------------------------
 [SNOWSTORM]
 Name = Tormenta de nieve
-Description = Invoca una nevada que dura 5 turnos y dificulta la visión, disminuyendo un 10% la Precisión de los movimientos usados contra él. Con la Roca Helada durará 8 turnos. 
+Description = Invoca una nevada que dura 5 turnos y disminuye un 5% la Precisión de los movimientos usados contra él. Con la Roca Helada durará 8 turnos. 
 #-------------------------------
 [COCKY]
 Name = Pavoneo
