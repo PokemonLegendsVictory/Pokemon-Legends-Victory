@@ -1308,3 +1308,7 @@ Description = Recupera PS al recibir daño de tierra y reduce un 50% el daño de
 [PITCHER]
 Name = Lanzador
 Description = Al usar Lanzamiento, el objetivo sale del combate reemplazado por otro Pokémon al azar y sube un nivel la Velocidad del agresor.
+#-------------------------------
+[ECOSYSTEM]
+Name = Ecosistema
+Description = Reduce el daño que sufren los aliados en combate en un 25%. A cambio, recupera 1/16 de sus PS al final de cada turno, impidiendo el uso de los restos.
