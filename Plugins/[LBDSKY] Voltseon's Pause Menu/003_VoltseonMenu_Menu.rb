@@ -122,6 +122,7 @@ class VoltseonsPauseMenu < Component
         final_pos = (@icon_base_x[key] + total)
         base_x    = direction > 0 ? (sprite.x <= final_pos) : (sprite.x >= final_pos)
         sprite.x  = (@icon_base_x[key] + total) if base_x
+        sprite.y = arc_y(sprite.x)
       end
       @sprites["icon_#{middle}"].zoom_x -= (ACTIVE_SCALE - 1.0) / duration
       @sprites["icon_#{middle}"].zoom_y -= (ACTIVE_SCALE - 1.0) / duration
@@ -227,6 +228,10 @@ class VoltseonsPauseMenu < Component
       last_x = final_x
     end
     @sprites["icon_dummy_r"].x = last_x + ($game_temp.menu_icon_width + offset + addl_space)
+    @sprites.each do |key, sprite|
+      next if !key[/icon/]
+      sprite.y = arc_y(sprite.x)
+    end
     return if !recalc
     @icon_base_x = {}
     @icon_offset_left = {}
@@ -288,4 +293,13 @@ class VoltseonsPauseMenu < Component
     shdw_color = $PokemonSystem.from_current_menu_theme(MENU_TEXTOUTLINE, Color.new(48, 48, 48))
     pbDrawTextPositions(@sprites["entrytext"].bitmap, [[text, Graphics.width / 4, 8, 2, base_color, shdw_color]])
   end
+
+  def arc_y(x)
+    base_y = Graphics.height - 42
+    return base_y if !ICON_ARC_ENABLED
+    dx = (x - (Graphics.width / 2)).abs.to_f
+    return (base_y - ICON_ARC_RISE + (ICON_ARC_CURVE * dx * dx)).round
+  end
+
+
 end

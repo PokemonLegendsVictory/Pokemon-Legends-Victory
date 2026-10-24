@@ -95,3 +95,8 @@ LOCATION_TEXTOUTLINE = [
 MENU_OPEN_SOUND   = "GUI menu open"
 MENU_CLOSE_SOUND  = "GUI menu close"
 MENU_CURSOR_SOUND = "GUI sel cursor"
+
+# Arc layout for the icon bar
+ICON_ARC_ENABLED = true
+ICON_ARC_RISE    = 22      # How many pixels the centre icon is raised from the old baseline
+ICON_ARC_CURVE   = 0.0030  # Steepness: higher = outer icons drop more
