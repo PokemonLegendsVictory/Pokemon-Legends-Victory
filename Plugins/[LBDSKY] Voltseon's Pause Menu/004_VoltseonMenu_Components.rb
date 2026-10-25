@@ -88,19 +88,34 @@ class VPM_PokemonPartyHud < Component
       @sprites["pokemon_#{i}"] = nil
       @sprites.delete("pokemon_#{i}")
     end
+    count  = $player.party.length
+    center = (count - 1) / 2.0
+    base_r = PARTY_RING_RADIUS + PARTY_RING_MARGIN
+    step   = PARTY_ARC_SPACING.to_f / base_r      # angle between neighbours (radians)
     $player.party.each_with_index do |pokemon, i|
       next if !pokemon.is_a?(Pokemon)
-      spacing = (Graphics.width / 8) * i
-      # Pokémon Icon
+      if PARTY_ARC_ENABLED
+        angle = (i - center) * step
+        # Outer units are pushed out a bit so the inner corner of the bar doesn't touch the ring
+        r = base_r + (PARTY_UNIT_HALF_W * Math.sin(angle.abs))
+        anchor_x = (Graphics.width / 2) + (r * Math.sin(angle)).round
+        anchor_y = PARTY_RING_CENTER_Y - (r * Math.cos(angle)).round
+        ix = anchor_x - 32                             # icon is 64 px wide
+        iy = anchor_y - 72 + PARTY_ARC_Y_OFFSET        # 72 = bottom of the EXP bar relative to the icon top
+      else
+        ix = (Graphics.width / 8) * (i + 1)
+        iy = Graphics.height - 164
+      end
+      ovy = iy - (Graphics.height / 2)   # same position in overlay coordinates
+      bx  = ix + 32 - (@info_bar_bmp.width / 2)
       @sprites["pokemon_#{i}"] = PokemonIconSprite.new(pokemon, @viewport) if !@sprites["pokemon#{i}"] || @sprites["pokemon#{i}"].disposed?
-      @sprites["pokemon_#{i}"].x = spacing + (Graphics.width / 8)
-      @sprites["pokemon_#{i}"].y = Graphics.height - 164
+      @sprites["pokemon_#{i}"].x = ix
+      @sprites["pokemon_#{i}"].y = iy
       @sprites["pokemon_#{i}"].y += Graphics.height / 2 if @menu.hidden && !@menu.start_up
       @sprites["pokemon_#{i}"].z = -2
       next if pokemon.egg?
       # Information Overlay
-      @sprites["overlay"].bitmap.blt(spacing + (Graphics.width / 8) + 16, (Graphics.height / 2) - 102,
-                          @info_bar_bmp, Rect.new(0, 0, @info_bar_bmp.width, @info_bar_bmp.height))
+      @sprites["overlay"].bitmap.blt(bx, ovy + 62, @info_bar_bmp, Rect.new(0, 0, @info_bar_bmp.width, @info_bar_bmp.height))
       # Health
       if pokemon.hp > 0
         w = (pokemon.hp * 32 * 1.0) / pokemon.totalhp
@@ -110,7 +125,7 @@ class VPM_PokemonPartyHud < Component
         hpzone = 1 if pokemon.hp <= (pokemon.totalhp/2).floor
         hpzone = 2 if pokemon.hp <= (pokemon.totalhp/4).floor
         hprect = Rect.new(0, hpzone * 4, w, 4)
-        @sprites["overlay"].bitmap.blt(spacing + (Graphics.width/8) + 18, (Graphics.height / 2) - 100, @hp_bar_bmp, hprect)
+        @sprites["overlay"].bitmap.blt(bx + 2, ovy + 64, @hp_bar_bmp, hprect)
       end
       # EXP
       if pokemon.exp > 0
@@ -120,14 +135,13 @@ class VPM_PokemonPartyHud < Component
         w = (currentexp * 24 * 1.0)/maxexp
         w = 1 if w < 1.0
         w = 0 if w.is_a?(Float) && w.nan?
-        w = ((w / 2).round) * 2 if w > 0 # I heard Pokémon Beekeeper was good
+        w = ((w / 2).round) * 2 if w > 0
         exprect = Rect.new(0, 0, w, 2)
-        @sprites["overlay"].bitmap.blt(spacing + (Graphics.width / 8) + 22, (Graphics.height / 2) - 94, @exp_bar_bmp, exprect)
+        @sprites["overlay"].bitmap.blt(bx + 6, ovy + 70, @exp_bar_bmp, exprect)
       end
       # Item Icon
       if pokemon.hasItem?
-        @sprites["overlay"].bitmap.blt(spacing + (Graphics.width / 8) + 52, (Graphics.height / 2) - 116,
-        @item_bmp,Rect.new(0, 0, @item_bmp.width, @item_bmp.height))
+        @sprites["overlay"].bitmap.blt(bx + 36, ovy + 48, @item_bmp, Rect.new(0, 0, @item_bmp.width, @item_bmp.height))
       end
       # Status
       status = 0
@@ -140,12 +154,11 @@ class VPM_PokemonPartyHud < Component
       end
       if status > 0
         statusrect = Rect.new(0, 8 * status, 8, 8)
-        @sprites["overlay"].bitmap.blt(spacing + (Graphics.width/8) + 48, (Graphics.height / 2) - 106, @status_bmp, statusrect)
+        @sprites["overlay"].bitmap.blt(bx + 32, ovy + 58, @status_bmp, statusrect)
       end
       # Shiny Icon
       if pokemon.shiny?
-        @sprites["overlay"].bitmap.blt(spacing + (Graphics.width / 8) + 52, (Graphics.height / 2) - 142,
-                          @shiny_bmp,Rect.new(0, 0, @shiny_bmp.width, @shiny_bmp.height))
+        @sprites["overlay"].bitmap.blt(bx + 36, ovy + 22, @shiny_bmp, Rect.new(0, 0, @shiny_bmp.width, @shiny_bmp.height))
       end
     end
   end

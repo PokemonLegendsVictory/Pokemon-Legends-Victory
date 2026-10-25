@@ -32,7 +32,7 @@ class VoltseonsPauseMenu < Component
     @sprites["icon_dummy_r"].oy = $game_temp.menu_icon_width / 2
     recalc_icon_positions(true)
     @sprites["entrytext"]       = BitmapSprite.new(Graphics.width / 2, 40, @viewport)
-    @sprites["entrytext"].y     = Graphics.height - 188
+    @sprites["entrytext"].y     = Graphics.height - MENU_NAME_Y
     @sprites["entrytext"].ox    = Graphics.width / 4
     @sprites["entrytext"].x     = Graphics.width / 2
     @sprites["leftarrow"].visible  = @disp_indices.length != 1
@@ -122,7 +122,7 @@ class VoltseonsPauseMenu < Component
         final_pos = (@icon_base_x[key] + total)
         base_x    = direction > 0 ? (sprite.x <= final_pos) : (sprite.x >= final_pos)
         sprite.x  = (@icon_base_x[key] + total) if base_x
-        sprite.y = arc_y(sprite.x)
+        place_on_arc(sprite)
       end
       @sprites["icon_#{middle}"].zoom_x -= (ACTIVE_SCALE - 1.0) / duration
       @sprites["icon_#{middle}"].zoom_y -= (ACTIVE_SCALE - 1.0) / duration
@@ -230,7 +230,7 @@ class VoltseonsPauseMenu < Component
     @sprites["icon_dummy_r"].x = last_x + ($game_temp.menu_icon_width + offset + addl_space)
     @sprites.each do |key, sprite|
       next if !key[/icon/]
-      sprite.y = arc_y(sprite.x)
+      place_on_arc(sprite)
     end
     return if !recalc
     @icon_base_x = {}
@@ -299,6 +299,13 @@ class VoltseonsPauseMenu < Component
     return base_y if !ICON_ARC_ENABLED
     dx = (x - (Graphics.width / 2)).abs.to_f
     return (base_y - ICON_ARC_RISE + (ICON_ARC_CURVE * dx * dx)).round
+  end
+
+  # Places a sprite on the arc and hides it if it has sunk below the visible area
+  def place_on_arc(sprite)
+    sprite.y = arc_y(sprite.x)
+    top_edge = sprite.y - (sprite.oy * sprite.zoom_y)
+    sprite.visible = top_edge < (Graphics.height - ICON_ARC_HIDE_MARGIN)
   end
 
 

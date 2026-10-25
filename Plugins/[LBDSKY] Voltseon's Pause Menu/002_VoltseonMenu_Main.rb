@@ -58,14 +58,14 @@ class VoltseonsPauseMenu_Scene
     filename = MENU_FILE_PATH + $PokemonSystem.from_current_menu_theme("arrow_left")
     @sprites["leftarrow"]         = AnimatedSprite.new(filename, 8, 40, 28, 2, @viewport)
     @sprites["leftarrow"].x       = (Graphics.width / 2) - @sprites["leftarrow"].bitmap.width - (($game_temp.menu_icon_width / 4) * 3)
-    @sprites["leftarrow"].y       = Graphics.height - 56
+    @sprites["leftarrow"].y      = Graphics.height - 56 - ARROW_Y_OFFSET
     @sprites["leftarrow"].z       = 2
     @sprites["leftarrow"].visible = true
     @sprites["leftarrow"].play
     filename = MENU_FILE_PATH + $PokemonSystem.from_current_menu_theme("arrow_right")
     @sprites["rightarrow"]         = AnimatedSprite.new(filename, 8, 40, 28, 2, @viewport)
     @sprites["rightarrow"].x       = (Graphics.width / 2) + (($game_temp.menu_icon_width / 4) * 3)
-    @sprites["rightarrow"].y       = Graphics.height - 56
+    @sprites["rightarrow"].y      = Graphics.height - 56 - ARROW_Y_OFFSET
     @sprites["rightarrow"].z       = 2
     @sprites["rightarrow"].visible = true
     @sprites["rightarrow"].play

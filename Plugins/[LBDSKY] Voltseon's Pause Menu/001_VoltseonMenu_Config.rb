@@ -98,5 +98,20 @@ MENU_CURSOR_SOUND = "GUI sel cursor"
 
 # Arc layout for the icon bar
 ICON_ARC_ENABLED = true
-ICON_ARC_RISE    = 22      # How many pixels the centre icon is raised from the old baseline
-ICON_ARC_CURVE   = 0.0030  # Steepness: higher = outer icons drop more
+ICON_ARC_RISE    = 26      # How many pixels the centre icon is raised from the old baseline
+ICON_ARC_CURVE   = 0.0060  # Steepness: higher = outer icons drop more
+ICON_ARC_HIDE_MARGIN = 8   # Icons whose top edge is within this many px of the bottom get hidden
+
+ARROW_Y_OFFSET = 20
+# Arc layout for the party icons
+# Party arc: follows the ring of the menu background
+PARTY_ARC_ENABLED   = true
+PARTY_RING_CENTER_Y = 424   # 
+PARTY_RING_RADIUS   = 154   # 
+PARTY_RING_MARGIN   = 10    # was 8; gap between the ring edge and the bottom of the bars
+PARTY_ARC_SPACING   = 70    # distance between neighbouring Pokémon along the arc (px)
+PARTY_UNIT_HALF_W   = 18    # half the width of the HP bar, used to keep outer bars off the ring
+PARTY_ARC_Y_OFFSET  = 0     # extra nudge: negative = up
+
+# Height at which the name of the currently selected option is displayed
+MENU_NAME_Y = 227   # Distance from the bottom of the screen to the entry name (bigger = higher)
