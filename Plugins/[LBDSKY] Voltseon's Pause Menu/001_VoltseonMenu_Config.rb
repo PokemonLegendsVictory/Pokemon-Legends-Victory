@@ -101,6 +101,16 @@ ICON_ARC_ENABLED = true
 ICON_ARC_RISE    = 26      # How many pixels the centre icon is raised from the old baseline
 ICON_ARC_CURVE   = 0.0060  # Steepness: higher = outer icons drop more
 ICON_ARC_HIDE_MARGIN = 8   # Icons whose top edge is within this many px of the bottom get hidden
+ICON_SCALE = 0.8   # 1.0 = original size, 0.8 = 20% smaller
+
+# Revolver "chamber" behind each icon
+CHAMBER_ENABLED  = true
+CHAMBER_FILE     = "menu_chamber"  # PNG in MENU_FILE_PATH, or in "Theme N/" for per-theme versions
+CHAMBER_SCALE    = 0.8             # Relative to the icon's own zoom (it also grows with the selected icon)
+CHAMBER_X_OFFSET = 0
+CHAMBER_Y_OFFSET = 0
+CHAMBER_TILT     = 0.0             # Degrees of rotation per pixel from the centre (try 0.25 to follow the curve
+
 
 ARROW_Y_OFFSET = 20
 # Arc layout for the party icons

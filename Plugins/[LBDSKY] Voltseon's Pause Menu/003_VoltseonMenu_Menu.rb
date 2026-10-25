@@ -100,6 +100,7 @@ class VoltseonsPauseMenu < Component
     middle   = @disp_indices.length / 2
     if @disp_indices.length < 3
       recalc_icon_positions
+      sync_chambers
       duration.times do
         Graphics.update
         @menu.components.each { |component| component.update }
@@ -124,12 +125,14 @@ class VoltseonsPauseMenu < Component
         sprite.x  = (@icon_base_x[key] + total) if base_x
         place_on_arc(sprite)
       end
-      @sprites["icon_#{middle}"].zoom_x -= (ACTIVE_SCALE - 1.0) / duration
-      @sprites["icon_#{middle}"].zoom_y -= (ACTIVE_SCALE - 1.0) / duration
+      step = ((ACTIVE_SCALE - 1.0) * ICON_SCALE) / duration
+      @sprites["icon_#{middle}"].zoom_x -= step
+      @sprites["icon_#{middle}"].zoom_y -= step
       mdr = middle + direction
       mdr = mdr.clamp(0, 6)
-      @sprites["icon_#{mdr}"].zoom_x += (ACTIVE_SCALE - 1.0) / duration
-      @sprites["icon_#{mdr}"].zoom_y += (ACTIVE_SCALE - 1.0) / duration
+      @sprites["icon_#{mdr}"].zoom_x += step
+      @sprites["icon_#{mdr}"].zoom_y += step
+      sync_chambers
     end
     recalc_icon_positions
     refresh_menu
@@ -232,6 +235,7 @@ class VoltseonsPauseMenu < Component
       next if !key[/icon/]
       place_on_arc(sprite)
     end
+    sync_chambers
     return if !recalc
     @icon_base_x = {}
     @icon_offset_left = {}
@@ -258,6 +262,7 @@ class VoltseonsPauseMenu < Component
       @icon_offset_left[key]  = @sprites[new_l].x - sprite.x
       @icon_offset_right[key] = @sprites[new_r].x - sprite.x
     end
+    redraw_chambers
   end
 
   def refresh_menu
@@ -266,11 +271,12 @@ class VoltseonsPauseMenu < Component
     @disp_indices.each_with_index do |idx, val|
       icon = MENU_FILE_PATH + @entries[idx][:icon]
       @sprites["icon_#{val}"].setBitmap(icon)
-      @sprites["icon_#{val}"].zoom_x = 1
-      @sprites["icon_#{val}"].zoom_y = 1
+      @sprites["icon_#{val}"].zoom_x = ICON_SCALE
+      @sprites["icon_#{val}"].zoom_y = ICON_SCALE
     end
-    @sprites["icon_#{middle}"].zoom_x = ACTIVE_SCALE
-    @sprites["icon_#{middle}"].zoom_y = ACTIVE_SCALE
+    @sprites["icon_#{middle}"].zoom_x = ACTIVE_SCALE * ICON_SCALE
+    @sprites["icon_#{middle}"].zoom_y = ACTIVE_SCALE * ICON_SCALE
+    sync_chambers
     if @entries.length <= 8
       b2  = MENU_FILE_PATH + @entries[@entry_indices[0]][:icon]
       idx = (@entries.length.even?) ? @entry_indices[0] : @entry_indices[@disp_indices.length - 1]
@@ -285,6 +291,10 @@ class VoltseonsPauseMenu < Component
     end
     @sprites["icon_dummy_l"].setBitmap(b1)
     @sprites["icon_dummy_r"].setBitmap(b2)
+    [@sprites["icon_dummy_l"], @sprites["icon_dummy_r"]].each do |s|
+      s.zoom_x = ICON_SCALE
+      s.zoom_y = ICON_SCALE
+    end
     return if !SHOW_MENU_NAMES
     @sprites["entrytext"].bitmap.clear
     text = @entries[@current_selection][:name]
@@ -301,12 +311,53 @@ class VoltseonsPauseMenu < Component
     return (base_y - ICON_ARC_RISE + (ICON_ARC_CURVE * dx * dx)).round
   end
 
-  # Places a sprite on the arc and hides it if it has sunk below the visible area
+
   def place_on_arc(sprite)
     sprite.y = arc_y(sprite.x)
     top_edge = sprite.y - (sprite.oy * sprite.zoom_y)
     sprite.visible = top_edge < (Graphics.height - ICON_ARC_HIDE_MARGIN)
   end
 
+ 
+  def redraw_chambers
+    @sprites.keys.each do |key|
+      next if !key[/^chamber_/]
+      @sprites[key].dispose
+      @sprites.delete(key)
+    end
+    return if !CHAMBER_ENABLED
+    file  = MENU_FILE_PATH + $PokemonSystem.from_current_menu_theme(CHAMBER_FILE)
+    found = pbResolveBitmap(file)
+    @sprites.keys.select { |k| k[/^icon_/] }.each do |key|
+      spr = Sprite.new(@viewport)
+      if found
+        spr.bitmap = RPG::Cache.load_bitmap("", found)
+      else
+        spr.bitmap = Bitmap.new(64, 64)
+        spr.bitmap.fill_rect(0, 0, 64, 64, Color.new(255, 0, 0))   # red square = image NOT found
+      end
+      spr.ox = spr.bitmap.width / 2
+      spr.oy = spr.bitmap.height / 2
+      spr.z  = -2
+      @sprites[key.sub("icon_", "chamber_")] = spr
+    end
+    sync_chambers
+  end
+
+  def sync_chambers
+    return if !CHAMBER_ENABLED
+    cx = Graphics.width / 2
+    @sprites.each do |key, icon|
+      next if !key[/^icon_/]
+      chamber = @sprites[key.sub("icon_", "chamber_")]
+      next if !chamber || chamber.disposed?
+      chamber.x       = icon.x + CHAMBER_X_OFFSET
+      chamber.y       = icon.y + CHAMBER_Y_OFFSET
+      chamber.zoom_x  = icon.zoom_x * CHAMBER_SCALE
+      chamber.zoom_y  = icon.zoom_y * CHAMBER_SCALE
+      chamber.visible = icon.visible
+      chamber.angle   = (cx - icon.x) * CHAMBER_TILT
+    end
+  end
 
 end
