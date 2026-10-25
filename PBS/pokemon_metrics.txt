@@ -1617,10 +1617,9 @@ ShadowSprite = 0,-5,-7
 AnimationSpeed = 3
 #-------------------------------
 [TAILLOW]
-BackSprite = -2,14
-FrontSprite = 7,5
-ShadowSprite = 1,0,1
-AnimationSpeed = 3
+BackSprite = -2,13
+FrontSprite = 7,9
+ShadowSprite = 5,0,0
 #-------------------------------
 [SWELLOW]
 BackSprite = -5,22
@@ -1752,10 +1751,9 @@ FrontSprite = 7,1
 ShadowSprite = 2,7,8
 #-------------------------------
 [NOSEPASS]
-BackSprite = 1,7
-FrontSprite = 6,3
-ShadowSprite = 0,10,6
-AnimationSpeed = 4
+BackSprite = 1,3
+FrontSprite = -1,7
+ShadowSprite = 1,10,7
 #-------------------------------
 [SKITTY]
 BackSprite = -3,10
