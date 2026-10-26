@@ -112,7 +112,7 @@ CHAMBER_Y_OFFSET = 0
 CHAMBER_TILT     = 0.0             # Degrees of rotation per pixel from the centre (try 0.25 to follow the curve
 
 
-ARROW_Y_OFFSET = 20
+ARROW_Y_OFFSET = 17
 # Arc layout for the party icons
 # Party arc: follows the ring of the menu background
 PARTY_ARC_ENABLED   = true
