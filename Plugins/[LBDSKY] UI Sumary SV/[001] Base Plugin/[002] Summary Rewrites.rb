@@ -340,7 +340,7 @@ class PokemonSummary_Scene
     overlay = @sprites["overlay"].bitmap
     overlay.clear
     base   = Color.new(248, 248, 248)
-    shadow = Color.new(74, 112, 175)
+    shadow = Color.new(74, 45, 9)
     drawPageIcons # Draws the page icons.
     drawPartyIcons(overlay)
     imagepos = []
@@ -402,8 +402,8 @@ class PokemonSummary_Scene
 
   def drawPageOne
     overlay = @sprites["overlay"].bitmap
-    base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    base   = Color.new(38, 28, 18)
+    shadow = Color.new(135, 135, 135)
     @sprites["itemicon"].item = @pokemon.item_id
     imagepos = []
     # If a Shadow Pokémon, draw the heart gauge area and bar
@@ -416,7 +416,7 @@ class PokemonSummary_Scene
     # Write various bits of text
     textpos = [
       [_INTL("Especie"), 222, 44, :left, base, shadow],
-      [@pokemon.speciesName, 352, 44, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.speciesName, 352, 44, :left, Color.new(248, 248, 248), Color.new(74, 45, 9)],
       [_INTL("Tipo"), 222, 76, :left, base, shadow],
       [_INTL("EO"), 222, 108, :left, base, shadow],
       [_INTL("ID No."), 222, 140, :left, base, shadow],
@@ -425,14 +425,14 @@ class PokemonSummary_Scene
     # Write Held Item Name
     if @pokemon.hasItem?
       drawButton(overlay, 286, 314, "Detalles", 1) # Show item description button
-      textpos.push([@pokemon.item.name, 222, 286, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)])
+      textpos.push([@pokemon.item.name, 222, 286, :left, Color.new(248, 248, 248), Color.new(74, 45, 9)])
     else
-      textpos.push([_INTL("Ninguno"), 222, 286, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)])
+      textpos.push([_INTL("Ninguno"), 222, 286, :left, Color.new(248, 248, 248), Color.new(74, 45, 9)])
     end
     # Write Original Trainer's name and ID number
     if @pokemon.owner.name.empty?
-      textpos.push([_INTL("PRÉSTAMO"), 352, 108, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)])
-      textpos.push(["?????", 352, 140, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)])
+      textpos.push([_INTL("PRÉSTAMO"), 352, 108, :left, Color.new(248, 248, 248), Color.new(74, 45, 9)])
+      textpos.push(["?????", 352, 140, :left, Color.new(248, 248, 248), Color.new(74, 45, 9)])
     else
       ownerbase   = Color.new(248, 248, 248)
       ownershadow = Color.new(74, 112, 175)
@@ -446,7 +446,7 @@ class PokemonSummary_Scene
       end
       textpos.push([@pokemon.owner.name, 352, 108, :left, ownerbase, ownershadow])
       textpos.push([sprintf("%05d", @pokemon.owner.public_id), 352, 140, :left,
-                    Color.new(248, 248, 248), Color.new(74, 112, 175)])
+                    Color.new(248, 248, 248), Color.new(74, 45, 9)])
     end
     # Write Exp text OR heart gauge message (if a Shadow Pokémon)
     if @pokemon.shadowPokemon?
@@ -463,8 +463,8 @@ class PokemonSummary_Scene
       endexp = @pokemon.growth_rate.minimum_exp_for_level(@pokemon.level + 1)
       remexp = (endexp - @pokemon.exp).to_s_formatted
       textpos.push([_INTL("Puntos Exp."), 222, 172, :left, base, shadow])
-      textpos.push([@pokemon.exp.to_s_formatted, 504, 172, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)])
-      textpos.push([_INTL("Siguiente Nv.: {1}", remexp), 504, 220, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)])
+      textpos.push([@pokemon.exp.to_s_formatted, 504, 172, :right, Color.new(248, 248, 248), Color.new(74, 45, 9)])
+      textpos.push([_INTL("Siguiente Nv.: {1}", remexp), 504, 220, :right, Color.new(248, 248, 248), Color.new(74, 45, 9)])
     end
     # Draw all text
     pbDrawTextPositions(overlay, textpos)
@@ -492,8 +492,8 @@ class PokemonSummary_Scene
     @sprites["itemicondesc"].item = @pokemon.item_id
     @sprites["itemicondesc"].visible = true
     overlay = @sprites["promptoverlay"].bitmap
-    base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    base   = Color.new(92, 43, 12)
+    shadow = Color.new(33, 15, 2)
     textpos = [
       [_INTL("Objeto Equipado"), 232, 86, :center, base, shadow],
       [@pokemon.item.name, 232, 118, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
@@ -541,7 +541,7 @@ class PokemonSummary_Scene
     overlay = @sprites["overlay"].bitmap
     overlay.clear
     base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    shadow = Color.new(74, 45, 9)
     drawPartyIcons(overlay)
     # Set background image
     @sprites["background"].setBitmap("Graphics/UI/Summary/bg_egg")
@@ -577,14 +577,14 @@ class PokemonSummary_Scene
       encounter_memo += white_text_tag + _INTL("Un misterioso Huevo Pokémon.") + "\n"
     end
     eggstate_memo = ""
-    textpos.push([_INTL("\"El Observador de Huevos\""), 226, 234, :left, base, shadow])
+    textpos.push([_INTL("\"Tiempo Restante\""), 226, 234, :left, base, shadow])
     # Write Egg Watch blurb
     if !MOSTRAR_PASOS_HUEVO
       #memo += black_text_tag + _INTL("\"El huevo eclosionará...\"") + "\n"
       eggstate = _INTL("Parece que va a tardar un buen rato en eclosionar.")
-      eggstate = _INTL("¿Qué eclosionará de esto? No parece estar cerca de eclosionar.") if @pokemon.steps_to_hatch < 10_200
-      eggstate = _INTL("Parece moverse ocasionalmente. Puede estar cerca de eclosionar.") if @pokemon.steps_to_hatch < 2550
-      eggstate = _INTL("¡Se escuchan sonido desde dentro! ¡eclosionará pronto!") if @pokemon.steps_to_hatch < 1275
+      eggstate = _INTL("No parece estar cerca de eclosionar.") if @pokemon.steps_to_hatch < 10_200
+      eggstate = _INTL("Parece moverse de vez en cuando. Puede estar cerca de eclosionar.") if @pokemon.steps_to_hatch < 2550
+      eggstate = _INTL("¡Se escuchan sonidos desde dentro! ¡eclosionará pronto!") if @pokemon.steps_to_hatch < 1275
       eggstate_memo += white_text_tag + eggstate
     else
       eggstate_memo += white_text_tag + _INTL("Faltan {1} pasos para que el huevo eclosione.", @pokemon.steps_to_hatch)
@@ -603,7 +603,7 @@ class PokemonSummary_Scene
   def drawPageTwo
     overlay = @sprites["overlay"].bitmap
     base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    shadow = Color.new(77, 56, 37)
     blue_text_tag = shadowc3tag(BLUE_TEXT_BASE, BLUE_TEXT_SHADOW)
     white_text_tag = shadowc3tag(WHITE_TEXT_BASE, WHITE_TEXT_SHADOW)
     textpos = []

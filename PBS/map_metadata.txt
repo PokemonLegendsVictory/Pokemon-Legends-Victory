@@ -15,23 +15,6 @@ Name = Casa del jugador
 HealingSpot = 2,8,8
 MapPosition = 0,13,12
 #-------------------------------
-[055]   # Interiores Porcelana
-Name = Interiores Porcelana
-HealingSpot = 52,30,10
-MapPosition = 0,17,10
-#-------------------------------
-[053]   # Porcelanda Izq
-Name = Porcelana Izquierda
-HealingSpot = 52,17,14
-MapPosition = 0,17,10
-SnapEdges = true
-#-------------------------------
-[054]   # Porcelana Norte
-Name = Porcelana Norte
-Outdoor = true
-MapPosition = 0,17,10
-SnapEdges = true
-#-------------------------------
 [004]   # MAPAS BASE
 Name = Laboratorio Pokémon
 MapPosition = 0,13,12
@@ -294,6 +277,26 @@ Name = Frente de Batalla
 Outdoor = true
 ShowArea = true
 MapPosition = 0,17,10
+#-------------------------------
+[053]   # Porcelanda Izq
+Name = Porcelana Izquierda
+HealingSpot = 52,17,14
+MapPosition = 0,17,10
+SnapEdges = true
+#-------------------------------
+[054]   # Porcelana Norte
+Name = Porcelana Norte
+Outdoor = true
+LocationSign = Pt city
+ShowArea = true
+MapPosition = 0,17,10
+SnapEdges = true
+#-------------------------------
+[055]   # Interiores Porcelana
+Name = Interiores Porcelana
+HealingSpot = 52,30,10
+MapPosition = 0,17,10
+SnapEdges = true
 #-------------------------------
 [056]
 Name = Arena Torre Batalla
