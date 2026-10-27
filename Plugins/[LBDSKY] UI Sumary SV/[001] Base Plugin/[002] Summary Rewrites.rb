@@ -48,7 +48,11 @@ class PokemonSummary_Scene
   BLUE_TEXT_BASE     = Color.new(108, 168, 216)
   BLUE_TEXT_SHADOW   = Color.new(32, 88, 165)
   WHITE_TEXT_BASE   = Color.new(248, 248, 248)
-  WHITE_TEXT_SHADOW = Color.new(74, 112, 175)
+  WHITE_TEXT_SHADOW = Color.new(74, 45, 9)
+  
+  BUTTON_TEXT_BASE = Color.new(246, 198, 6)
+  BUTTON_TEXT_SHADOW = Color.new(133, 93, 33)
+  TEXT_BROWN_SHADOW = Color.new(111, 71, 35)
 
   def pbUpdate
     pbUpdateSpriteHash(@sprites)
@@ -218,8 +222,8 @@ class PokemonSummary_Scene
   # 1 - X (Back)
   # 2 - D (Special)
   #===============================================================================
-  def drawButton(overlay, x, y, text, type = 0)
-    textpos = [[_INTL("{1}", text), x + 92, y + 4, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)]]
+  def drawButton(overlay, x, y, text, type = 0, text_color = Color.new(248, 248, 248), text_shadow = Color.new(74, 112, 175))
+    textpos = [[_INTL("{1}", text), x + 92, y + 4, :center, text_color , text_shadow]]
     imagepos = [["Graphics/UI/Summary/button_desc", x, y, 0, type * 28, 154, 28]]
     # Draws the button.
     pbDrawImagePositions(overlay, imagepos)
@@ -577,7 +581,7 @@ class PokemonSummary_Scene
       encounter_memo += white_text_tag + _INTL("Un misterioso Huevo Pokémon.") + "\n"
     end
     eggstate_memo = ""
-    textpos.push([_INTL("\"Tiempo Restante\""), 226, 234, :left, base, shadow])
+    textpos.push([_INTL("Tiempo Restante"), 226, 234, :left, base, shadow])
     # Write Egg Watch blurb
     if !MOSTRAR_PASOS_HUEVO
       #memo += black_text_tag + _INTL("\"El huevo eclosionará...\"") + "\n"
@@ -712,7 +716,8 @@ class PokemonSummary_Scene
   def drawPageThree
     overlay = @sprites["overlay"].bitmap
     base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    shadow = Color.new(133, 93, 33)
+    
     # Draw Stat Hexagons
     stats_list = [
       @pokemon.totalhp, @pokemon.spatk, @pokemon.spdef, @pokemon.speed, @pokemon.defense, @pokemon.attack
@@ -740,7 +745,7 @@ class PokemonSummary_Scene
       @pokemon.nature_for_stats.stat_changes.each do |change|
         if change[1] > 0
           statbases[change[0]] = Color.new(228, 66, 66)
-          statshadows[change[0]] = Color.new(68, 57, 121)
+          statshadows[change[0]] = Color.new(150, 15, 15)
         elsif change[1] < 0
           statbases[change[0]] = Color.new(102, 178, 255) 
           statshadows[change[0]] = Color.new(18, 73, 176)
@@ -750,27 +755,27 @@ class PokemonSummary_Scene
     # Write various bits of text
     textpos = [
       [_INTL("PS"), 364, 44, :center, base, shadow],
-      [sprintf("%d/%d", @pokemon.hp, @pokemon.totalhp), 364, 70, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [sprintf("%d/%d", @pokemon.hp, @pokemon.totalhp), 364, 70, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       [_INTL("Ataque"), 310, 102, :right, statbases[:ATTACK], statshadows[:ATTACK]],
-      [@pokemon.attack.to_s, 246, 128, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.attack.to_s, 246, 128, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       [_INTL("Defensa"), 310, 162, :right, statbases[:DEFENSE], statshadows[:DEFENSE]],
-      [@pokemon.defense.to_s, 246, 188, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.defense.to_s, 246, 188, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       [_INTL("At. Esp."), 416, 102, :left, statbases[:SPECIAL_ATTACK], statshadows[:SPECIAL_ATTACK]],
-      [@pokemon.spatk.to_s, 426, 128, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.spatk.to_s, 426, 128, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       [_INTL("Def. Esp."), 416, 162, :left, statbases[:SPECIAL_DEFENSE], statshadows[:SPECIAL_DEFENSE]],
-      [@pokemon.spdef.to_s, 426, 188, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.spdef.to_s, 426, 188, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       # VELOCIDAD (sin cambio)
       [_INTL("Velocidad"), 364, 220, :center, statbases[:SPEED], statshadows[:SPEED]],
-      [@pokemon.speed.to_s, 364, 246, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
-      [_INTL("Habilidad"), 222, 280, :left, base, shadow],
-      [_INTL("Estad."), 468, 44, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [@pokemon.speed.to_s, 364, 246, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
+      [_INTL("Habilidad"), 222, 280, :left, Color.new(38, 28, 18), Color.new(135, 135, 135)],
+      [_INTL("Estad."), 468, 44, :center, Color.new(248, 248, 248), Color.new(74, 45, 9)],
     ]
     # Draw ability name and description
     imagepos = []
     ability = @pokemon.ability
     if ability
-      drawButton(overlay, 286, 308, "Detalles", 1) # Show ability description button
-      textpos.push([ability.name, 322, 280, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)])
+      drawButton(overlay, 286, 308, "Detalles", 1, BUTTON_TEXT_BASE , BUTTON_TEXT_SHADOW) # Show ability description button
+      textpos.push([ability.name, 322, 280, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW])
     end
     # Draw all text
     pbDrawImagePositions(overlay, imagepos)
@@ -787,12 +792,12 @@ class PokemonSummary_Scene
     shadow = Color.new(74, 97, 103)
     ability = @pokemon.ability
     textpos = [
-      [_INTL("Habilidad"), Graphics.width/2, 86, :center, base, shadow],        # X cambiado de 256 a 232
-      [ability.name, Graphics.width/2, 118, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)], # X cambiado de 256 a 232
+      [_INTL("Habilidad"), Graphics.width/2, 86, :center, base, TEXT_BROWN_SHADOW],        # X cambiado de 256 a 232
+      [ability.name, Graphics.width/2, 118, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW], # X cambiado de 256 a 232
     ]
-    drawButton(overlay, 180, 276, "Cerrar", 2)
+    drawButton(overlay, 180, 276, "Cerrar", 2, BUTTON_TEXT_BASE , BUTTON_TEXT_SHADOW)
     pbDrawTextPositions(overlay, textpos)
-    drawTextEx(overlay, 50, 152, 416, 4, ability.description, Color.new(248, 248, 248), Color.new(74, 112, 175))
+    drawTextEx(overlay, 50, 152, 416, 4, ability.description, Color.new(248, 248, 248), TEXT_BROWN_SHADOW)
     loop do
       Graphics.update
       Input.update
