@@ -295,6 +295,8 @@ class VoltseonsPauseMenu < Component
       s.zoom_x = ICON_SCALE
       s.zoom_y = ICON_SCALE
     end
+
+    sync_chambers
     return if !SHOW_MENU_NAMES
     @sprites["entrytext"].bitmap.clear
     text = @entries[@current_selection][:name]
