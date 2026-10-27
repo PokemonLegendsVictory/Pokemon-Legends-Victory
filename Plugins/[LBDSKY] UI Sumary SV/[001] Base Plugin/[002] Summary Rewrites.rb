@@ -814,7 +814,7 @@ class PokemonSummary_Scene
   def drawPageFour
     overlay = @sprites["overlay"].bitmap
     moveBase   = Color.new(248, 248, 248)
-    moveShadow = Color.new(74, 112, 175)
+    moveShadow = TEXT_BROWN_SHADOW
     ppBase   = [moveBase,                  # More than 1/2 of total PP
                 Color.new(246, 198, 6),    # 1/2 of total PP or less
                 Color.new(246, 136, 32),   # 1/4 of total PP or less
@@ -1010,7 +1010,7 @@ class PokemonSummary_Scene
   def drawPageAllStats
     overlay = @sprites["overlay"].bitmap
     base   = Color.new(246, 198, 6)
-    shadow = Color.new(74, 97, 103)
+    shadow = Color.new(133, 93, 33)
     
     stats = applyLowerBound([@pokemon.totalhp, @pokemon.spatk, @pokemon.spdef, @pokemon.speed, @pokemon.defense, @pokemon.attack], 30)
     @sprites["hexagon_stats"].bitmap.clear unless !@sprites["hexagon_stats"]
@@ -1035,7 +1035,7 @@ class PokemonSummary_Scene
       @pokemon.nature_for_stats.stat_changes.each do |change|
         if change[1] > 0
           statbases[change[0]] = Color.new(228, 66, 66)
-          statshadows[change[0]] = Color.new(68, 57, 121)
+          statshadows[change[0]] = Color.new(150, 15, 15)
         elsif change[1] < 0
           statbases[change[0]] = Color.new(102, 178, 255)
           statshadows[change[0]] = Color.new(18, 73, 176)
@@ -1050,23 +1050,23 @@ class PokemonSummary_Scene
     # Write various bits of text
     textpos = [
       [_INTL("PS"), 364, 44, :center, base, shadow],
-      [sprintf("%d/%d", @pokemon.ev[:HP], @pokemon.iv[:HP]), 364, 70, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [sprintf("%d/%d", @pokemon.ev[:HP], @pokemon.iv[:HP]), 364, 70, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       [_INTL("Ataque"), 310, 102, :right, statbases[:ATTACK], statshadows[:ATTACK]], # CAMBIÓ
-      [sprintf("%d/%d", @pokemon.ev[:ATTACK], @pokemon.iv[:ATTACK]), 310, 128, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)], # CAMBIÓ
+      [sprintf("%d/%d", @pokemon.ev[:ATTACK], @pokemon.iv[:ATTACK]), 310, 128, :right, Color.new(248, 248, 248), TEXT_BROWN_SHADOW], # CAMBIÓ
       [_INTL("Defensa"), 310, 162, :right, statbases[:DEFENSE], statshadows[:DEFENSE]], # CAMBIÓ
-      [sprintf("%d/%d", @pokemon.ev[:DEFENSE], @pokemon.iv[:DEFENSE]), 310, 188, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)], # CAMBIÓ
+      [sprintf("%d/%d", @pokemon.ev[:DEFENSE], @pokemon.iv[:DEFENSE]), 310, 188, :right, Color.new(248, 248, 248), TEXT_BROWN_SHADOW], # CAMBIÓ
       [_INTL("At. Esp."), 416, 102, :left, statbases[:SPECIAL_ATTACK], statshadows[:SPECIAL_ATTACK]], # CAMBIÓ
-      [sprintf("%d/%d", @pokemon.ev[:SPECIAL_ATTACK], @pokemon.iv[:SPECIAL_ATTACK]), 416, 128, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)], # CAMBIÓ
+      [sprintf("%d/%d", @pokemon.ev[:SPECIAL_ATTACK], @pokemon.iv[:SPECIAL_ATTACK]), 416, 128, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW], # CAMBIÓ
       [_INTL("Def. Esp."), 416, 162, :left, statbases[:SPECIAL_DEFENSE], statshadows[:SPECIAL_DEFENSE]], # CAMBIÓ
-      [sprintf("%d/%d", @pokemon.ev[:SPECIAL_DEFENSE], @pokemon.iv[:SPECIAL_DEFENSE]), 416, 188, :left, Color.new(248, 248, 248), Color.new(74, 112, 175)], # CAMBIÓ
+      [sprintf("%d/%d", @pokemon.ev[:SPECIAL_DEFENSE], @pokemon.iv[:SPECIAL_DEFENSE]), 416, 188, :left, Color.new(248, 248, 248), TEXT_BROWN_SHADOW], # CAMBIÓ
       [_INTL("Velocidad"), 364, 220, :center, statbases[:SPEED], statshadows[:SPEED]],
-      [sprintf("%d/%d", @pokemon.ev[:SPEED], @pokemon.iv[:SPEED]), 364, 246, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [sprintf("%d/%d", @pokemon.ev[:SPEED], @pokemon.iv[:SPEED]), 364, 246, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       # EVs totales en lugar de habilidad
       [_INTL("EVs totales"), 222, 280, :left, base, shadow],
-      [sprintf("%d/510", ev_total), 504, 280, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [sprintf("%d/510", ev_total), 504, 280, :right, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
       # Poder Oculto en lugar del botón de detalles
       [_INTL("Poder Oculto"), 222, 308, :left, base, shadow],
-      [_INTL("EV/IV"), 468, 44, :center, Color.new(248, 248, 248), Color.new(74, 112, 175)],
+      [_INTL("EV/IV"), 468, 44, :center, Color.new(248, 248, 248), TEXT_BROWN_SHADOW],
     ]
     
     # Draw all text
