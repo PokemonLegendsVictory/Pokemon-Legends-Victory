@@ -53,7 +53,10 @@ class PokemonSummary_Scene
   BUTTON_TEXT_BASE = Color.new(246, 198, 6)
   BUTTON_TEXT_SHADOW = Color.new(133, 93, 33)
   TEXT_BROWN_SHADOW = Color.new(111, 71, 35)
-
+  HALF_PP_SHADOW = Color.new(117, 92, 16)        
+  FOURTH_PP_SHADOW = Color.new(117, 60, 16)
+  NO_PP_SHADOW = Color.new(150, 15, 15)
+ 
   def pbUpdate
     pbUpdateSpriteHash(@sprites)
   end
@@ -820,9 +823,9 @@ class PokemonSummary_Scene
                 Color.new(246, 136, 32),   # 1/4 of total PP or less
                 Color.new(246, 72, 72)]    # Zero PP
     ppShadow = [moveShadow,               # More than 1/2 of total PP
-                Color.new(74, 97, 103),   # 1/2 of total PP or less
-                Color.new(74, 80, 111),   # 1/4 of total PP or less
-                Color.new(74, 60, 123)]   # Zero PP
+                HALF_PP_SHADOW,   # 1/2 of total PP or less
+                FOURTH_PP_SHADOW,   # 1/4 of total PP or less
+                NO_PP_SHADOW]   # Zero PP
     @sprites["pokemon"].visible  = true
     @sprites["pokeicon"].visible = false
     textpos  = []
@@ -866,15 +869,15 @@ class PokemonSummary_Scene
     base   = Color.new(64, 64, 64)
     shadow = Color.new(162, 162, 162)
     moveBase   = Color.new(248, 248, 248)
-    moveShadow = Color.new(74, 112, 175)
+    moveShadow = Color.new(122, 110, 94)
     ppBase   = [moveBase,                  # More than 1/2 of total PP
                 Color.new(246, 198, 6),    # 1/2 of total PP or less
                 Color.new(246, 136, 32),   # 1/4 of total PP or less
                 Color.new(246, 72, 72)]    # Zero PP
     ppShadow = [moveShadow,               # More than 1/2 of total PP
-                Color.new(74, 97, 103),   # 1/2 of total PP or less
-                Color.new(74, 80, 111),   # 1/4 of total PP or less
-                Color.new(74, 60, 123)]   # Zero PP
+                HALF_PP_SHADOW,   # 1/2 of total PP or less
+                FOURTH_PP_SHADOW,   # 1/4 of total PP or less
+                NO_PP_SHADOW]   # Zero PP
     # Set background image
     if move_to_learn
       @sprites["background"].setBitmap("Graphics/UI/Summary/bg_learnmove")
@@ -986,8 +989,8 @@ class PokemonSummary_Scene
     @sprites["downarrow"].visible = false
     # Write various bits of text
     textpos = [
-      [_INTL("No. de Cintas:"), 222, 282, :left, Color.new(246, 198, 6), Color.new(74, 97, 103)],
-      [@pokemon.numRibbons.to_s, 504, 282, :right, Color.new(248, 248, 248), Color.new(74, 112, 175)]
+      [_INTL("No. de Cintas:"), 222, 282, :left, Color.new(246, 198, 6), TEXT_BROWN_SHADOW],
+      [@pokemon.numRibbons.to_s, 504, 282, :right, Color.new(248, 248, 248), TEXT_BROWN_SHADOW]
     ]
     # Draw all text
     pbDrawTextPositions(overlay, textpos)
