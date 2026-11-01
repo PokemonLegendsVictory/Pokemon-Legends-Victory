@@ -6244,17 +6244,17 @@ Evolutions = WYRDEER,LevelUseMoveCount,PSYSHIELDBASH
 #-------------------------------
 [SMEARGLE]
 Name = Smeargle
-Types = NORMAL
-BaseStats = 55,20,35,75,20,45
+Types = NORMAL,DARK
+BaseStats = 50,35,50,75,70,60
 GenderRatio = Female50Percent
 GrowthRate = Fast
 BaseExp = 88
 EVs = SPEED,1
 CatchRate = 45
 Happiness = 50
-Abilities = OWNTEMPO,TECHNICIAN
-HiddenAbilities = MOODY
-Moves = 1,SKETCH
+Abilities = PRANKSTER
+HiddenAbilities = TECHNICIAN
+Moves = 1,FAKEOUT,1,CONFIDE,3,TACKLE,7,TICKLE,10,FAKETEARS,13,TORMENT,15,SWIFT,18,FLATTER,18,SWAGGER,18,ROLEPLAY,21,POWERTRIP,24,CONFUSERAY,28,SNARL,32,TAUNT,37,UPROAR,43,NASTYPLOT,48,DARKPULSE,56,PERISHSONG
 EggGroups = Field
 HatchSteps = 5120
 Height = 1.2
