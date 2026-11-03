@@ -1312,3 +1312,7 @@ Description = Al usar Lanzamiento, el objetivo sale del combate reemplazado por 
 [ECOSYSTEM]
 Name = Ecosistema
 Description = Reduce el daño que sufren los aliados en combate en un 25%. A cambio, recupera 1/16 de sus PS al final de cada turno, impidiendo el uso de los restos.
+#-------------------------------
+[ILLUSIONIST]
+Name = Ilusionista
+Description = Los movimientos de tipo siniestro tienen prioridad.
