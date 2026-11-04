@@ -1316,3 +1316,7 @@ Description = Reduce el daño que sufren los aliados en combate en un 25%. A cam
 [ILLUSIONIST]
 Name = Ilusionista
 Description = Los movimientos de tipo siniestro tienen prioridad.
+#-------------------------------
+[DRONE]
+Name = Zángano
+Description = El pokemon solo se puede enamorar de Vespiquen. Y evita que bajen sus características a causa de movimientos o habilidades de otros Pokémon, pero no de los suyos.
