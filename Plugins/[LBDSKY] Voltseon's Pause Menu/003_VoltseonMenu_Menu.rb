@@ -37,6 +37,9 @@ class VoltseonsPauseMenu < Component
     @sprites["entrytext"].x     = Graphics.width / 2
     @sprites["leftarrow"].visible  = @disp_indices.length != 1
     @sprites["rightarrow"].visible = @disp_indices.length > 1
+  
+
+
   end
 
   def update

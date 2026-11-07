@@ -335,10 +335,29 @@ if LevelCapsEX.voltseons_pause_menu_exists?
   class VPM_LevelCapHud < Component
     def start_component(viewport, menu)
       super(viewport, menu)
-      @sprites["overlay"] = BitmapSprite.new(Graphics.width / 2, 32, viewport)
+      # Level Cap icon
+      @sprites["level_cap_icon"] = IconSprite.new(0, 0, viewport)
+      @sprites["level_cap_icon"].setBitmap(MENU_FILE_PATH + $PokemonSystem.from_current_menu_theme("level_cap"))
+      @sprites["level_cap_icon"].x = 120
+      @sprites["level_cap_icon"].y = 55
+      @sprites["level_cap_icon"].z = 99999
+      @sprites["level_cap_icon"].visible = $player.party_count > 0
+      @sprites["level_cap_icon"].zoom_x = 0.8
+      @sprites["level_cap_icon"].zoom_y = 0.8
+      # Reputation icon
+      @sprites["reputation_icon"] = IconSprite.new(0, 0, viewport)
+      @sprites["reputation_icon"].setBitmap(MENU_FILE_PATH + $PokemonSystem.from_current_menu_theme("sheriff_star"))
+      @sprites["reputation_icon"].x = 27
+      @sprites["reputation_icon"].y = 61
+      @sprites["reputation_icon"].z = 99999
+      @sprites["reputation_icon"].zoom_x = 0.7
+      @sprites["reputation_icon"].zoom_y = 0.7
+      # Overlay for text
+      @sprites["overlay"] = BitmapSprite.new(Graphics.width, 32, viewport)
       @sprites["overlay"].ox = @sprites["overlay"].bitmap.width
       @sprites["overlay"].x = Graphics.width
-      @sprites["overlay"].y = 90
+      @sprites["overlay"].y = 73
+      @sprites["overlay"].z = 99999
       @base_color = $PokemonSystem.from_current_menu_theme(MENU_TEXTCOLOR, Color.new(248, 248, 248))
       @shdw_color = $PokemonSystem.from_current_menu_theme(MENU_TEXTOUTLINE, Color.new(48, 48, 48))
     end
@@ -347,11 +366,11 @@ if LevelCapsEX.voltseons_pause_menu_exists?
 
     def refresh
       level_cap = LevelCapsEX.current_level_cap
-      text = _INTL("Límite de nivel: {1}", level_cap)
+      text = _INTL("{1}", level_cap)
       @sprites["overlay"].bitmap.clear
       pbSetSystemFont(@sprites["overlay"].bitmap)
       pbDrawTextPositions(@sprites["overlay"].bitmap, [
-        [text, (Graphics.width / 2) - 8, 12, 1, @base_color, @shdw_color]
+        [text, 200, 0, 1, @base_color, @shdw_color]
       ])
     end
   end
